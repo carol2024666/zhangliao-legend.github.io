@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>帅张的梦呓</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://ishuaizhang.com/"/>
+  <updated>2020-02-09T03:50:46.511Z</updated>
+  <id>http://ishuaizhang.com/</id>
+  
+  <author>
+    <name>帅张</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>博文归类</title>
+    <link href="http://ishuaizhang.com/2020/02/09/bo-wen-gui-lei/"/>
+    <id>http://ishuaizhang.com/2020/02/09/bo-wen-gui-lei/</id>
+    <published>2020-02-09T03:47:23.000Z</published>
+    <updated>2020-02-09T03:50:46.511Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;博文归类&quot;&gt;&lt;a href=&quot;#博文归类&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="复盘总结" scheme="http://ishuaizhang.com/categories/%E5%A4%8D%E7%9B%98%E6%80%BB%E7%BB%93/"/>
+    
+    
+      <category term="整理" scheme="http://ishuaizhang.com/tags/%E6%95%B4%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MCM2019C题研读</title>
+    <link href="http://ishuaizhang.com/2020/02/08/mcm2019c-ti-yan-du/"/>
+    <id>http://ishuaizhang.com/2020/02/08/mcm2019c-ti-yan-du/</id>
+    <published>2020-02-08T02:04:15.000Z</published>
+    <updated>2020-02-08T02:14:09.851Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;2019C题论文研读&quot;&gt;&lt;a href=&quot;#2019C题论文研读&quot; class=&quot;headerlink&quot; title=&quot;2019C题论文研读&quot;&gt;&lt;/a&gt;2019C题论文研读&lt;/h1&gt;&lt;h2 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="论文研读" scheme="http://ishuaizhang.com/categories/%E8%AE%BA%E6%96%87%E7%A0%94%E8%AF%BB/"/>
+    
+    
+      <category term="美赛O奖论文" scheme="http://ishuaizhang.com/tags/%E7%BE%8E%E8%B5%9BO%E5%A5%96%E8%AE%BA%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MCM2016C题研读</title>
+    <link href="http://ishuaizhang.com/2020/02/07/mcm2016c-ti-yan-du/"/>
+    <id>http://ishuaizhang.com/2020/02/07/mcm2016c-ti-yan-du/</id>
+    <published>2020-02-07T09:25:13.000Z</published>
+    <updated>2020-02-08T02:05:03.225Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;2016C论文研读&quot;&gt;&lt;a href=&quot;#2016C论文研读&quot; class=&quot;headerlink&quot; title=&quot;2016C论文研读&quot;&gt;&lt;/a&gt;2016C论文研读&lt;/h1&gt;&lt;h2 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="论文研读" scheme="http://ishuaizhang.com/categories/%E8%AE%BA%E6%96%87%E7%A0%94%E8%AF%BB/"/>
+    
+    
+      <category term="美赛O奖论文" scheme="http://ishuaizhang.com/tags/%E7%BE%8E%E8%B5%9BO%E5%A5%96%E8%AE%BA%E6%96%87/"/>
+    
+      <category term="论文原则" scheme="http://ishuaizhang.com/tags/%E8%AE%BA%E6%96%87%E5%8E%9F%E5%88%99/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>坚持做正期望的事情</title>
+    <link href="http://ishuaizhang.com/2020/02/06/jian-chi-zuo-zheng-qi-wang-de-shi-qing/"/>
+    <id>http://ishuaizhang.com/2020/02/06/jian-chi-zuo-zheng-qi-wang-de-shi-qing/</id>
+    <published>2020-02-06T08:56:14.000Z</published>
+    <updated>2020-02-07T05:36:57.353Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;碎碎念&quot;&gt;&lt;a href=&quot;#碎碎念&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="所思所想" scheme="http://ishuaizhang.com/categories/%E6%89%80%E6%80%9D%E6%89%80%E6%83%B3/"/>
+    
+    
+      <category term="碎碎念" scheme="http://ishuaizhang.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+      <category term="做事" scheme="http://ishuaizhang.com/tags/%E5%81%9A%E4%BA%8B/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>整数反转</title>
+    <link href="http://ishuaizhang.com/2020/02/05/leetcode-zheng-shu-fan-zhuan/"/>
+    <id>http://ishuaizhang.com/2020/02/05/leetcode-zheng-shu-fan-zhuan/</id>
+    <published>2020-02-05T15:46:26.000Z</published>
+    <updated>2020-02-06T09:56:47.898Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;p&gt;给出一个 32 位的有符号整数，你需要将这个整数中每位上的数字进行反转。&lt;/p&gt;
+&lt;p&gt;示例
+        
+      
+    
+    </summary>
+    
+      <category term="编程日记" scheme="http://ishuaizhang.com/categories/%E7%BC%96%E7%A8%8B%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="LeetCode" scheme="http://ishuaizhang.com/tags/LeetCode/"/>
+    
+      <category term="算法" scheme="http://ishuaizhang.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>有效的括号</title>
+    <link href="http://ishuaizhang.com/2020/02/04/leetcode-you-xiao-de-gua-hao/"/>
+    <id>http://ishuaizhang.com/2020/02/04/leetcode-you-xiao-de-gua-hao/</id>
+    <published>2020-02-04T15:40:48.000Z</published>
+    <updated>2020-02-06T09:57:07.757Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;p&gt;给定一个只包括 ‘(‘，’)’，’{‘，’}’，’[‘，’]’
+        
+      
+    
+    </summary>
+    
+      <category term="编程日记" scheme="http://ishuaizhang.com/categories/%E7%BC%96%E7%A8%8B%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="LeetCode" scheme="http://ishuaizhang.com/tags/LeetCode/"/>
+    
+      <category term="算法" scheme="http://ishuaizhang.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>社会网络分析</title>
+    <link href="http://ishuaizhang.com/2020/02/04/analysis-of-society-s-information-networks/"/>
+    <id>http://ishuaizhang.com/2020/02/04/analysis-of-society-s-information-networks/</id>
+    <published>2020-02-04T05:33:32.000Z</published>
+    <updated>2020-02-06T02:59:36.795Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="论文研读" scheme="http://ishuaizhang.com/categories/%E8%AE%BA%E6%96%87%E7%A0%94%E8%AF%BB/"/>
+    
+    
+      <category term="美赛O奖论文" scheme="http://ishuaizhang.com/tags/%E7%BE%8E%E8%B5%9BO%E5%A5%96%E8%AE%BA%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>将整数转换为两个无零整数的和</title>
+    <link href="http://ishuaizhang.com/2020/02/03/leetcode-jiang-zheng-shu-zhuan-huan-wei-liang-ge-wu-ling-zheng-shu-de-he/"/>
+    <id>http://ishuaizhang.com/2020/02/03/leetcode-jiang-zheng-shu-zhuan-huan-wei-liang-ge-wu-ling-zheng-shu-de-he/</id>
+    <published>2020-02-03T15:39:13.000Z</published>
+    <updated>2020-02-06T09:57:31.288Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;p&gt;「无零整数」是十进制表示中 不含任何 0 的正整数。&lt;/p&gt;
+&lt;p&gt;给你一个整数 n，请你返回一个 由两个整数组成的列表
+        
+      
+    
+    </summary>
+    
+      <category term="编程日记" scheme="http://ishuaizhang.com/categories/%E7%BC%96%E7%A8%8B%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="LeetCode" scheme="http://ishuaizhang.com/tags/LeetCode/"/>
+    
+      <category term="算法" scheme="http://ishuaizhang.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解码字母到整数映射</title>
+    <link href="http://ishuaizhang.com/2020/02/02/leetcode-jie-ma-zi-mu-dao-zheng-shu-ying-she/"/>
+    <id>http://ishuaizhang.com/2020/02/02/leetcode-jie-ma-zi-mu-dao-zheng-shu-ying-she/</id>
+    <published>2020-02-02T02:42:01.000Z</published>
+    <updated>2020-02-06T09:57:51.146Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;p&gt;给你一个字符串 s，它由数字（’0’ - ‘9’）和 ‘#’ 组成。我们希望按下述规则将 s
+        
+      
+    
+    </summary>
+    
+      <category term="编程日记" scheme="http://ishuaizhang.com/categories/%E7%BC%96%E7%A8%8B%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="LeetCode" scheme="http://ishuaizhang.com/tags/LeetCode/"/>
+    
+      <category term="算法" scheme="http://ishuaizhang.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>和为零的N个唯一整数</title>
+    <link href="http://ishuaizhang.com/2020/02/01/he-wei-ling-de-n-ge-wei-yi-zheng-shu/"/>
+    <id>http://ishuaizhang.com/2020/02/01/he-wei-ling-de-n-ge-wei-yi-zheng-shu/</id>
+    <published>2020-02-01T15:38:16.000Z</published>
+    <updated>2020-02-06T09:58:13.396Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;p&gt;给你一个整数 n，请你返回 任意 一个由 n 个 各不相同 的整数组成的数组，并且这 n 个数相加和为 0
+        
+      
+    
+    </summary>
+    
+      <category term="编程日记" scheme="http://ishuaizhang.com/categories/%E7%BC%96%E7%A8%8B%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="LeetCode" scheme="http://ishuaizhang.com/tags/LeetCode/"/>
+    
+      <category term="算法" scheme="http://ishuaizhang.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解压缩编码列表</title>
+    <link href="http://ishuaizhang.com/2020/01/31/jie-ya-suo-bian-ma-lie-biao/"/>
+    <id>http://ishuaizhang.com/2020/01/31/jie-ya-suo-bian-ma-lie-biao/</id>
+    <published>2020-01-31T05:23:17.000Z</published>
+    <updated>2020-02-06T10:05:07.678Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;1313.bmp&quot; alt=&quot;题目描述&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;题解-Python&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="编程日记" scheme="http://ishuaizhang.com/categories/%E7%BC%96%E7%A8%8B%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="LeetCode" scheme="http://ishuaizhang.com/tags/LeetCode/"/>
+    
+      <category term="算法" scheme="http://ishuaizhang.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>猜数字</title>
+    <link href="http://ishuaizhang.com/2020/01/31/leetcode-cai-shu-zi/"/>
+    <id>http://ishuaizhang.com/2020/01/31/leetcode-cai-shu-zi/</id>
+    <published>2020-01-30T16:16:46.000Z</published>
+    <updated>2020-02-06T10:01:01.804Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;lcp1.bmp&quot; alt=&quot;题目描述&quot;&gt;&lt;/p&gt;
+&lt;h3 id=&quot;题解-Python&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="编程日记" scheme="http://ishuaizhang.com/categories/%E7%BC%96%E7%A8%8B%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="LeetCode" scheme="http://ishuaizhang.com/tags/LeetCode/"/>
+    
+      <category term="算法" scheme="http://ishuaizhang.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>随机人生</title>
+    <link href="http://ishuaizhang.com/2020/01/22/sui-ji-ren-sheng/"/>
+    <id>http://ishuaizhang.com/2020/01/22/sui-ji-ren-sheng/</id>
+    <published>2020-01-22T13:22:08.000Z</published>
+    <updated>2020-02-07T05:37:15.468Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;老虎伍兹改变击球姿势，不就是改变自己应对外界不确定性的习惯吗，通过对外界的高频率反应，像蚁群一样在地上反复移动，留下含信息素最多的路径（最短），即得到了最佳的方法。&lt;/p&gt;
+&lt;p&gt;追悔过去有用吗？难道你回到过去，就能改变命运？把人生当做马尔科夫过程的话，过去的事件和状态不能
+        
+      
+    
+    </summary>
+    
+      <category term="所思所想" scheme="http://ishuaizhang.com/categories/%E6%89%80%E6%80%9D%E6%89%80%E6%83%B3/"/>
+    
+    
+      <category term="碎碎念" scheme="http://ishuaizhang.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+      <category term="随机过程" scheme="http://ishuaizhang.com/tags/%E9%9A%8F%E6%9C%BA%E8%BF%87%E7%A8%8B/"/>
+    
+      <category term="偶然与必然" scheme="http://ishuaizhang.com/tags/%E5%81%B6%E7%84%B6%E4%B8%8E%E5%BF%85%E7%84%B6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>进军up主</title>
+    <link href="http://ishuaizhang.com/2020/01/21/jin-jun-up-zhu/"/>
+    <id>http://ishuaizhang.com/2020/01/21/jin-jun-up-zhu/</id>
+    <published>2020-01-21T15:47:21.000Z</published>
+    <updated>2020-02-07T05:38:25.567Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;对B站up主的分析&quot;&gt;&lt;a href=&quot;#对B站up主的分析&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="所思所想" scheme="http://ishuaizhang.com/categories/%E6%89%80%E6%80%9D%E6%89%80%E6%83%B3/"/>
+    
+    
+      <category term="产品" scheme="http://ishuaizhang.com/tags/%E4%BA%A7%E5%93%81/"/>
+    
+      <category term="运营" scheme="http://ishuaizhang.com/tags/%E8%BF%90%E8%90%A5/"/>
+    
+      <category term="up主" scheme="http://ishuaizhang.com/tags/up%E4%B8%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>碎碎念</title>
+    <link href="http://ishuaizhang.com/2020/01/19/sui-sui-nian/"/>
+    <id>http://ishuaizhang.com/2020/01/19/sui-sui-nian/</id>
+    <published>2020-01-18T16:04:18.000Z</published>
+    <updated>2020-02-07T05:38:34.448Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;买了forest，这是我第一次购买iOS上的APP，其实在爱思助手上用了很久，已经解锁了几乎所有的树种。这次购买是我送给自己的一个礼物和对自己在时间管理方面的鞭策。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;forest_receipt.jpg&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="所思所想" scheme="http://ishuaizhang.com/categories/%E6%89%80%E6%80%9D%E6%89%80%E6%83%B3/"/>
+    
+    
+      <category term="碎碎念" scheme="http://ishuaizhang.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+      <category term="思考" scheme="http://ishuaizhang.com/tags/%E6%80%9D%E8%80%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>给学弟学妹的建议</title>
+    <link href="http://ishuaizhang.com/2020/01/16/gei-zhun-da-xue-sheng-de-jian-yi/"/>
+    <id>http://ishuaizhang.com/2020/01/16/gei-zhun-da-xue-sheng-de-jian-yi/</id>
+    <published>2020-01-16T03:08:38.000Z</published>
+    <updated>2020-02-07T05:38:44.226Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;道——成长才是硬道理&quot;&gt;&lt;a href=&quot;#道——成长才是硬道理&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="所思所想" scheme="http://ishuaizhang.com/categories/%E6%89%80%E6%80%9D%E6%89%80%E6%83%B3/"/>
+    
+    
+      <category term="成长" scheme="http://ishuaizhang.com/tags/%E6%88%90%E9%95%BF/"/>
+    
+      <category term="大学" scheme="http://ishuaizhang.com/tags/%E5%A4%A7%E5%AD%A6/"/>
+    
+      <category term="建议" scheme="http://ishuaizhang.com/tags/%E5%BB%BA%E8%AE%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>信息不对称</title>
+    <link href="http://ishuaizhang.com/2020/01/11/xin-xi-bu-dui-cheng/"/>
+    <id>http://ishuaizhang.com/2020/01/11/xin-xi-bu-dui-cheng/</id>
+    <published>2020-01-11T15:44:56.000Z</published>
+    <updated>2020-02-07T05:38:53.971Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;今天我们遇到的所有问题，都可以用一句话概括：信息不对称。如果你知道了行业信息，就不会迷茫，如果你知道了市场信息，你的产品会卖爆。&lt;/p&gt;
+&lt;p&gt;如何消除信息不对称？其实你消不了，这是二八定律。你能做的，就是多和不同的人交流沟通，取长补短，在可控范围内多去尝试，扩展视野。这么
+        
+      
+    
+    </summary>
+    
+      <category term="所思所想" scheme="http://ishuaizhang.com/categories/%E6%89%80%E6%80%9D%E6%89%80%E6%83%B3/"/>
+    
+    
+      <category term="思考" scheme="http://ishuaizhang.com/tags/%E6%80%9D%E8%80%83/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>忌小富即安</title>
+    <link href="http://ishuaizhang.com/2020/01/07/ji-xiao-fu-ji-an/"/>
+    <id>http://ishuaizhang.com/2020/01/07/ji-xiao-fu-ji-an/</id>
+    <published>2020-01-07T15:53:15.000Z</published>
+    <updated>2020-02-07T05:39:18.901Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;有钱赚的时候，要集中所有的资源和精力，All in，不要小富即安。过几年你会拍大腿，那么好的捡钱的机会，为什么错过了。&lt;/p&gt;
+&lt;p&gt;居安思危才能活得足够长久，富一次的人很多，富一辈子的人很少。&lt;/p&gt;
+&lt;h2 id=&quot;价值&quot;&gt;&lt;a href=&quot;#价值&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="所思所想" scheme="http://ishuaizhang.com/categories/%E6%89%80%E6%80%9D%E6%89%80%E6%83%B3/"/>
+    
+    
+      <category term="碎碎念" scheme="http://ishuaizhang.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
+    
+      <category term="赚钱" scheme="http://ishuaizhang.com/tags/%E8%B5%9A%E9%92%B1/"/>
+    
+      <category term="机会" scheme="http://ishuaizhang.com/tags/%E6%9C%BA%E4%BC%9A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>盲从就会败北</title>
+    <link href="http://ishuaizhang.com/2019/11/21/mang-cong-jiu-hui-bai-bei/"/>
+    <id>http://ishuaizhang.com/2019/11/21/mang-cong-jiu-hui-bai-bei/</id>
+    <published>2019-11-21T07:00:21.000Z</published>
+    <updated>2020-02-07T05:39:56.161Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;他们不管自己的优势在哪里，自己的积累是否与金融、互联网匹配，执着地认为那种高大上的生活才是正确的努力方向。&lt;/p&gt;
+&lt;p&gt;模仿意味着在人家车后面跑，而弯道超车意味着你独辟蹊径，在新的跑道上将所有人甩开。&lt;/p&gt;
+&lt;p&gt;读研对我的意义：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;深造；大学里
+        
+      
+    
+    </summary>
+    
+      <category term="所思所想" scheme="http://ishuaizhang.com/categories/%E6%89%80%E6%80%9D%E6%89%80%E6%83%B3/"/>
+    
+    
+      <category term="盲从" scheme="http://ishuaizhang.com/tags/%E7%9B%B2%E4%BB%8E/"/>
+    
+      <category term="选择" scheme="http://ishuaizhang.com/tags/%E9%80%89%E6%8B%A9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>构建自己的影响力和资源池</title>
+    <link href="http://ishuaizhang.com/2019/11/19/gou-jian-zi-ji-de-ying-xiang-li-he-zi-yuan-chi/"/>
+    <id>http://ishuaizhang.com/2019/11/19/gou-jian-zi-ji-de-ying-xiang-li-he-zi-yuan-chi/</id>
+    <published>2019-11-19T08:45:47.000Z</published>
+    <updated>2020-02-07T05:40:05.994Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;如果准备成为一个创业者，或管理者，就需要提前准备，在平时就要开始构建自己的影响力和资源池。&lt;/p&gt;
+&lt;p&gt;如何构建自己的影响力？我认为主要有以下两个途径：&lt;/p&gt;
+&lt;h5 id=&quot;1、多输出、多分享&quot;&gt;&lt;a href=&quot;#1、多输出、多分享&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="所思所想" scheme="http://ishuaizhang.com/categories/%E6%89%80%E6%80%9D%E6%89%80%E6%83%B3/"/>
+    
+    
+      <category term="资源" scheme="http://ishuaizhang.com/tags/%E8%B5%84%E6%BA%90/"/>
+    
+      <category term="影响力" scheme="http://ishuaizhang.com/tags/%E5%BD%B1%E5%93%8D%E5%8A%9B/"/>
+    
+  </entry>
+  
+</feed>

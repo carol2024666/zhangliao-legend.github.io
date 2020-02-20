@@ -1,0 +1,1203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>博文归类</title>
+      <link href="/2020/02/09/bo-wen-gui-lei/"/>
+      <url>/2020/02/09/bo-wen-gui-lei/</url>
+      
+        <content type="html"><![CDATA[<h1 id="博文归类"><a href="#博文归类" class="headerlink" title="博文归类"></a>博文归类</h1><p>这几天整理文章的标签和分类，发现很乱，比如随笔、笔记、思考、总结、论文读后感、复盘等等。这样写下去，不仅显得我思绪纷乱，而且对我的生活也没有记录和反思的意义。于是我将文章的分类做了如下归档：</p><h2 id="学习笔记"><a href="#学习笔记" class="headerlink" title="学习笔记"></a>学习笔记</h2><p>将之前学习吴恩达的《深度学习》等课程的笔记归入这一档，以后也会收录读书笔记等。该专栏的特点是<strong>摘录部分较多</strong>，思考的跨度不高。</p><h2 id="所思所想"><a href="#所思所想" class="headerlink" title="所思所想"></a>所思所想</h2><p>将之前的思考、随笔等分类下的文章归入这一档，该专栏主要为<strong>由见闻得到的启示和思考</strong>，特点是思考的部分多，文笔较为发散和随意。</p><h2 id="所感所悟"><a href="#所感所悟" class="headerlink" title="所感所悟"></a>所感所悟</h2><p>这是我新开的一个专栏，主要写由书籍、课程、文集等得到的<strong>践行清单</strong>，特点是建议多，目的是学以致用，将自己学到的东西转换成行动指南，做一个“知行合一”的人。</p><h2 id="论文研读"><a href="#论文研读" class="headerlink" title="论文研读"></a>论文研读</h2><p>将之前的论文读后感和论文翻译归入这一档，主要从论文的摘要入手，学习其使用的<strong>算法和实验方法</strong>，得到一些启发。</p><h2 id="复盘总结"><a href="#复盘总结" class="headerlink" title="复盘总结"></a>复盘总结</h2><p>将之前的2017年和2019年终总结归入这一档，以后会收录月总结和周总结，目的是养成<strong>定期复盘总结</strong>的习惯，给自己一个交代，做一个靠谱的人，事事有着落、件件有回应。</p><h2 id="编程日记"><a href="#编程日记" class="headerlink" title="编程日记"></a>编程日记</h2><p>将之前在LeetCode上刷题的代码归入这一档，以后会再研究一下Kaggle竞赛。写该专栏的时候，争取不仅让自己能<strong>写出来好的代码，而且能讲明白</strong>，对别人也有启示作用。</p><h2 id="问题整理"><a href="#问题整理" class="headerlink" title="问题整理"></a>问题整理</h2><p>将之前搭Anaconda环境、搭博客等问题及我对应使用过的<strong>有效解决方案</strong>整理到这个专栏，希望能给后来同样遭遇的同学留下一点经验，提供一些价值。</p><h1 id="致谢"><a href="#致谢" class="headerlink" title="致谢"></a>致谢</h1><p>搭建和维护这个博客，是双创周时霰老师给我的建议，一方面可以学一门新的编程语言，练习HTML/CSS，另一方面通过写作检验自己是否掌握了学习内容，能否纳入自己的知识体系。网站运行至今，已有233天了，真的是一件很有成就感的事情，在这个过程中，我确实折腾了不少，也学到了很多。</p><p><strong>感谢霰老师对我的鼓励和指导，我会把这件事继续做下去，坚持分享和输出，做一个“知行合一”的践行者。</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 复盘总结 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 整理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MCM2019C题研读</title>
+      <link href="/2020/02/08/mcm2019c-ti-yan-du/"/>
+      <url>/2020/02/08/mcm2019c-ti-yan-du/</url>
+      
+        <content type="html"><![CDATA[<h1 id="2019C题论文研读"><a href="#2019C题论文研读" class="headerlink" title="2019C题论文研读"></a>2019C题论文研读</h1><h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>第一部分：利用NFLIS提供的数据，建立一个数学模型，描述所报告的合成阿片类药物和海洛因事件(病例)随时间在五个州及其县之间的传播情况和特点。使用你的模型，确定在这五个州中的每一个州可能开始使用特定阿片类药物的任何可能的地点。</p><p>如果你的团队确定的模式和特征继续存在，美国政府是否应该有什么具体的担忧？在什么药物识别阈值水平会发生这些情况？您的模型预测它们将在未来何时何地发生？</p><p>第二部分：利用提供的美国人口普查社会经济数据，解决以下问题：</p><p>有许多相互矛盾的假设被提出，以解释阿片类药物的使用如何达到目前的水平，谁在使用/滥用阿片类药物，是什么导致了阿片类药物的使用和成瘾的增长，以及为什么尽管阿片类药物的使用存在已知的危险，但阿片类药物的使用仍然存在。使用情况或使用趋势是否与提供的任何美国人口普查社会经济数据有某种关联？如果是，请修改第1部分中的模型，以包含此数据集中的任何重要因素。</p><p>第三部分，结合你的第一部分和第二部分的结果，找出一种可能的应对阿片类药物危机的策略。使用您的模型来测试此策略的有效性；确定成功(或失败)所依赖的任何重要参数范围。</p><p>除了您的主报告之外，还应向首席管理员(DEA/NFLIS数据库)提供1-2页的备忘录，总结您在此建模工作中确定的任何重要见解或结果。</p><h2 id="论文总结"><a href="#论文总结" class="headerlink" title="论文总结"></a>论文总结</h2><h3 id="论文一1900577"><a href="#论文一1900577" class="headerlink" title="论文一1900577"></a>论文一1900577</h3><p>The Gravity of the Opioid Crisis</p><p>由于阿片类药物在全国范围内的极端滥用，美国正处于一场全国性的危机之中。与以往任何时候相比，所有年龄段和人口统计数据的用户都变得上瘾了。为了探索这场毒品流行的未来影响，我们对药物滥用的传播进行了建模和表征。</p><p>我们使用NFLIS 2010-2017年的毒品报告数据对肯塔基州、俄亥俄州、宾夕法尼亚州、弗吉尼亚州和西弗吉尼亚州的县内和县之间的毒品使用传播进行多变量分析。我们基于三个主要因素来开发毒品传播模型：</p><ol><li>吸毒影响</li><li>当前药物报告的发展趋势</li><li>相关的社会经济因素</li></ol><p>我们通过对现有的县级药品报告数据进行时间上的二次加权线性回归来识别当前药品报告的趋势。为了刻画一个县的毒品使用影响的性质，我们将一个县的毒品影响因素定义为单位面积的毒品报告密度。我们找出特定阿片类药物的来源，并根据影响因素确定药物识别阈值。从2018年到2025年，有6个县超过了我们为模拟确定的门槛，表明疫情正在加剧。</p><p>利用地理引力原理，我们建立了对其他县的影响与距离之间的反相关关系，作为其存在趋势的加权因素。我们验证我们的模型比前一年的数据更能预测下一年的药物报告。</p><p>然后，我们发现随着时间的推移，毒品报告与美国人口普查社会经济因素之间存在关联。利用相关性最高的社会经济数据，我们计算了基于时间的药品报告的多元线性回归。这个调整后的模型显示，与基线相比，我们的预测数据相对于实际数据的残差减少了12.2%。</p><p>我们使用美国其他地区的战略来改善对吸毒者的容留。利用药物教育和康复中心等因素，我们估计总体药物消费将会减少。</p><p><img src="1.bmp" alt="目录"></p><h3 id="论文二1901213"><a href="#论文二1901213" class="headerlink" title="论文二1901213"></a>论文二1901213</h3><p>Take Me Home: Preventing Journeys Down the Opioid Addiction Road</p><p>近年来，过量服药一直是美国意外死亡的主要原因，处方阿片类药物和海洛因是这一类别中最严重的违法者之一。虽然许多人需要阿片类药物来控制他们的慢性和严重的疼痛，但这些治疗的一个常见后果是滥用、成瘾和升级为更糟糕的物质。有各种各样的战略来打击毒品的传播，如教育、康复和执法。然而，考虑到阿片类药物在美国社会中的新的无处不在，有必要采取更有针对性的策略。</p><p>我们已经开发了一种模型，可以有力而准确地预测阿片类药物在俄亥俄州、宾夕法尼亚州、弗吉尼亚州、西弗吉尼亚州和肯塔基州内部和之间的传播。为此，我们：</p><ul><li>通过将阿片成瘾视为一种在邻国之间确定性传播的疾病，并假设它的传播可以用马尔科夫方式建模，从而可视化了2010年至2016年期间阿片类药物在该地区的移动和传播。这将使我们能够找到一个过渡矩阵，告诉我们每个县对彼此的影响。我们还将县与县之间的距离纳入了这个矩阵。</li><li>接下来，我们对整个数据集的社会经济因素的影响进行了建模，并将这些变化与该县阿片类药物使用随时间增长或减少的情况相关联。然后，我们以两种方式组合模型-以线性和并行方式。我们用这个来估计毒品问题发源地的震中。</li><li>最后，我们进行了多次模拟，并预测了毒品问题在未来很长一段时间内的情况，以便从不同的角度制定一些应对流行病的策略，从对阿片类药物传播影响最大的变量中进行选择。</li></ul><p>我们的模型将非法阿片类药物的使用视为一种疾病，当某个地区有更多的人使用阿片类药物时，这种疾病就会传播得更频繁。这使得我们可以设计它，以便将来可以推广到更大的区域。通过可视化这种传播，我们能够见证预测的阿片类药物使用在主要道路上传播的距离比简单的邻接预测的要长。以这种方式连接的县既包括震中，也包括易受影响的县。</p><p>为了评估我们的外部模型，我们给它提供了来自所有县的前两年的毒品报告数据，然后允许它传播到2016年。我们的预测在人均10-5份毒品报告的数量级上有误差。在评估我们的内部模型时，我们意识到虽然社会经济因素高度相关，但它们不能准确预测阿片类药物滥用。</p><p>在此之后，我们对模型中的各种初始条件进行了修正，如社会经济因素和震中的影响。通过这样做，我们能够找到有效和具有高度针对性的战略，这些战略将大大减少和扭转阿片类药物在所提供区域的流行情况。</p><p><img src="2.bmp" alt="目录"></p><h3 id="论文三1901679"><a href="#论文三1901679" class="headerlink" title="论文三1901679"></a>论文三1901679</h3><p>在研究了提供给我们团队的描述2010年至2016年(含2010年至2016年)药物使用和社会经济因素的数据后，我们根据阿片类物质的合成和可获得性将69种阿片类物质分为四类药物。绘制每类药物随时间的使用率图显示，温和止痛药和天然生物碱的使用量随着时间的推移保持相对稳定，半合成药物的使用量略有下降，芬太尼和海洛因等合成药物的使用量大幅增加。这些发现与疾控中心的报告一致。我们也选择了149个社会经济变量中的54个，基于它们的方差、通货膨胀因子得分(一种常用的多重共线性度量)以及它们基于公共卫生文献的相关性。为了对阿片类药物危机在肯塔基州、俄亥俄州、宾夕法尼亚州、西弗吉尼亚州和弗吉尼亚州的传播进行建模，我们采取了双管齐下的方法，开发了两种完全不同的模型，然后在最后对它们进行了比较。</p><p>我们的第一个模型基于流行病学中常用的建模方法：SIR/SIS模型和随机模拟。我们从头开始设计了一个算法，它模拟了六个离散类别之间的随机行走，每一个类别都代表了阿片类药物危机的不同阶段，使用阿片类药物滥用流行率和变化率的阈值。我们根据现实的期望对某些类之间的转换进行不同的惩罚。模型的参数和系数的优化是由我们也从头开始设计的误差函数指导的，并受到全局空间自相关统计量Moran‘s I的启发。通过误差计算和可视化映射对我们的模型进行测试表明，经过数百次试验，我们的模型具有很高的精度。然而，这个模型没有提供太多关于社会经济因素对阿片类药物滥用比率的影响的洞察力，因为纳入社会经济因素并没有显著改变模型的结果。</p><p>我们的第二个模型弥补了社会经济因素分析中的这一不足。通过对我们最终收集的社会经济预测因素(包括总吸毒率)运行一组空间回归模型，我们探索了分别使用空间滞后、空间误差和空间杜宾模型，将阿片类药物危机的空间模式表征为溢出效应的结果，作为空间相关风险因素的结果，以及作为两者的组合。虽然所有的模型都证实了显著的空间信号，但空间杜宾模型总是表现得最好。我们还计算了每个预测变量对阿片类药物滥用比率的直接、间接和总影响。显然，所有模型中最重要的变量是每个县的总吸毒率。平均结果(在所有七年中)是，在其他条件不变的情况下，总非法药物使用率单位增加将使阿片类药物滥用比率增加52%。考虑到美国疾病控制与预防中心(CDC)的一项统计数据，2014年，61%的药物过量死亡涉及某种类型的阿片类药物，这是相当现实的。相比之下，普通的线性回归报告说，总吸毒率每增加一个单位，阿片类药物滥用率只增加37%。统计方法如Akaike信息准则和似然比检验验证了我们空间模型的优越性。</p><p>为了预测阿片类药物流行在这五个州中每一个州的可能起源位置，我们对2000-2010年的随机游走模型进行了蒙特卡洛模拟。我们绘制了这些县的地图，并结合我们的其他发现讨论了它们的安排。随机游走发现，阿片类药物危机很可能始于肯塔基州的蒙哥马利，这与我们的研究一致，即阿片类药物滥用在农村社区比城市社区更普遍[10]。</p><p>为了预测2017-2020年阿片类药物危机的蔓延，我们使用了随机游走和空间回归模型。这两款车型相互之间的偏差令人惊讶地微乎其微，特别是在2019年和2020年。随机游走预测，在未来7年内，超过非法阿片类药物使用阈值的县的数量将自然下降，这也与阿片类药物流行遵循流行病学中看到的溢出效应的观点一致。</p><p>由于假设SES指标将线性变化，第二个模型的误差将在大约4-5年后显著增加。另一方面，随机游走在想要聚集在一起和随机分配班级之间存在一种健康的紧张关系。在最初的日期附近，它聚集得更多，但随机性开始相当快地复合。因此，随机游走的误差最低，接近4-7年。这意味着预测近期的最佳策略是空间回归和4-7年范围内的随机游走。预测任何超出这一点的事情都会有很大的误差。之后，我们向政府提出了减少普通药物使用将有助于减少非法阿片类药物使用的建议。</p><p><img src="3.bmp" alt="目录"></p><h3 id="论文四1906204"><a href="#论文四1906204" class="headerlink" title="论文四1906204"></a>论文四1906204</h3><p>Analysis of the opioid crisis and strategies</p><p>美国正在经历一场史无前例的阿片类药物危机。阿片类药物在各种治疗中已被广泛用作药物。快节奏的生活和激烈的社会竞争给人们带来了很大的压力。患有精神或身体疾病的人可能会接受许多药物的治疗，他们很可能会对这些药物上瘾，特别是对阿片类药物。因此，近年来越来越多的毒品鉴定案件被确认。</p><p>本模型的目的是根据所提供的数据，找出已报告的合成阿片类药物和海洛因事件的传播情况和特点，并对现状做出可能的解释，对未来的病例分布做出预测。具体地说，我们的模型的灵感来自于\“推荐系统\”。我们模型的第一步与“推荐系统”的目的相似，即寻找不同区域和药物之间的相似性和相关性。直接处理数据是粗略和不准确的，而不考虑这个复杂问题背后的大量因素。为了找出地理位置、婚姻状况、文化程度、年龄分布等因素对阿片类药物危机的影响，一种合适的方法是首先根据社会结构找到相似的区域，然后比较它们之间的毒品传播和阿片类药物识别案例分布的关系，然后将模型扩展到不同的目的，如追踪毒品来源，预测毒品传播。</p><p>对于第一部分，我们构造了一个基于相似度的加权有向图(如上所述)，并使用\“四处走动\”策略来模拟毒品扩散过程，以追踪毒品的起始源。在相似性的基础上，利用支持向量机回归拟合数据随时间的分布，预测未来两年合成阿片类药物鉴定和海洛因病例分布情况。然后，我们使用支持向量机判别器来预测一个县是否会有阿片类药物危机的风险。一个处于阿片类药物危机中的县将面临药物滥用的持续增加。</p><p>对于第二部分，我们首先通过Kmeans算法对所有数据进行二值化，然后使用关联规则学习算法来寻找导致阿片类药物和药物成瘾的因素。然后引入时间因素，通过相关分析方法进一步简化因素，找出滥用阿片类药物的人群，经过这些步骤，我们就可以找出所有的主要因素。但是，由于这些因素较多，我们还需要使用PCA算法来减少输出因素，使预测模型更加简单，我们的模型发现，人口分布的差异对阿片类药物的滥用有很大的影响。</p><p>对于第三部分，我们从第二部分提取了三个主要特征，将数据重新整合并调用到前面的模型中，使我们的模型进行了多维回归。我们针对不同的群体设计了一些策略，并用我们的模型验证了策略的有效性。我们的模型发现，应特别关注无丈夫的女性户主和65岁及以上的户主，提高整体文化水平也可以降低阿片成瘾率。</p><p><img src="4.bmp" alt="目录"></p><h3 id="论文五1909434"><a href="#论文五1909434" class="headerlink" title="论文五1909434"></a>论文五1909434</h3><p>在本文中，我们的目标是探索和解释来自五个州的药物数据，通过数学模型进行预测并推荐可能的策略。</p><p>首先，根据不同阿片类药物的特点，将已报道的阿片类药物分为三类：海洛因、芬太尼及其衍生物和其他药物。我们使用数据可视化来描述药物使用概况，包括阿片类药物使用的数量和地理趋势，通过这些数据我们可以做出一些有用的推断，以帮助建模和深入分析所提供数据的内在规律。</p><p>下一步，我们构建了一个修正的向量自回归(VAR)模型，从时间序列的角度描述阿片类药物使用变化的过程。我们应用我们的模型来追溯过去几年可能的阿片类药物使用情况，然后确定特定阿片类药物使用的可能原产地，发现芬太尼可能是从俄亥俄州和宾夕法尼亚州开始的。然后我们预测未来阿片类药物的使用。结果显示，5个州的海洛因使用程度都将快速下降，2019年海洛因举报总数将不到10000个，俄亥俄州将只有一个县超过我们设定的鉴定门槛。芬太尼及其衍生物的滥用在2018年将进一步严重，特别是在宾夕法尼亚州和俄亥俄州。更重要的是，芬太尼滥用的情况越来越严重。2018年芬太尼及其衍生品报告总数将超过66000份，2019年将达到110000份。在五个州的大多数县，芬太尼及其衍生物的使用已经超过了合理的识别门槛。至于其他阿片类药物，使用密度在缓慢增加，但这些药物的滥用程度不会在短时间内上升到严重水平。</p><p>经过适当、精确的数据预处理，运用决策树和相关系数分析阿片类药物使用与社会经济数据的相关性。我们列出了与阿片类药物使用具有线性相关的顶级属性类别，包括教育程度、婚姻状况等。我们还列出了与阿片类药物使用具有非线性相关的顶级属性类别，包括生育力、退伍军人状况等。我们还确定了阿片类药物使用与社会经济属性的细分或细分类别的相关性。我们应用决策树对模型进行了修正，可以略微修正第一个模型给出的预测。</p><p>提出了加强禁毒、国道巡警加强道路运输管控、校园宣传吸毒教育、慎用成瘾性药物处方等对策，并提出了相应的对策和措施，并提出了相应的对策和措施，如加强禁毒工作、加强公路巡警管理、加大校园宣传教育力度、加大对成瘾性药物的处方力度等。我们分别从整体和局部两个角度对我们的策略进行了测试，发现一些行动对于减少阿片类药物的使用是有效的，而且通常多个行动联合起来更有效。最后对模型的参数进行了详细的分析。</p><p><img src="5.bmp" alt="目录"></p><h3 id="论文六1922154"><a href="#论文六1922154" class="headerlink" title="论文六1922154"></a>论文六1922154</h3><p>The Current Status, Future and Strategy of Opioid</p><p>美国正在经历阿片类药物滥用危机，这对美国的发展前景构成极大威胁。基于元胞自动机的思想，我们不仅描述了俄亥俄州、肯塔基州、西弗吉尼亚州、弗吉尼亚州和宾夕法尼亚州报道的合成阿片类药物和海洛因案例的传播和特征，而且还制定了一种可能的应对阿片类药物危机的策略。</p><p>我们将一个县及其周围最近的k个县定义为“环境”。基于KNN的思想，我们确定与该县“环境”最相似的m个“环境”，然后利用元胞自动机以m个“环境”的增长率来预测明年该县的病例数量。同时，参照HHI指数，定义了阿片类事件集中指数(CI)来表征病例聚集程度。最后，我们得到了合成阿片类药物和海洛因事件在五个州的分布情况。病例仍集中在交通枢纽，并有蔓延趋势。海洛因扩散到肯塔基州的西南部，以列克星敦为中心，并有蔓延到宾夕法尼亚州和弗吉尼亚州的趋势。基于历史数据和预测，我们确定了每个州的药物识别阈值水平。2026年，俄亥俄州将达到12万的门槛，政府很难控制阿片类药物的使用数量和传播速度。</p><p>为了确定某些社会经济因素是否对阿片类药物的使用趋势有显著影响，我们选择2010-2016年所有州病例的前25%和后25%的数据进行方差分析，如果数据通过方差同质性检验。对未通过方差同质性检验的数据进行相关分析，以确定社会经济因素与阿片类药物使用趋势之间的相关性。重要因素的最终选择是婚姻状况、教育程度、血统和在家里说的语言。将上述选择的重要因素加入到“环境”相似性考虑中，我们得到了一个考虑社会经济因素的修正模型。</p><p>在以上分析的基础上，我们制定了应对阿片类药物危机的策略，该策略包含两个方面的行动。第一个是给予夫妇税收和抵押贷款利率的折扣，以鼓励人们在法定年龄结婚。另一种是开设一家低成本的英语培训机构，以提高非英语母语人士的英语水平。</p><p><img src="6.bmp" alt="目录"></p><h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>以上论文用到的算法和模型基本都是很经典的，比如元胞自动机、决策树、SIR/SIS、马尔科夫过程、支持向量机等，效果很好，也做了丰富的灵敏度分析，都有很高的鲁棒性。</p><p>同时，部分论文也有各自创新的立意，比如把县与县之间的影响跟地心引力比拟；利用推荐系统的原理做属性相关性分析；将阿片类药物的滥用视为一种疾病，使用疾病传播学解决问题……但我认为它们能获O奖并非是因为做出了新意。换位思考一下，工作人员是需要一个经典的模型，但经过多种验证，鲁棒性很好；还是需要一个创新的模型，但是结果匆匆忙忙，经不起验证，甚至是编的呢。<strong>所以实效性比创新性更重要，人生也是这样，做不了天马行空的天才，有着非凡的创造力，那就当一个踏踏实实的普通人，锻炼务实求真的执行力吧。</strong></p><p>在我看来，写论文用到的模型就像生活中的智慧和道理，人人都熟悉，但是优秀的论文可以把这些知识<strong>讲透</strong>，让读者明白这是经得起实践验证的真理，在限定的条件下使用就能得到较好的结果。而我们能做的就是，将这些道理<strong>学透，用透</strong>。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 论文研读 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 美赛O奖论文 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MCM2016C题研读</title>
+      <link href="/2020/02/07/mcm2016c-ti-yan-du/"/>
+      <url>/2020/02/07/mcm2016c-ti-yan-du/</url>
+      
+        <content type="html"><![CDATA[<h1 id="2016C论文研读"><a href="#2016C论文研读" class="headerlink" title="2016C论文研读"></a>2016C论文研读</h1><h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>慈善组织Goodgrant基金是一家致力于帮助大学生在美国大学提高教学表现的机构。现在，这个机构想要从2016年7月起持续五年给学校的某个合适的组织捐赠总计1亿美元/年的资金。但他们不想复制诸如盖茨基金会等大型资助组织的投资模式和焦点。</p><p>要求你的队伍来设计一个模型，确定最优的投资策略包括（区分）学校、每个学校投资金额、投资回报和对学生表现最可能产生较大影响的资金提供的时间长度。策略应该包含一份1-N最优化和优先处理的候选学校名单，这份名单是你基于每个学校阐述（表现）的资金有效利用潜能和一份用恰当方式做出的投资回报估计。</p><p>附件里的数据文件夹可以对你有所帮助。它含有从美国国家教育统计中心（该中心维护着一个包括全美高等教育调查信息的扩展数据库）和学院记分卡数据网站（该网站有很多长期的教育表现数据）提取的信息。你的模型和后续的策略必须基于这两个数据集中有意义的、可信的部分。</p><h2 id="优秀论文总结"><a href="#优秀论文总结" class="headerlink" title="优秀论文总结"></a>优秀论文总结</h2><h3 id="论文一50193清华"><a href="#论文一50193清华" class="headerlink" title="论文一50193清华"></a>论文一50193清华</h3><p>近年来，大数据日益普及，包括慈善领域在内的很多领域都需要大数据的引导。本文利用<strong>数据挖掘</strong>方法对数据进行处理，构建了一种新的慈善组织投资回报率<strong>评价体系</strong>，并成功地确定了古德格兰特基金会的最优投资策略。</p><p>首先，我们对数据进行操作。根据信息的完整性和冗余性进行数据筛选，删除信息量小于阈值的数据，并利用<strong>线性拟合和主成分分析</strong>对不同属性进行合并。对于保留的属性和学校，我们基于<strong>K-均值聚类</strong>对缺失的数据进行数据填补。然后，我们对所有数据进行<strong>归一化处理</strong>，以使它们在下面的分析中具有可比性。</p><p>其次，我们构造了<strong>ROI评价标准</strong>，即投入产出比乘以调整系数，称为“紧迫度”。这一比率反映的是与成本相关的效益，而紧迫性反映的是对资金的需求，这是慈善组织应该考虑的一个重要因素。我们使用<strong>主成分分析</strong>来选择属性，用工资、教育质量等来表示产出，用学费来表示投入，用联邦贷款、债务等来表示紧迫性。</p><p>然后，运用<strong>层次分析法</strong>对不同因素之间的重要性进行度量和权重分配。第三，提出了两种模型，<strong>一年的基本模型和五年的时间序列模型</strong>。将投资回报率视为投资收益，将产出波动视为“风险”，仿照现代金融领域的投资组合理论来解决这一问题。在基本模型中，我们开发了一种混合整数<strong>线性规划</strong>算法，并成功地找到了14个学校进行投资。在此基础上，考虑了时间因素，将模型改进为时间序列模型，利用MILP和灰色预测来确定长期投资策略。16所学校被选为不同持续时间和不同金额的学校。</p><p>最后，对模型进行<strong>敏感性分析</strong>，改变学校数量、资金约束、资金分配是否均等等，分析不同的产出结果，找出理想结果的<strong>较好参数</strong>。</p><p>综上所述，我们的模型是一个可行的、合理的、有技术和数据支持的模型。由于该模型具有主观性，经过数据训练后可以灵活使用。</p><p>（To sum up, our model is a feasible and reasonable model with technical and data support. Because of the subjectivity, this model can be used flexibly after data training.）</p><p>用到的算法有： AHP, PCA, K-means clustering, MILP, Grey Theory和其他金融理论，方法较全面且易学。</p><h3 id="论文二47823上财"><a href="#论文二47823上财" class="headerlink" title="论文二47823上财"></a>论文二47823上财</h3><p>我们将开发一个教育模型，以确定一个最优的教育投资战略，以进一步提高在美国留学的本科生的整体表现水平。我们的投资模型包括三个部分：</p><p>在第一部分，我们可以收集关于其他基金会投资的主要焦点的数据，这些数据是按不同主体和地点划分的。(注1)我们的投资模型包括三个部分：第一部分是第一部分，我们可以收集关于其他基金会的投资重点的数据，这些数据是按不同主体和地点分类的。我们也可以考虑让他们成为Goodgrat基金会的第一个慈善机构身份认证机构。然后，我们可以制定计划来决定我们的重点，也就是说，我们应该把更多的资金投入到那些拥有更多少数族裔学生比赛、更低的教育成绩、更高的债务负债率等的主要学校上，这些学校应该更多地投资于那些拥有更多少数族裔学生比赛的学校，以及更低的教育成绩和更高的债务负债率等等。在这一部分中，我们还可以将这些数据数据分成两组，一组用于学校选择，另一组用于确定ROI。</p><p>在第二部分中，作为一种有效的数据提取方法，我们可以建立一个高效的、直观的评估模型，根据我们的评估重点的相关性原则，而不是使用传统的PCA评估方法，来对学校的最佳候选学校进行排名，这是一种非常有效的方法，也是一种直观的评估模型，可以根据我们的评估重点的评估相关性原则，使用最优的PCA评估方法来对学校的候选学校进行排序。在此之后，前50名的学校也被评选为我们的主要目标学校。</p><p>在第三部分中，我们要做一个关键的假设：一所普通学校的社会公用事业收入与毕业生的平均收入水平和平均毕业率呈对数关系。此外，我们还可以创建一个新的参数k来表示上述两个主要因素之间的最小边际替代率(MRS)。在那之后，我们就可以来把每个目标学校的净资产收益率(ROI)函数集定义为最大的增量收益效用。</p><p>我们还需要进一步讨论如何用几种可行的方法来制定最好的投资战略。最后，我们可以选择基于扩展的拉格朗日函数的改进的<strong>粒子群优化算法</strong>。该算法是一种较典型的求解带约束条件的多变量数学优化问题的方法。然后，我们可以通过计算<strong>五年来最大的累计投资回报率</strong>，为他们提供一份最新的推荐名单。更重要的是，我们的模型模型是足够广泛的，可以很好地容纳任何复杂的非线性模型约束和优化问题。</p><p>最后，我们可以改变参数K的数值取值范围，以更好地检验我们未来投资策略的最大敏感度范围。在此基础上，我们可以改变参数K的数值取值范围，以更好地检验我们未来投资策略的敏感度。这一结果也表明，我们的商业模式是健壮的</p><h3 id="论文三42939清华"><a href="#论文三42939清华" class="headerlink" title="论文三42939清华"></a>论文三42939清华</h3><p>为了确定最优的捐赠策略，提出了一种适合慈善组织的数据激励模型，该模型基于原始的投资回报率(ROI)定义。</p><p>首先，在<strong>解决缺失数据</strong>之后，我们开发了一个被称为成绩指数的综合指数来<strong>量化</strong>学生的教育表现。绩效<strong>指标</strong>是毕业率、毕业生收入等几个常用绩效指标的线性组合。并通过<strong>主成分分析</strong>确定了它们的权重。</p><p>接下来，为了处理<strong>高维数据</strong>带来的问题，我们采用线性模型和一种称为后套索的选择方法来选择在统计上对绩效指标有显著影响的变量，并确定它们的影响(系数)。我们称它们为性能贡献变量。在本例中，选择了5个变量。其中，2010年学杂费和卡内基高研究活动分类不受捐款金额的影响。因此，我们只考虑获得佩尔助学金的学生的百分比、兼职学生的比例和学生与教师的比例。</p><blockquote><p>we employ a linear model and a selection method called post-LASSO to select variables that statistically significantly affect the performance index and determine their effects </p></blockquote><p>然后，采用<strong>广义自适应模型估计这三个变量与捐赠量之间的关系</strong>。我们对跨部门的关系进行<strong>拟合</strong>，并从捐赠金额到绩效贡献变量的值获得拟合函数。然后，我们将捐赠的影响分为两部分：均值和异质。均质影响建模为性能贡献变量的拟合值随捐赠金额的增加而变化，这可以从<strong>拟合曲线中预测</strong>。异质模型被建模为调整参数，该调整参数基于与拟合曲线的偏差来调整同质影响。他们的产品是实际绩效价值的增长，而不是捐赠数量的增长。</p><blockquote><p>Then, a generalized adaptive model is adopted to estimate the relation between these 3 variables and donation amount. We fit the relation across all institutions and get a fitted function from donation amount to values of performance contributing variables. Then we divide the impact of donation amount into 2parts: homogenous and heterogenous one. The homogenous influence is modeled as the change in fitted values of performance contributing variables over increase in donation amount,which can be predicted from the fitted curve. The heterogenous one is modeled as<br>a tuning parameter which adjusts the homogenous influence based on deviation from the fitted curve. And their product is increase in true values of performance over increase in donation amount.</p></blockquote><p>最后，我们计算投资回报率，定义为绩效指标的增长超过捐赠额的增长。该投资回报率是特定于机构的，并取决于捐款额的增加。通过采用两步ROI<strong>最大化算法</strong>，我们确定了最佳投资策略。</p><p>此外，我们提出了一个扩展模型来处理由于捐赠的持续时间和地理分布所引起的问题。</p><h3 id="论文四52815"><a href="#论文四52815" class="headerlink" title="论文四52815"></a>论文四52815</h3><p>我们提出了一种<strong>贝叶斯多阶段模型</strong>，以在<strong>未来五年内最大化</strong>投资回报率（RI）。</p><p>首先，建立了一个模型，将一所学校的学生专业分布与该学校将为经济增加的预期工作数量相关联。在这里，我们将每个特定学科的失业前景与该专业的学生百分比相关联每所学校都选择该特定课程。如果一所学校要在已经过饱和（即失业率高）的领域中培养大量的毕业生，那么它实际上被分配给经济中的工作数量。</p><p>接下来，建立模型以给出增加经济的就业机会与实际国内生产总值（GDP）变化之间的关系。该模型基于我们观察到的logGDP变化与失业率变化之间的线性关系，适合于最初收集的数据。于1948年问世。考虑到该领域，这种特殊的模型非常适合。</p><p>根据增加的GDP和其校友的中位数薪水，每所学校都被授予善良等级。</p><p>工资只是按比例缩放并添加到GDP中以计算该指标。</p><p>我们建议的核心是一个线性回归模型，将善良与学校学费和入学人数相结合，该模型旨在包含有关学校资源如何影响其善良的一般信息。</p><p>此整体模型的后代用作一系列模型参数的先验（这些先验具有额外的方差，以免压倒数据），每个都适合特定学校。每个模型都代表一个预测学校每名学生的可用资金与其善良之间的关系，以及其资金的变化将如何影响其善良，我们称之为善良曲线。</p><p>我们将对学校的金钱投资建模为增加该学校的“有效学费”，这将根据其学校的良善曲线来增加该学校的良善。这种良善的变化是我们衡量Rol的建议。</p><p>给定Rol的定义，我们面临的问题是应在哪里支付投资，以使Rol的总和最大化：我们解决了一个简单的优化问题，以获得建议的结果。</p><p>这些曲线是根据对美国GDP变化和人口增长的计量经济学预测，从2016年到2020年每年计算的。</p><p>我们模型的每个阶段都是简单的，并且模型的整体是复杂的而不是复杂的。这导致了一个模型，尽管它很简单，但很容易解释。</p><p>根据我们的分析，我们目前列出73所学校，其中包括普林斯顿大学，哈佛大学和麻省理工学院等知名学校，以及其他一些知名度较低的学校，这些学校有望成为投资的重要目标。我们还介绍了我们认为供资最有效的时间段。</p><p>用R和Python中执行数据操作。BUGS用于模型参数的贝叶斯推断，R用于解决伴随的优化问题。</p><h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>数据预处理很重要，也很考验水平和经验，需要对属性筛选、删除、合并和归一化处理等</p><p>构建评价指标和体系，需要针对背景中的主体，不能凭自己打分和量化，一定是基于相关文献</p><p>有时间因素时，可以改进为时序模型，再预测</p><p>最后灵敏度分析，防止过拟合，验证鲁棒性</p><p><strong>各步骤具体使用什么算法，最好有相关文献支撑</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 论文研读 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 美赛O奖论文 </tag>
+            
+            <tag> 论文原则 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>坚持做正期望的事情</title>
+      <link href="/2020/02/06/jian-chi-zuo-zheng-qi-wang-de-shi-qing/"/>
+      <url>/2020/02/06/jian-chi-zuo-zheng-qi-wang-de-shi-qing/</url>
+      
+        <content type="html"><![CDATA[<h3 id="碎碎念"><a href="#碎碎念" class="headerlink" title="碎碎念"></a>碎碎念</h3><p>平时复盘时，将经验总结成自己的算法，即，量化的可复制的解题步骤。</p><p>既然有很多东西要学，是不是可以设计一个学习流程，把一系列的知识都复习一遍呢，而且有科学研究证明了，大脑在交替学习不同领域的知识时，效率更高。</p><p>如何理解人生要坚持做正确的事情呢？正确的事情应该是对自己的成长来说，期望值最高的。首先调查：通过这件事可以获得多少价值，对应的概率是多少，然后算出这件事的期望值。只要在每个阶段坚持做最高期望的事情，就能得到最高期望的成长，大概率会实现世俗意义上的成功。</p><p>我坚持刷学习强国积分两个多月，已经养成了习惯。反思这个习惯的养成，首先，是因为党课的要求，使我被动地坚持了一个月，而且我花费的时间成本很低，用电脑上的插件就能自动学习，我只需在空闲时答题、评论……再者刷分这件事本身就能带给人兴奋感，很容易上瘾。拓展到一般模型，我认为习惯的养成需要这几步：</p><ul><li>连续的时间基础</li><li>上瘾的刺激感</li></ul><p>说到这，我认为兴趣也是可以通过人力改变的，首先给这件事赋予意义，然后通过一系列的正向激励让自己产生上瘾的感觉。</p><p>刚才背单词时，发现其实若只是简单的重复浏览一个单词，并不能掌握它，记忆时间会很长，但只要能回想起来一次，就基本掌握了。这一点很有启示，很多人说读过的书就像吃过的饭化为自己的骨头和血肉，却是与我的发现不同，如果对知识没有记忆和思考，甚至连回想都做不到，又怎么能够灵活应用呢？能调动其中的力量，才算是真正地化为自己成长的养料。</p><p>现在回想起霰老师的话，互联网行业其实就三个部分：技术、产品和管理。仔细品品，确实是这样，我接触到的职位都离不开这三种类别。本来最近很急躁技术可以让我有立身之本我现在有点急躁，想早点经济独立，于是折腾了很多，比如学习做up主、写公众号、写悟空问答等，普遍没有坚持做成，确实挺难，没有一分钱是容易赚的。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所思所想 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 碎碎念 </tag>
+            
+            <tag> 做事 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>整数反转</title>
+      <link href="/2020/02/05/leetcode-zheng-shu-fan-zhuan/"/>
+      <url>/2020/02/05/leetcode-zheng-shu-fan-zhuan/</url>
+      
+        <content type="html"><![CDATA[<h3 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h3><p>给出一个 32 位的有符号整数，你需要将这个整数中每位上的数字进行反转。</p><p>示例 1:</p><blockquote><p>输入: 123<br>输出: 321</p></blockquote><p>示例 2:</p><blockquote><p>输入: -123<br>输出: -321</p></blockquote><p>示例 3:</p><blockquote><p>输入: 120<br>输出: 21</p></blockquote><p>注意:</p><blockquote><p>假设我们的环境只能存储得下 32 位的有符号整数，则其数值范围为 [−231,  231 − 1]。请根据这个假设，如果反转后整数溢出那么就返回 0。</p></blockquote><p>来源：力扣（LeetCode）<br>链接：<a href="https://leetcode-cn.com/problems/reverse-integer" target="_blank" rel="noopener">https://leetcode-cn.com/problems/reverse-integer</a></p><h3 id="题解-Python"><a href="#题解-Python" class="headerlink" title="题解-Python"></a>题解-Python</h3><pre class="line-numbers language-Python"><code class="language-Python">class Solution:    def reverse(self, x: int) -> int:        if x==0:            return 0        str_x = str(x)        x = ''        if str_x[0] == '-':            x += '-'        x += str_x[len(str_x)-1::-1].lstrip("0").rstrip("-")        x = int(x)        if -2**31<x<2**31-1:            return x        return 0<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程日记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> LeetCode </tag>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>有效的括号</title>
+      <link href="/2020/02/04/leetcode-you-xiao-de-gua-hao/"/>
+      <url>/2020/02/04/leetcode-you-xiao-de-gua-hao/</url>
+      
+        <content type="html"><![CDATA[<h3 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h3><p>给定一个只包括 ‘(‘，’)’，’{‘，’}’，’[‘，’]’ 的字符串，判断字符串是否有效。</p><p>有效字符串需满足：</p><p>左括号必须用相同类型的右括号闭合。<br>左括号必须以正确的顺序闭合。<br>注意空字符串可被认为是有效字符串。</p><p>示例 1:</p><blockquote><p>输入: “()”<br>输出: true</p></blockquote><p>示例 2:</p><blockquote><p>输入: “()[]{}”<br>输出: true</p></blockquote><p>示例 3:</p><blockquote><p>输入: “(]”<br>输出: false</p></blockquote><p>示例 4:</p><blockquote><p>输入: “([)]”<br>输出: false</p></blockquote><p>示例 5:</p><blockquote><p>输入: “{[]}”<br>输出: true</p></blockquote><p>来源：力扣（LeetCode）<br>链接：<a href="https://leetcode-cn.com/problems/valid-parentheses" target="_blank" rel="noopener">https://leetcode-cn.com/problems/valid-parentheses</a></p><h3 id="题解-Python"><a href="#题解-Python" class="headerlink" title="题解-Python"></a>题解-Python</h3><pre class="line-numbers language-Python"><code class="language-Python">class Solution:    def isValid(self, s: str) -> bool:        while '{}' in s or '()' in s or '[]' in s:            s = s.replace('{}', '')            s = s.replace('[]', '')            s = s.replace('()', '')        return s == ''<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程日记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> LeetCode </tag>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>社会网络分析</title>
+      <link href="/2020/02/04/analysis-of-society-s-information-networks/"/>
+      <url>/2020/02/04/analysis-of-society-s-information-networks/</url>
+      
+        <content type="html"><![CDATA[<h2 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h2><p>随着科技的发展，信息流动的形势变得更加复杂，引起了人们的广泛关注。在本文中，我们建立了一个双层复杂网络模型来衡量社会信息网络的演化和影响。</p><p>在我们的双层复杂网络模型中，内层是分析区域间信息流动的情况。我们特别考虑了信息的内在价值、媒体效应和个人主观情感等几个因素来量化节点和边的属性。对ASIC模型进行优化，建立点对点模型来模拟信息在网络中的流动。在外层，在反应扩散模型的基础上，建立全局网络模型，考虑距离因素对传播概率和传播时延公式进行修正。</p><p>在我们构建的模型基础上，结合信息的内在价值和信息流动的效率，首先给出了新闻质量的判定方法。根据媒体使用的不同情况，通过回归分析得出不同媒体在不同地区的比例。将我们网络中传播率的仿真结果与某媒体的实际市场占有率进行比较，发现相对误差小于10%。根据我们收集的数据，我们预测在2050年左右，传播概率将迅速增加，而传播时延将会减小。同时，信息内在价值的重要性也会降低。</p><p>然后，基于有界置信度模型，建立互动模型，通过信息网络分析影响公众利益和舆论的因素。由此，我们得到了舆情的分布函数来观察舆情的变化。通过一条具体的信息，我们发现舆情在开始时变化很快，最后进入稳定状态。接下来，我们分析了几个因素对信息传播和舆论传播的影响。我们通过计算得到图表来显示趋势。例如，传播概率和意见变化率与信息值成正比，而传播时延则相反。</p><p>同时，对不同因素进行了敏感性分析。我们得出结论，该模型对权威的敏感性较高，其次是影响力、能动性和意愿。</p><h2 id="1、引言"><a href="#1、引言" class="headerlink" title="1、引言"></a>1、引言</h2><h3 id="1-1-背景"><a href="#1-1-背景" class="headerlink" title="1.1 背景"></a>1.1 背景</h3><p>如今，信息在我们的日常生活中传播得很快。由于技术的发展，无论是大事还是琐事，人们都能快速方便地获取信息。因此，信息垃圾无处不在，影响着我们的生活。为了管理和跟踪信息的流动，人们提高了对建立社会信息网络的重要性的认识。</p><p>人们对社会网络的信息交流状况感兴趣，采用了多种方法对其进行描述。大多数模型假设信息是按时间序列传播的。例如，独立级联模型[1]认为节点之间的传播概率总是相同的，没有记忆。同时，线性门限模型[2]关注的是反映接收者接受能力的累积概率。但是，这些模型忽略了以下因素：</p><ul><li>节点的属性，如个人兴趣。</li><li>信息内在价值在传播中的影响。</li><li>传播过程不同步。</li></ul><p>因此，迫切需要一个完整的科学模型。在此基础上，建立了双层复杂网络。</p><h3 id="1-2-我们的工作"><a href="#1-2-我们的工作" class="headerlink" title="1.2 我们的工作"></a>1.2 我们的工作</h3><p>为了进一步提出我们的解决方案，我们将论文安排如下。</p><ul><li>在第二节中，我们给出了对模型进行简化的可靠假设。</li><li>在第三节中，构建了双层网络，对信息流进行分析和预测。内层分析区域之间的信息流。外层对区域间的流动进行分析。同时，对模型进行了灵敏度分析，验证了模型的有效性。</li><li>在第四节中，我们应用我们的模型解决了一系列问题，如新闻的定性、今天和2050年前后的信息流预测等。接下来，我们建立了一个模型来分析影响公众利益和舆论的因素。然后，分析了不同指标对信息传播和舆情传播的影响。</li><li>最后，详细讨论了该模型的优缺点。</li></ul><h2 id="2、假设"><a href="#2、假设" class="headerlink" title="2、假设"></a>2、假设</h2><ul><li>我们发现的数据是真实可靠的。</li><li>在可预测的时间内没有媒体的发明。也就是说，人们使用与今天相同的媒体，只是媒体变化的比例。</li><li>忽略了国家间的防火墙，这限制了信息的传播。我们网络中的不是秘密。</li><li>由于在小范围内发展水平的差异相对较小，我们从统计的角度忽略了媒体使用的差异。</li><li>为了简化模型，我们只考虑了报纸、电报、广播、电视、互联网和手机这六种媒体来传播信息。</li><li>该节点仅将同一消息传播一次。也就是说，一个节点的入度不大于1。</li></ul><h2 id="3、任务一：建立一个双层复杂网络"><a href="#3、任务一：建立一个双层复杂网络" class="headerlink" title="3、任务一：建立一个双层复杂网络"></a>3、任务一：建立一个双层复杂网络</h2><h3 id="3-1-框架"><a href="#3-1-框架" class="headerlink" title="3.1 框架"></a>3.1 框架</h3><p>要量化信息流，必须考虑大量的因素。例如，由于各国发展水平的不同，流动的方式和速度必然不同。此外，随着互联网技术的日益成熟，每个人在信息传播中的作用越来越重要，而不是报纸、电视等原始媒体，这需要考虑到个人利益等客观因素。基于以上分析，我们可以看出，一个简单的网络并不能很好地反映信息流动的整体情况。因此，层次分明、相互作用、相互独立的多层复杂网络显得更为合理。因此，我们提出了一个双层网络、全球信息网和点对点信息网，它属于一个复杂的网络，可以更具体地反映信息流。我们的双层复杂网络结构如图1所示。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 论文研读 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 美赛O奖论文 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>将整数转换为两个无零整数的和</title>
+      <link href="/2020/02/03/leetcode-jiang-zheng-shu-zhuan-huan-wei-liang-ge-wu-ling-zheng-shu-de-he/"/>
+      <url>/2020/02/03/leetcode-jiang-zheng-shu-zhuan-huan-wei-liang-ge-wu-ling-zheng-shu-de-he/</url>
+      
+        <content type="html"><![CDATA[<h3 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h3><p>「无零整数」是十进制表示中 不含任何 0 的正整数。</p><p>给你一个整数 n，请你返回一个 由两个整数组成的列表 [A, B]，满足：</p><p>A 和 B 都是无零整数<br>A + B = n<br>题目数据保证至少有一个有效的解决方案。</p><p>如果存在多个有效解决方案，你可以返回其中任意一个。</p><p>示例 1：</p><blockquote><p>输入：n = 2<br>输出：[1,1]<br>解释：A = 1, B = 1. A + B = n 并且 A 和 B 的十进制表示形式都不包含任何 0 。</p></blockquote><p>示例 2：</p><blockquote><p>输入：n = 11<br>输出：[2,9]</p></blockquote><p>示例 3：</p><blockquote><p>输入：n = 10000<br>输出：[1,9999]</p></blockquote><p>示例 4：</p><blockquote><p>输入：n = 69<br>输出：[1,68]</p></blockquote><p>示例 5：</p><blockquote><p>输入：n = 1010<br>输出：[11,999]</p></blockquote><p>提示：</p><blockquote><p>2 &lt;= n &lt;= 10^4</p></blockquote><p>来源：力扣（LeetCode）<br>链接：<a href="https://leetcode-cn.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers" target="_blank" rel="noopener">https://leetcode-cn.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers</a></p><h3 id="题解-Python"><a href="#题解-Python" class="headerlink" title="题解-Python"></a>题解-Python</h3><pre class="line-numbers language-python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>    <span class="token keyword">def</span> <span class="token function">getNoZeroIntegers</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> n<span class="token punctuation">:</span> int<span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> List<span class="token punctuation">[</span>int<span class="token punctuation">]</span><span class="token punctuation">:</span>        <span class="token keyword">def</span> <span class="token function">valid</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span><span class="token punctuation">:</span>            <span class="token keyword">if</span> num <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>                <span class="token keyword">return</span> <span class="token boolean">True</span>            resid <span class="token operator">=</span> num <span class="token operator">%</span> <span class="token number">10</span>            <span class="token keyword">if</span> resid <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>                <span class="token keyword">return</span> <span class="token boolean">False</span>            <span class="token keyword">else</span><span class="token punctuation">:</span>                <span class="token keyword">return</span> valid<span class="token punctuation">(</span>num<span class="token operator">//</span><span class="token number">10</span><span class="token punctuation">)</span>        <span class="token keyword">for</span> i <span class="token keyword">in</span> range<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> n<span class="token punctuation">)</span><span class="token punctuation">:</span>            <span class="token keyword">if</span> valid<span class="token punctuation">(</span>i<span class="token punctuation">)</span> <span class="token operator">and</span> valid<span class="token punctuation">(</span>n<span class="token operator">-</span>i<span class="token punctuation">)</span><span class="token punctuation">:</span>                <span class="token keyword">return</span> <span class="token punctuation">[</span>i<span class="token punctuation">,</span> n<span class="token operator">-</span>i<span class="token punctuation">]</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程日记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> LeetCode </tag>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>解码字母到整数映射</title>
+      <link href="/2020/02/02/leetcode-jie-ma-zi-mu-dao-zheng-shu-ying-she/"/>
+      <url>/2020/02/02/leetcode-jie-ma-zi-mu-dao-zheng-shu-ying-she/</url>
+      
+        <content type="html"><![CDATA[<h3 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h3><p>给你一个字符串 s，它由数字（’0’ - ‘9’）和 ‘#’ 组成。我们希望按下述规则将 s 映射为一些小写英文字符：</p><p>字符（’a’ - ‘i’）分别用（’1’ - ‘9’）表示。<br>字符（’j’ - ‘z’）分别用（’10#’ - ‘26#’）表示。<br>返回映射之后形成的新字符串。</p><p>题目数据保证映射始终唯一。</p><p> 示例 1：</p><blockquote><p>输入：s = “10#11#12”<br>输出：”jkab”<br>解释：”j” -&gt; “10#” , “k” -&gt; “11#” , “a” -&gt; “1” , “b” -&gt; “2”.</p></blockquote><p>示例 2：</p><blockquote><p>输入：s = “1326#”<br>输出：”acz”</p></blockquote><p>示例 3：</p><blockquote><p>输入：s = “25#”<br>输出：”y”</p></blockquote><p>示例 4：</p><blockquote><p>输入：s = “12345678910#11#12#13#14#15#16#17#18#19#20#21#22#23#24#25#26#”<br>输出：”abcdefghijklmnopqrstuvwxyz”</p></blockquote><p>提示：</p><blockquote><p>1 &lt;= s.length &lt;= 1000<br>s[i] 只包含数字（’0’-‘9’）和 ‘#’ 字符。<br>s 是映射始终存在的有效字符串。</p></blockquote><p>来源：力扣（LeetCode）<br>链接：<a href="https://leetcode-cn.com/problems/decrypt-string-from-alphabet-to-integer-mapping" target="_blank" rel="noopener">https://leetcode-cn.com/problems/decrypt-string-from-alphabet-to-integer-mapping</a></p><h3 id="题解-Python"><a href="#题解-Python" class="headerlink" title="题解-Python"></a>题解-Python</h3><pre class="line-numbers language-python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>    <span class="token keyword">def</span> <span class="token function">freqAlphabets</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> s<span class="token punctuation">:</span> str<span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> str<span class="token punctuation">:</span>        alpha_dict <span class="token operator">=</span> <span class="token punctuation">{</span><span class="token string">'1'</span><span class="token punctuation">:</span><span class="token string">'a'</span><span class="token punctuation">,</span> <span class="token string">'2'</span><span class="token punctuation">:</span><span class="token string">'b'</span><span class="token punctuation">,</span> <span class="token string">'3'</span><span class="token punctuation">:</span><span class="token string">'c'</span><span class="token punctuation">,</span> <span class="token string">'4'</span><span class="token punctuation">:</span><span class="token string">'d'</span><span class="token punctuation">,</span> <span class="token string">'5'</span><span class="token punctuation">:</span><span class="token string">'e'</span><span class="token punctuation">,</span> <span class="token string">'6'</span><span class="token punctuation">:</span><span class="token string">'f'</span><span class="token punctuation">,</span> <span class="token string">'7'</span><span class="token punctuation">:</span><span class="token string">'g'</span><span class="token punctuation">,</span> <span class="token string">'8'</span><span class="token punctuation">:</span><span class="token string">'h'</span><span class="token punctuation">,</span> <span class="token string">'9'</span><span class="token punctuation">:</span><span class="token string">'i'</span><span class="token punctuation">,</span> <span class="token string">'10#'</span><span class="token punctuation">:</span><span class="token string">'j'</span><span class="token punctuation">,</span> <span class="token string">'11#'</span><span class="token punctuation">:</span><span class="token string">'k'</span><span class="token punctuation">,</span> <span class="token string">'12#'</span><span class="token punctuation">:</span><span class="token string">'l'</span><span class="token punctuation">,</span> <span class="token string">'13#'</span><span class="token punctuation">:</span><span class="token string">'m'</span><span class="token punctuation">,</span> <span class="token string">'14#'</span><span class="token punctuation">:</span><span class="token string">'n'</span><span class="token punctuation">,</span> <span class="token string">'15#'</span><span class="token punctuation">:</span><span class="token string">'o'</span><span class="token punctuation">,</span> <span class="token string">'16#'</span><span class="token punctuation">:</span><span class="token string">'p'</span><span class="token punctuation">,</span> <span class="token string">'17#'</span><span class="token punctuation">:</span><span class="token string">'q'</span><span class="token punctuation">,</span> <span class="token string">'18#'</span><span class="token punctuation">:</span><span class="token string">'r'</span><span class="token punctuation">,</span> <span class="token string">'19#'</span><span class="token punctuation">:</span><span class="token string">'s'</span><span class="token punctuation">,</span> <span class="token string">'20#'</span><span class="token punctuation">:</span><span class="token string">'t'</span><span class="token punctuation">,</span> <span class="token string">'21#'</span><span class="token punctuation">:</span><span class="token string">'u'</span><span class="token punctuation">,</span> <span class="token string">'22#'</span><span class="token punctuation">:</span><span class="token string">'v'</span><span class="token punctuation">,</span> <span class="token string">'23#'</span><span class="token punctuation">:</span><span class="token string">'w'</span><span class="token punctuation">,</span> <span class="token string">'24#'</span><span class="token punctuation">:</span><span class="token string">'x'</span><span class="token punctuation">,</span> <span class="token string">'25#'</span><span class="token punctuation">:</span><span class="token string">'y'</span><span class="token punctuation">,</span> <span class="token string">'26#'</span><span class="token punctuation">:</span><span class="token string">'z'</span><span class="token punctuation">}</span>        <span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token punctuation">[</span><span class="token string">'10#'</span><span class="token punctuation">,</span> <span class="token string">'11#'</span><span class="token punctuation">,</span> <span class="token string">'12#'</span><span class="token punctuation">,</span> <span class="token string">'13#'</span><span class="token punctuation">,</span> <span class="token string">'14#'</span><span class="token punctuation">,</span> <span class="token string">'15#'</span><span class="token punctuation">,</span> <span class="token string">'16#'</span><span class="token punctuation">,</span> <span class="token string">'17#'</span><span class="token punctuation">,</span> <span class="token string">'18#'</span><span class="token punctuation">,</span> <span class="token string">'19#'</span><span class="token punctuation">,</span> <span class="token string">'20#'</span><span class="token punctuation">,</span> <span class="token string">'21#'</span><span class="token punctuation">,</span><span class="token string">'22#'</span><span class="token punctuation">,</span> <span class="token string">'23#'</span><span class="token punctuation">,</span> <span class="token string">'24#'</span><span class="token punctuation">,</span> <span class="token string">'25#'</span><span class="token punctuation">,</span> <span class="token string">'26#'</span><span class="token punctuation">]</span><span class="token punctuation">:</span>            s<span class="token operator">=</span>s<span class="token punctuation">.</span>replace<span class="token punctuation">(</span>i<span class="token punctuation">,</span> alpha_dict<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span>        <span class="token keyword">for</span> i <span class="token keyword">in</span> range<span class="token punctuation">(</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">:</span>            s<span class="token operator">=</span>s<span class="token punctuation">.</span>replace<span class="token punctuation">(</span>str<span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">,</span> alpha_dict<span class="token punctuation">[</span>str<span class="token punctuation">(</span>i<span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">)</span>        <span class="token keyword">return</span> s<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程日记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> LeetCode </tag>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>和为零的N个唯一整数</title>
+      <link href="/2020/02/01/he-wei-ling-de-n-ge-wei-yi-zheng-shu/"/>
+      <url>/2020/02/01/he-wei-ling-de-n-ge-wei-yi-zheng-shu/</url>
+      
+        <content type="html"><![CDATA[<h3 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h3><p>给你一个整数 n，请你返回 任意 一个由 n 个 各不相同 的整数组成的数组，并且这 n 个数相加和为 0 。</p><p> 示例 1：</p><blockquote><p>输入：n = 5<br>输出：[-7,-1,1,3,4]<br>解释：这些数组也是正确的 [-5,-1,1,2,3]，[-3,-1,2,-2,4]。</p></blockquote><p>示例 2：</p><blockquote><p>输入：n = 3<br>输出：[-1,0,1]</p></blockquote><p>示例 3：</p><blockquote><p>输入：n = 1<br>输出：[0]</p></blockquote><p>提示：</p><blockquote><p>1 &lt;= n &lt;= 1000</p></blockquote><p>来源：力扣（LeetCode）<br>链接：<a href="https://leetcode-cn.com/problems/find-n-unique-integers-sum-up-to-zero" target="_blank" rel="noopener">https://leetcode-cn.com/problems/find-n-unique-integers-sum-up-to-zero</a></p><h3 id="题解-Python"><a href="#题解-Python" class="headerlink" title="题解-Python"></a>题解-Python</h3><p>输出n项不同的整数，和为零</p><p>构造等差数列$a_{n}$</p><p>前n项和为$S_{n} = n*a_{1} + n(n - 1)d/2 = 0$</p><p>取公差$d = 2$，则有$a_{1} =  1 - n$，通项 $a_{n} = a_{1} + (n - 1)d = n - 1$</p><pre class="line-numbers language-python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>    <span class="token keyword">def</span> <span class="token function">sumZero</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> n<span class="token punctuation">:</span> int<span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> List<span class="token punctuation">[</span>int<span class="token punctuation">]</span><span class="token punctuation">:</span>        <span class="token keyword">return</span> range<span class="token punctuation">(</span><span class="token number">1</span> <span class="token operator">-</span> n<span class="token punctuation">,</span> n<span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程日记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> LeetCode </tag>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>解压缩编码列表</title>
+      <link href="/2020/01/31/jie-ya-suo-bian-ma-lie-biao/"/>
+      <url>/2020/01/31/jie-ya-suo-bian-ma-lie-biao/</url>
+      
+        <content type="html"><![CDATA[<h3 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h3><p><img src="1313.bmp" alt="题目描述"></p><h3 id="题解-Python"><a href="#题解-Python" class="headerlink" title="题解-Python"></a>题解-Python</h3><ol><li>新建空表</li><li>成对读取“压缩编码列表”</li><li>循环写入</li><li>返回“解压缩编码列表”</li></ol><pre class="line-numbers language-python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>    <span class="token keyword">def</span> <span class="token function">decompressRLElist</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> nums<span class="token punctuation">:</span> List<span class="token punctuation">[</span>int<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> List<span class="token punctuation">[</span>int<span class="token punctuation">]</span><span class="token punctuation">:</span>        res <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>        <span class="token keyword">for</span> i <span class="token keyword">in</span> range<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span> len<span class="token punctuation">(</span>nums<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">:</span>            res<span class="token punctuation">.</span>extend<span class="token punctuation">(</span><span class="token punctuation">[</span>nums<span class="token punctuation">[</span>i<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token keyword">for</span> j <span class="token keyword">in</span> range<span class="token punctuation">(</span>nums<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">)</span>        <span class="token keyword">return</span> res<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程日记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> LeetCode </tag>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>猜数字</title>
+      <link href="/2020/01/31/leetcode-cai-shu-zi/"/>
+      <url>/2020/01/31/leetcode-cai-shu-zi/</url>
+      
+        <content type="html"><![CDATA[<h3 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h3><p><img src="lcp1.bmp" alt="题目描述"></p><h3 id="题解-Python"><a href="#题解-Python" class="headerlink" title="题解-Python"></a>题解-Python</h3><p>此题即求解——<strong>两个数组在相同索引处，值相等的次数</strong></p><p>易得：</p><pre class="line-numbers language-python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>    <span class="token keyword">def</span> <span class="token function">game</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> guess<span class="token punctuation">:</span> List<span class="token punctuation">[</span>int<span class="token punctuation">]</span><span class="token punctuation">,</span> answer<span class="token punctuation">:</span> List<span class="token punctuation">[</span>int<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> int<span class="token punctuation">:</span>        <span class="token keyword">return</span> int<span class="token punctuation">(</span>guess<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span> <span class="token operator">==</span> answer<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">+</span> int<span class="token punctuation">(</span>guess<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">==</span> answer<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">+</span> int<span class="token punctuation">(</span>guess<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span> <span class="token operator">==</span> answer<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><p>归纳得：</p><pre class="line-numbers language-python"><code class="language-python"><span class="token keyword">class</span> <span class="token class-name">Solution</span><span class="token punctuation">:</span>    <span class="token keyword">def</span> <span class="token function">game</span><span class="token punctuation">(</span>self<span class="token punctuation">,</span> guess<span class="token punctuation">:</span> List<span class="token punctuation">[</span>int<span class="token punctuation">]</span><span class="token punctuation">,</span> answer<span class="token punctuation">:</span> List<span class="token punctuation">[</span>int<span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token operator">-</span><span class="token operator">></span> int<span class="token punctuation">:</span>        <span class="token keyword">return</span> <span class="token punctuation">[</span>guess<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token operator">-</span> answer<span class="token punctuation">[</span>i<span class="token punctuation">]</span> <span class="token keyword">for</span> i <span class="token keyword">in</span> range<span class="token punctuation">(</span>len<span class="token punctuation">(</span>guess<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">]</span><span class="token punctuation">.</span>count<span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程日记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> LeetCode </tag>
+            
+            <tag> 算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>随机人生</title>
+      <link href="/2020/01/22/sui-ji-ren-sheng/"/>
+      <url>/2020/01/22/sui-ji-ren-sheng/</url>
+      
+        <content type="html"><![CDATA[<p>老虎伍兹改变击球姿势，不就是改变自己应对外界不确定性的习惯吗，通过对外界的高频率反应，像蚁群一样在地上反复移动，留下含信息素最多的路径（最短），即得到了最佳的方法。</p><p>追悔过去有用吗？难道你回到过去，就能改变命运？把人生当做马尔科夫过程的话，过去的事件和状态不能改变现在和未来的状态，未来的状态只取决于现在。这是一种把握现在，勿沉湎于过去的的智慧。</p><p>注意自己在脑海里的想法，有些很危险，不要用这样的想法，参与到习惯、性格、命运的定轨。</p><p>很多老赌徒会认为，连续出现了这么多次正面，总该出现一次反面了吧，于是押了反面，这就是典型的“赌徒谬误”。同时，新赌徒会认为，连续押对了这么多次正面，说明自己押正面的手气很旺，所以押了正面。但是大数定律告诉我们，掷硬币这一事件是没有记忆的，上一次的结果与这次无关，出现正面或反面的概率都是50%。</p><p>但是有点奇怪，每个结果出现的概率是不变的，当出现多次正面时，不应该要回归平均值了吗？我认为回归均值，大数定律是一种稀释作用，大数来稀释小数的影响。</p><p>短期来看，生活充满了偶然，长期来看，生活会呈现出必然。</p><p>做一期《匆匆那年》的视频，从同学们那把照片和视频素材收集起来。</p><p>什么是努力，就是减弱或消除目标的不确定性。</p><p>人们总是很相信那些成绩很好的投资者，却不怎么相信那些成绩差的投资者。</p><p>高手为什么这么厉害？因为他们能快速抓住重点的候选，然后计算各自的结果，选出最优的一手。先用直觉框定几个方案，然后分别计算胜率，择优使用。</p><p>灰度认知，不急于做非黑即白的判断，而是保留一个大概的评估数值。<br>黑白决策，在做决定时，必须有明确的结果，不能模棱两可。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所思所想 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 碎碎念 </tag>
+            
+            <tag> 随机过程 </tag>
+            
+            <tag> 偶然与必然 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>进军up主</title>
+      <link href="/2020/01/21/jin-jun-up-zhu/"/>
+      <url>/2020/01/21/jin-jun-up-zhu/</url>
+      
+        <content type="html"><![CDATA[<h3 id="对B站up主的分析"><a href="#对B站up主的分析" class="headerlink" title="对B站up主的分析"></a>对B站up主的分析</h3><p>不只是做B站up主，其实做公众号、做博客本质上也都是互联网产品运营，需要个人对产品的敏感、深刻和迅速。</p><p>有才艺型的up主，比如shondaX，学习吉他，在投稿中自弹自唱，展示才艺，我亲眼见证她从去年3月发布第一个视频，到今年的百大up主领奖；有鬼畜，在剪辑视频有一定的基础；有搞笑视频搬运，粉丝量都很少，基本在2万以下，而且在5千规模附近的居多，其中有些视频很古怪，播放量有几万、几十万，但是粉丝数只有几百、几千，这样的号大概是因为视频的封面和标题比较吸引人，但又没有足够的价值和积累留存粉丝。还有分享个人经验和建议的，比如z叔、stormzhang、但是他们也有自己的主题，比如z叔是卖鞋的，老刘头、宝剑嫂、潘安同学是分享美妆方面的（这个领域的大号很多），他们的稿件不全是分享经验的，虽然这样的视频播放量确实很高，在百万级别。而且一般在视频中露脸或说话的up主，粉丝量都不低，至少能发展到十万以上。</p><p>而且stormzhang说，B站发展很快，很可能是继公众号之后最好的内容分享平台，所以我想尽力抓住这次机会，做成自己的IP，手风琴自弹自唱的话，我认为应该也不错，</p><p>粉丝量规模大的号，模仿意义不大，像巫师财经等，一般是工作室或团队做成的，而且专业知识需求更高。</p><p>饭点（12:00到13:00）时候，视频的播放量会增长得很快。</p><p>我的行动：</p><ul><li>我可以尝试将自己的文章搬运到B站专栏。</li><li>我可以尝试提高手风琴才艺，做音乐视频</li><li>我可以用PPT展示自己的收获，做成类似微课的视频</li></ul><p>当然首先得<strong>整理和思考B站的创作“政策”</strong>。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所思所想 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 产品 </tag>
+            
+            <tag> 运营 </tag>
+            
+            <tag> up主 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>碎碎念</title>
+      <link href="/2020/01/19/sui-sui-nian/"/>
+      <url>/2020/01/19/sui-sui-nian/</url>
+      
+        <content type="html"><![CDATA[<p>买了forest，这是我第一次购买iOS上的APP，其实在爱思助手上用了很久，已经解锁了几乎所有的树种。这次购买是我送给自己的一个礼物和对自己在时间管理方面的鞭策。</p><p><img src="forest_receipt.jpg" alt></p><p>我发现每个人其实都<strong>被</strong>拥有着多种身份，只要在社会中，就必须拥有各身份所需要的各种能力，比如，在与伴侣相处时，需要掌握亲密关系的维系和增温；在日常工作时，需要掌握行业需要的专业知识和技能；在发展兴趣时，需要掌握心怡的玩法……这些能力或知识都需要时间来积累和练习，是很大的工程。也许有的人说自己只想做好一两件事，而我也理解吴军老师在著书《见识》中说的“少做事，就是提高了效率。人生要做减法”。但我就是想，就想全都要。我还想要学做视频，当一个up主，还想要练习写作，当一个公众号主……</p><p>有些知识其实学个皮毛挺好的，比如恋爱学、亲密关系等，我只想学其中的“术”，而不太愿意学习其中的“道”，因为这些方面的书籍或课程，方法好用，但是有些思想挺邪门的。</p><p>复利效应，在我看来，就是习惯的力量，坚持做任何事情，都有对应的效益，但是只有坚持做正确的事情，才会产生复利。</p><p>照搬前人的经验，一定能对现在的问题或场景起到应有的效果吗？不一定，前人的经验对于它适配的环境或者抽象成一系列数据来说，是<strong>过拟合</strong>的状态，但是对于现在的环境、现在的数据，就不一定产生应有的效果，所以面对具体问题，一定要对方法要做相应的改进，切忌套用。</p><p>亚马孙创始人说，亚马孙喜欢做在5到7年才有回报的事情，在延迟时间期限后，就会不拘泥于细节，专注公司的愿景。我认为这就是一种发现延时回报的方法，可以思考未来十年内用户有哪些不变的需求，以此确定公司的愿景：建立什么样的服务，解决什么样的需求。</p><p>为自己做的每一件事情找理由，为它构建意义。</p><p>涌现和蚁群算法，对于个人的意义是否就是有效地重复？</p><p>思考人生的资产负债表，什么可以产生随时间推移而带来价值或增加价值，这就是资产。什么可以随时间推移消耗或减少价值，这就是负债。好的人生，应该是寻找二者的平衡。</p><p>我玩英雄联盟这款游戏已经六年左右了，从初三一直到大三，其实有些上瘾，甚至高考前一个月的晚上还熬过夜打游戏。但是截止2020年1月19日，我已经有三个月没碰英雄联盟了，一方面因为自己想要<strong>保研到深研院</strong>，每晚十一点之前不回宿舍，没时间玩；另一方面因为自己确实想要做些有意义的事情，<strong>做个“利他”的人</strong>。来这世上不容易，我想为社会，为后人有点正向的影响。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所思所想 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 碎碎念 </tag>
+            
+            <tag> 思考 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>给学弟学妹的建议</title>
+      <link href="/2020/01/16/gei-zhun-da-xue-sheng-de-jian-yi/"/>
+      <url>/2020/01/16/gei-zhun-da-xue-sheng-de-jian-yi/</url>
+      
+        <content type="html"><![CDATA[<h3 id="道——成长才是硬道理"><a href="#道——成长才是硬道理" class="headerlink" title="道——成长才是硬道理"></a>道——成长才是硬道理</h3><blockquote><p>成绩是假的，竞争是假的</p><p>只有人的成长，是真的。</p></blockquote><p>对于正在上大学，或即将进入大学的少年，我想说的是，不管外部环境如何，请千万不要浪费自己的青春，不要做时间换文凭的傻事，早点开窍吧，自己的成长和进步终归是要靠自己，自己的人生也是自己走。大学期间能做的事情很多，</p><ul><li>多接触社会（社会实践、找兼职、实习）；</li><li>多丰富自己的阅历和学识（多读书、多接触牛人、多旅行）；</li><li>多动手实践（参加竞赛或科研项目、自己做个产品出来）；</li><li>多尝试（只要不违法，脸皮厚些，别怕失败）</li></ul><p>而且面对优秀的人犯不着自卑。大家玩游戏时，大都喜欢容易拿五杀、容易秀的英雄，其实我们每个人就像这游戏里的英雄，有各自的玩法和乐趣，最好不要在与别人的攀比中使自己的天赋蒙尘。</p><p>能力有多种，才华也有多种，写在纸上的那种，只占了一小部分而已……</p><h3 id="术——构建体系很重要"><a href="#术——构建体系很重要" class="headerlink" title="术——构建体系很重要"></a>术——构建体系很重要</h3><p>知识体系很重要。</p><p>无论是名著专栏、视频课程、读书笔记，还是别的知识产品，都有自己的逻辑。只有将它们的逻辑和知识整合到自己的知识体系中，才算是真正掌握或者部分掌握了它们。</p><p>比如，我希望自己未来成为一个AI领域的工程师，那么我对自己规划的学习路线就是：Python基础课——科学计算和可视化的相关库函数——深度学习课——Pytorch——大量论文。有了一个明确的学习路线，就知道自己处在哪个状态，哪处的知识体系需要扩充新知识或回头巩固。否则，学学Python、学学人工智能，都是蜻蜓点水，浮皮潦草，学无所成。</p><p>同时，对于任何自己渴望或应该学习的知识，最好以专业的标准来衡量学习效果。对于无用或不感兴趣的知识，目的性和专业性可以不那么强，但是，只要用专业要求规范行为、有明确的使命感和目标，学习效率一定比随便看看、没什么追求和渴望的人高几十倍。比如，学习摄影，每个人都想拍出优美的照片，用心的人，对比大师的设备、经验和作品，几周内摄影水平就可以达到较高的水平，拍出相对专业的摄影作品，而随便拍拍的人，一年过去了，可能还搞不会取景。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所思所想 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 成长 </tag>
+            
+            <tag> 大学 </tag>
+            
+            <tag> 建议 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>信息不对称</title>
+      <link href="/2020/01/11/xin-xi-bu-dui-cheng/"/>
+      <url>/2020/01/11/xin-xi-bu-dui-cheng/</url>
+      
+        <content type="html"><![CDATA[<p>今天我们遇到的所有问题，都可以用一句话概括：信息不对称。如果你知道了行业信息，就不会迷茫，如果你知道了市场信息，你的产品会卖爆。</p><p>如何消除信息不对称？其实你消不了，这是二八定律。你能做的，就是多和不同的人交流沟通，取长补短，在可控范围内多去尝试，扩展视野。这么做的目的不是为了让自己爬得更高，而是为了别让自己跌的很惨。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所思所想 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 思考 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>忌小富即安</title>
+      <link href="/2020/01/07/ji-xiao-fu-ji-an/"/>
+      <url>/2020/01/07/ji-xiao-fu-ji-an/</url>
+      
+        <content type="html"><![CDATA[<p>有钱赚的时候，要集中所有的资源和精力，All in，不要小富即安。过几年你会拍大腿，那么好的捡钱的机会，为什么错过了。</p><p>居安思危才能活得足够长久，富一次的人很多，富一辈子的人很少。</p><h2 id="价值"><a href="#价值" class="headerlink" title="价值"></a>价值</h2><p>引流也好，裂变也罢，核心仍然是提供价值。</p><p>总会有认同价值的，也总会有怀疑价值的，我们不能因为50%的怀疑价值的人，而放弃为剩下的50%的人提供价值的机会。</p><p>引流、裂变、发售、势能都是术而已，掌握术容易，术也能带来更快的收益，但不变的是道：核心价值。</p><h2 id="敏锐"><a href="#敏锐" class="headerlink" title="敏锐"></a>敏锐</h2><p>做任何事情都要不断探寻背后最朴素的本质是什么。</p><p>一家服装店老板对进店顾客说，买衣服打8折，几乎没有顾客心动，后来老板换了说辞，顾客进门不管有没有消费，直接送1000元会员卡，这个主张没有会员会拒绝，很多人奇怪这个怎么赚钱呢？</p><p>会员卡每次消费能抵扣20%现金，相当于打8折，但对客户来说相当于1000元现金，没人会把1000元现金扔了。同样打8折，背后本质没变，但是从营销效果上却发生了很大变化。</p><h2 id="信息"><a href="#信息" class="headerlink" title="信息"></a>信息</h2><p>一手信息特别重要，想要获取信息，最好是让自己成为信息源，即可以提供价值。</p><p>当然一般来说，特别有价值的信息，很少会在公开场合说，更常见的是线下或者是极小的圈子大家相互说。那我们为什么还要参加大圈子的讨论，核心其实是找到你”情投意合“的人，私底下再去深度交流。</p><h2 id="IP"><a href="#IP" class="headerlink" title="IP"></a>IP</h2><p>为什么抖音上那么多奇人异事，装疯卖傻？其实这就是人设，你以为别人傻，但你去看看人家的粉丝量，人家可能一场直播或者一次带货就够你奋斗半年的了。</p><p>所以，当你产生疑问，不理解别人的时候，多想想这群人玩的是什么。</p><p>一个IP形象一定是要有特点的，他可能是口头禅、可能是某个动作，但是就这一个行为就能让读者或观众记住你，那就够了。</p><h2 id="吸引"><a href="#吸引" class="headerlink" title="吸引"></a>吸引</h2><p>他们为什么要加我？</p><p>用黑科技大佬的一句话来说，我们看上去的业务虽然完全不相关，但是人是有力量的，有磁场的。</p><p>来到这的人，都是爱钱的人，也是一直追求更好东西的人，没有人会拒绝一个一直在行动，在认真分享，认真交朋友的人。只要认真分享你的思考，你的数据，你的业务，能帮到人，能给人思考，就会有朋友愿意加你，他日定能帮你一把。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所思所想 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 碎碎念 </tag>
+            
+            <tag> 赚钱 </tag>
+            
+            <tag> 机会 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>盲从就会败北</title>
+      <link href="/2019/11/21/mang-cong-jiu-hui-bai-bei/"/>
+      <url>/2019/11/21/mang-cong-jiu-hui-bai-bei/</url>
+      
+        <content type="html"><![CDATA[<p>他们不管自己的优势在哪里，自己的积累是否与金融、互联网匹配，执着地认为那种高大上的生活才是正确的努力方向。</p><p>模仿意味着在人家车后面跑，而弯道超车意味着你独辟蹊径，在新的跑道上将所有人甩开。</p><p>读研对我的意义：</p><ol><li>深造；大学里学到的知识是很浅的，我想在研究生阶段给自己的见识和知识凿一口深井</li><li>广触；我喜欢折腾，兴趣也很多，本科还留着很多遗憾，主持、跳舞、演讲……我想延续自己的学生时间，珍惜这段时光，多尝试</li></ol><p>若完成从羸弱书生到正邪交织的【悍匪儒商】一体，就是我的成功。我认为，无论男女，最厉害的人，都是既能左右逢源毫无清高之气，又有着扎实学院训练，还能忍受委屈的。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所思所想 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 盲从 </tag>
+            
+            <tag> 选择 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>构建自己的影响力和资源池</title>
+      <link href="/2019/11/19/gou-jian-zi-ji-de-ying-xiang-li-he-zi-yuan-chi/"/>
+      <url>/2019/11/19/gou-jian-zi-ji-de-ying-xiang-li-he-zi-yuan-chi/</url>
+      
+        <content type="html"><![CDATA[<p>如果准备成为一个创业者，或管理者，就需要提前准备，在平时就要开始构建自己的影响力和资源池。</p><p>如何构建自己的影响力？我认为主要有以下两个途径：</p><h5 id="1、多输出、多分享"><a href="#1、多输出、多分享" class="headerlink" title="1、多输出、多分享"></a>1、多输出、多分享</h5><p>你在学校里，公司里，谁都知道你是一个牛人，但是你从来不出去分享、没有输出，那么你的影响力仅限于学校、公司，是不会变大的，除非这个学校、公司极具影响力。对于个人来说找工作是没有问题，但没有影响力就意味着你失去了构建资源池的机会。</p><h5 id="2、帮助别人"><a href="#2、帮助别人" class="headerlink" title="2、帮助别人"></a>2、帮助别人</h5><p>在自己的能力范围内，去帮助那些值得帮助的人，从身边开始影响他人，未来会有回报的。</p><p>这也是我写博客的重要原因，用自己的文字，尽可能去帮助别人。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所思所想 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 资源 </tag>
+            
+            <tag> 影响力 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>吃苦</title>
+      <link href="/2019/11/15/chi-ku/"/>
+      <url>/2019/11/15/chi-ku/</url>
+      
+        <content type="html"><![CDATA[<p>大多数人对吃苦的含义理解的太肤浅了，穷根本不是吃苦，穷就是穷，不是吃苦。</p><p>吃苦不是受穷的能力，吃苦的本质是长时间为了一件事聚焦的能力，以及在为了做一件事长时间聚焦的过程中，所放弃的娱乐生活，所放弃的无效社交，所放弃的无意义的消费生活，以及在设个过程中所忍受的不被理解和孤独，本质是一种自控能力和自制能力，以及坚持能力和思考深度。</p><p>从很大程度上来说，靠自己成功的富人，往往比穷人能吃苦，否则他就不可能靠自己白手起家。</p><p>你会发现他富了之后做事情还是比你勤奋，还是比你能忍受孤独，还是比你更有理想。</p><p>这才是吃苦。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所思所想 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 吃苦 </tag>
+            
+            <tag> 努力 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>交通事故检测</title>
+      <link href="/2019/11/14/lun-wen-du-hou-gan/"/>
+      <url>/2019/11/14/lun-wen-du-hou-gan/</url>
+      
+        <content type="html"><![CDATA[<h3 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h3><p>Unsupervised Traffic Accident Detection in First-Person Videos</p><h3 id="行文思路"><a href="#行文思路" class="headerlink" title="行文思路"></a>行文思路</h3><p>识别驾驶场景中的交通违规、事故等异常事件是自动驾驶或驾驶员辅助系统的关键。然而目前大多数异常检测的工作都存在两个重大缺陷：其一，他们要求摄像头是固定的，不适用于车载相机；其二，他们使用监督学习，模型依赖于人工标记的数据集，识别范围而限制在已明确训练过的异常类别。该论文提出了一种用于第一人称视频中交通事故检测的无监督方法，通过预测交通参与者的未来位置来检测异常，然后用三种不同的策略来监控预测的准确性和一致性。</p><h3 id="优越性"><a href="#优越性" class="headerlink" title="优越性"></a>优越性</h3><p>利用过去的视频帧来预测当前的视频帧，将其与当前的实际视频帧比较，寻找差异。其缺点在于</p><ul><li>不适用于车辆上的移动相机，因为车载相机感知到的光运动是由移动物体运动和相机自身运动共同合成的，难以精确预测整个画面。</li><li>数据集难以获取，因为事故视频相对正常视频很少，而且由于驾驶的遭遇情况服从长尾分布，一些异常运动极少发生，以至于不可能为它们收集训练数据，如动物跑到道路上，汽车逆行等。</li><li>信息利用率不高，因为异常检测不需要准确预测帧内的所有信息，房屋、路边广告牌等周边物体的信息对解决问题无帮助。</li><li>建模成本太大，因为将异常检测视为分类问题后，需要对所有可能的驾驶场景进行建模。</li></ul><p>于是本文假设了<strong>如果物体的真实轨迹偏离预测轨迹，则存在异常</strong>。比如，一辆车应该通过十字路口，但是突然停下来，则可能发生碰撞。</p><p>这样，训练模型只需要把正常的、无异常运动的驾驶视频作为数据集，学习自我运动和其他汽车的正常模式，然后识别偏差，而不需要利用所有异常运动的例子。所以，数据集非常容易获取，而且不需要人工标记。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 论文研读 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 自动驾驶 </tag>
+            
+            <tag> 事故检测 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2019总结</title>
+      <link href="/2019/11/05/2019-zong-jie/"/>
+      <url>/2019/11/05/2019-zong-jie/</url>
+      
+        <content type="html"><![CDATA[<h3 id="传科学家精神，做“三有”西电人"><a href="#传科学家精神，做“三有”西电人" class="headerlink" title="传科学家精神，做“三有”西电人"></a>传科学家精神，做“三有”西电人</h3><h4 id="洋东盼有鸿鹄继，不负君开取舍先"><a href="#洋东盼有鸿鹄继，不负君开取舍先" class="headerlink" title="洋东盼有鸿鹄继，不负君开取舍先"></a>洋东盼有鸿鹄继，不负君开取舍先</h4><p>一直以来，亲人和老师都教导我要做一个具有感恩意识的人，因为只有这样，才能真正树立我正确的价值观和责任感。而我一直也认为现今的幸福生活离不开先辈们的奋斗与拼搏，我要时刻对老一辈开拓者心怀感恩。</p><p>在求学期间，我逐渐的认识到每个时期都有不同的人为我们的国家无私奉献着。特别近现代为我国国防科技建设以及教育事业做出卓越贡献的伟大科学家们。因此我在大学期间阅读过很多介绍科学家简史的资料，了解了其中多位科学家的生平事迹，越发的被他们对于科研工作坚持不懈的精神、艰苦奋斗的工作作风以及家国天下的情怀深深折服。而我一直心怀敬佩之情的人就是钱老，从仿制1059导弹到长征系列火箭飞天等一系列成就，不得不提研究院的第一任院长钱学森。钱老被称为“中国火箭之父”，毕业于上海交通大学铁道专业，后留美进入麻省理工学院航空系，转至加州理工学院师从航天奇才冯卡门教授研究火箭发动机，并创造性提出卡门-钱学森公式，一步步成为“美国处于领导地位的第一流火箭专家”价值“五个师”。但当钱老得知新中国成立的时候，他却义无反顾放弃在美国的一切，早日回到祖国去，为建设新中国贡献自己的全部力量！还呼吁海外同胞“祖国已经解放了，国家急需建设人才，我们要赶快把学到的知识用到祖国的建设中去”。历经美国五年的阻挠方回国并入党，迅速组织建院担任首任院长牵头研制火箭事业。</p><h4 id="读万卷书，行万里路"><a href="#读万卷书，行万里路" class="headerlink" title="读万卷书，行万里路"></a>读万卷书，行万里路</h4><p>钱老教会了我在任何时候都要以国家和人民的利益为重，要多做对社会发展有贡献的事，同时还要不畏艰辛，迎难而上，我深知自己必须要向科学家们看齐，在自己的科研道路上不断的探索与攀登，才能最终成长为社会和国家所需要的优秀人才，因此我在大学期间一直期望秉承科学家精神，在学业上更加刻苦努力，大二学年综合成绩排名3/64，获得国家励志奖学金和校级奖学金，并在两年的学习中逐渐培养了自己的刻苦钻研能力，力求对知识的刨根问底，养成了良好的学术素养。对待问题能够从多角度分析，提出自己独有的见解，为日后从事科研工作奠定基础。</p><p>为了加强我的动手能力，将来像科学家一样去建设祖国，我在大学期间不断寻找自己适合与擅长的方向，参加了许多比赛，均取得一定成绩，获得奖励如下：</p><ul><li><p>国家励志奖学金（2019.10）</p></li><li><p>校级优秀学生（2019.10）</p></li><li><p>校二等奖学金（2018.10）</p></li><li><p>Kaggle竞赛-House Prices: Advanced Regression Techniques全国前14%（2019.10）</p></li><li><p>数学建模竞赛国赛省一等奖（2019.9） </p></li><li><p>数学建模竞赛校赛校二等奖（2019.6）</p></li><li><p>智能互联大赛入围华西决赛（2018.7）</p></li><li><p>曜芯杯焊接大赛优秀奖（2018.5）</p></li><li><p>星火杯院一等奖（2017.12）</p></li></ul><p>在学业之余，为了结识更多优秀的人、服务同学、老师和社会，我也做了一些学生工作：</p><ul><li>校科协秘书部干事（策划换届大会等）</li><li>通院科协技术部干事（组织焊接、C语言培训）</li><li>学院核心组干事（组卷出题高数试卷）</li><li>优亚俱乐部技术部副部长（开展大学规划讲座，技术培训等）</li><li>实验中心联络员</li><li>大学生心理健康教育助教</li><li>中国社会史协同教师</li><li>IEEE ICCT 2019志愿者</li><li>“圆梦微心愿”牵手蒲城孙镇初中志愿者</li><li>马克思主义基本原理演讲主持人</li><li>中国近现代史纲要演讲主持人</li><li>1701015班临时班长、生活委员、宿舍长、信息员</li><li>毛概课代表、电磁场课代表、复变课代表、概率论课代表</li></ul><p>同时，为了让自己在前进途中比别人多几分耐力，我仍然坚持健身、踢足球等，在相关比赛中也做出了一些成绩：</p><ul><li>“通院杯”足球赛季军（2019.6）</li><li>西电校运动会足球颠球第三名（2018.7）</li><li>深信服荧光夜跑第七名（2018.6）</li></ul><h4 id="志存高远，不尚浮华"><a href="#志存高远，不尚浮华" class="headerlink" title="志存高远，不尚浮华"></a>志存高远，不尚浮华</h4><p>在做科研的时候，我时常想起华罗庚先生在1978年的中国数学会成都会议上，针对“文化大革命”刚结束时，有些部门急于求成，出现一些频繁地要求报成绩、评奖金等不符合科学规律的做法和在学术上，有些人粗制滥造，争名夺利，任意吹嘘，导致了学风败坏的现象，语重心长地提出：“早发表，晚评价”。后来又进一步提出“努力在我，评价在人”。华老的一生正是“志存高远，不尚浮华”的真实写照。在今年的全国大学生数学建模竞赛中我也印证了这一点的重要性。我和我的队友们是以一个很平和的心态面对这一竞赛的，我们想的并不是得奖之后保研可以加分，可以赚奖学金。而是我们都对数学建模很感兴趣，认为通过数学理论可以去解决现实中很复杂的实际问题是件很让人激动的事情。我们没有按照最适合应对竞赛的方法去训练，而是凭着自己的好奇心去自己探索和琢磨。最终我们获得了国赛省一等奖，虽然结果没有那么出彩，但是这一结果让我有更大的动力去坚守自己的本心，不报功利心地去做自己真正喜爱的事情。</p><p>大二上学期时，出于对自己方向的探索和对科研的好奇，我加入了人工智能学院梁雪峰教授的项目组，参与了刘练师姐和石惠文师兄的毕业设计——“基于光流的运动异常目标检测”和“复杂场景中运动目标分类分割”。刚接触科研，对一切都懵懵懂懂，但是我很快发现绞尽脑汁一步一步解决其中的困惑给我带来的成就感和欣喜让我痴迷。春去秋来，送走毕业的师兄师姐，项目组也多了不少新的面孔，如今我也可以带领学弟学妹探索科研项目，但是我更想告诉他们“只为考试更高分而死学的学生不可能有所成就，只为发表更多论文去评职称的老师不可能在学术上有所突破。当跟随自己内心，以一种平和的心态不断努力时，成功就会像无心插柳柳成荫一样到来”。</p><h4 id="心怀感恩，砥砺前行"><a href="#心怀感恩，砥砺前行" class="headerlink" title="心怀感恩，砥砺前行"></a>心怀感恩，砥砺前行</h4><p> “少年智则国智，少年富则国富；少年强则国强，少年独立则国独立”。西安电子科技大学苗红根正，办学也伴随着革命的历史，“半部电台起家，长征路上办学”培养了一批批优秀的业界权威。钱老放弃美国名利毅然回到一穷二白的祖国来发展祖国最急需的国防事业，可见其爱国之浓烈！华老志存高远，不尚浮华，可见其科研之淳朴！而我作为一名光荣的西电人，思想上进，积极入党，坚决拥护党的领导，不被金钱和势力左右，不断深造学习尖端技术，毕业后到“祖国最需要的地方”挥洒青春，真正传承钱老身上浓烈的爱国情怀和敢为人先的创新意识，传承华老踏踏实实做科研的耐心和求真知的钻研精神，做有理想有追求有担当的“三有”西电人，为科研事业尽自己的一份力。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 复盘总结 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 做人 </tag>
+            
+            <tag> 做事 </tag>
+            
+            <tag> 做学问 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>pip批量升级过期Python库</title>
+      <link href="/2019/10/31/pip-pi-liang-sheng-ji-guo-qi-ku/"/>
+      <url>/2019/10/31/pip-pi-liang-sheng-ji-guo-qi-ku/</url>
+      
+        <content type="html"><![CDATA[<p>今天看了下系统环境，不少Python库都有了新版本，就想把所有库都更新到最新版本。</p><p>然而，pip 每次只能更新一个库，像这样</p><pre class="line-numbers language-c"><code class="language-c">pip install <span class="token operator">--</span>upgrade <span class="token operator">&lt;</span>here is the outdated_bag<span class="token operator">></span>pip install <span class="token operator">-</span>U <span class="token operator">&lt;</span>here is the outdated_bag<span class="token operator">></span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>为此，我在网上找到了两种批量更新的有效方法。</p><h4 id="pip循环更新"><a href="#pip循环更新" class="headerlink" title="pip循环更新"></a>pip循环更新</h4><p>用循环逐个升级，以达到批量升级过期库的目的。</p><pre class="line-numbers language-python"><code class="language-python"><span class="token keyword">import</span> pip<span class="token keyword">from</span> sbuprocess <span class="token keyword">import</span> call<span class="token keyword">from</span> pip<span class="token punctuation">.</span>internal<span class="token punctuation">.</span>utils<span class="token punctuation">.</span>msic <span class="token keyword">import</span> get_installed_distributions<span class="token keyword">for</span> dist <span class="token keyword">in</span> get_installed_distributions<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>    call<span class="token punctuation">(</span><span class="token string">"pip install --upgrade "</span> <span class="token operator">+</span> dist<span class="token punctuation">.</span>project_name<span class="token punctuation">,</span> shell<span class="token operator">=</span><span class="token boolean">True</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>键入上述代码时，要注意 upgrade 后面有一个空格。</p><h4 id="pip-review插件更新"><a href="#pip-review插件更新" class="headerlink" title="pip-review插件更新"></a>pip-review插件更新</h4><p>另外，也可以用插件 pip-review 来批量更新过期的库</p><pre class="line-numbers language-cmd"><code class="language-cmd">pip install pip-reviewpip-review --local --interactive<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h4 id="pip需要升级"><a href="#pip需要升级" class="headerlink" title="pip需要升级"></a>pip需要升级</h4><p>有时会提示你pip版本过低，此时，你可以键入以下命令更新pip，这是我更为推荐的做法，尤其是在使用清华镜像后，更新速度明显快于conda更新的命令。</p><pre class="line-numbers language-python"><code class="language-python">python <span class="token operator">-</span>m pip install <span class="token operator">-</span><span class="token operator">-</span>upgrade pip<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>或用 Anaconda 命令</p><pre><code>conda install mingw libpython</code></pre><h4 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h4><p><a href="https://blog.csdn.net/yuzhucu/article/details/80287307" target="_blank" rel="noopener">pip 一键升级所有过期库</a></p><p><a href="https://www.cnblogs.com/luckjun/p/4958338.html" target="_blank" rel="noopener">pip –upgrade批量更新过期的python库</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 问题整理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> pip </tag>
+            
+            <tag> upgrade </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我也是一个Kaggler啦</title>
+      <link href="/2019/10/28/wo-ye-shi-yi-ge-kaggler-la/"/>
+      <url>/2019/10/28/wo-ye-shi-yi-ge-kaggler-la/</url>
+      
+        <content type="html"><![CDATA[<h4 id="小确幸"><a href="#小确幸" class="headerlink" title="小确幸"></a>小确幸</h4><p>看着自己的排名从59%到14%的感觉真的太棒了！</p><p>在这次的submission中，我参考了TOP0.3%的一个小姐姐的Kernel，耗费六个小时半的时间，终于跑通了代码，功夫不负有心人~</p><p><img src="competition.png" alt="competition"></p><h4 id="今日思考"><a href="#今日思考" class="headerlink" title="今日思考"></a>今日思考</h4><p>今日贴膜，发现自己好不专业，贴完的膜有十数个小气泡，我总结自己的失败经验，首先下次贴膜时，动作一定要迅速，这次失败的原因就是粘灰尘的时候磨叽，可真应了人生导师青钢影的那句话“犹豫就会败北”，另外，下次遇到这种自己不熟悉的事情，可以直接去手机店花个十块钱让维修师傅贴好，省时省力，效果还好。</p><p>我发现自己今天学习没有计划，一上手编程，就忘了休息，不离开座位了，其实这样的学习状态并不好，下次学习时应该利用番茄钟类APP，每学30分钟，休息5分钟，循环四次后休息20分钟。科学证明这样的时间安排比起一坐就是两小时对学习也更高效。</p><p>下午去健身房，没有热身和拉伸就直接锻炼，中途发现自己的左肩关节痛，理论上应该立即停下来的，但是我贪练没有停。下次遇到这种情况一定要停下来，一旦受伤可能得休息几个周，千万不能因小失大了。当然，下次健身的时候，要记得热身！</p><p>今天看到个关于揭穿朋友的帖子，我觉得说别人坏话的人，即使说的百分百都是事实，听者也会觉得讲述者的人品很差。这似乎是个规律。所以我一般也不在背后说别人坏话，即使有些人真的很差劲。毕竟，“揭穿”这次词语的情绪色彩太浓了。</p><h4 id="小信念"><a href="#小信念" class="headerlink" title="小信念"></a>小信念</h4><blockquote><p>影响你通往幸福的，并不是“穷”，而是“相信”。</p><p>保护自己的气场，不要让“不相信美好的怨念”上身。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所思所想 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Kaggle </tag>
+            
+            <tag> 日记 </tag>
+            
+            <tag> 小确幸 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>对依赖性的思考</title>
+      <link href="/2019/10/27/dui-yi-lai-xing-de-si-kao/"/>
+      <url>/2019/10/27/dui-yi-lai-xing-de-si-kao/</url>
+      
+        <content type="html"><![CDATA[<p>今天在知乎看到一个导师最讨厌什么学生的帖子，给我印象最深的地方是，他的一个研究生直接拿着程序的bug图问他：程序没问题，这是为什么出错呢？既没有给代码，语言也不客气。因为这个学生是调剂过来的，所以平时就眼高于顶，对导师的项目不屑一顾。最后这个导师说，希望自己以后招到的研究生都是普通人。</p><p>这还蛮令我惊讶的，毕竟我平时遇到的师兄师姐都很踏实上进，尤其我一个直系学长，考研上岸，跟我在同一个导师的项目组内，虽然不是保研的，英语也稍差，但是对日常学习、和每一个任务都很认真，我身边的师兄师姐们也都是这样，很珍惜现在的学业和机会，而且从组会的提出的解决方案上也能看出来进步确实很大！</p><p>其实做一个普通人没什么不好的，踏踏实实，就算能力差点，但是很稳健，不挑挑拣拣，不自以为是。这就很好啊，我觉得，就像吴军博士说的，上帝偏爱笨人，确实是这样，成功的人很少有智商过160的。</p><p>对我的启示是，<strong>就当自己是个普通人，脚踏实地的做好一件事，学好一项本领。</strong></p><p>其实我觉得，而且从社会中也隐约能看得出：虽说选择大于努力，但是只要正常的选择，持之以恒的努力下去，都可以有一番不错的成就，最忌讳的是：这也想做，那也想做，都做不好，最后混得最惨。</p><p>另外，关于刚才这个知乎上的问题，我在想为什么这个学生不利用搜索引擎，自己求解呢？我想了一下自己的做法。在昨天之前，我遇到问题一般都是去网上寻找解决方法，很少主动找老师或学长姐或父母的帮助，虽说自己摸爬滚打，不依赖外界的帮助，自主解决问题的能力很强，但是确实会走很多弯路，比如，为了跨专业保研，我是不是应该同时准备人工智能和通信的知识，前者为了跨专业保研时能有基础，后者为了提高自己的排名，保到更好的方向，而限于自己能力尚浅，不能兼顾，就很焦虑，网上也看了很多帖子，但是心情还是很抑郁。直到主动敞开心扉，咨询了小懒哥和刘老师后才豁然开朗。我觉得以前自己确实过于固执了，不想依赖外界的帮助，但是换个思维，社会发展到现在，老师朋友、学长学姐其实不是身外之物，也是自己能力的一种，当然，要知恩图报，尊重他们。</p><p>那对于一个问题，什么时候该自己解决，什么时候该寻求外界帮助，我认为首先应想清楚我是为了提高自己解决问题的能力还是为了快速解决问题，那么对应的，前者的话，应该首先自己求解，反复思考和验证多遍，没有新办法后再向老师朋友、学长学姐寻求帮助，后者的话，则应根据紧急情况动用自己一切资源和关系。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所感所悟 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 自立 </tag>
+            
+            <tag> 普通人 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于保研的解惑</title>
+      <link href="/2019/10/26/guan-yu-bao-yan-de-jie-huo/"/>
+      <url>/2019/10/26/guan-yu-bao-yan-de-jie-huo/</url>
+      
+        <content type="html"><![CDATA[<p>今天上午感觉自己的日子异常枯燥，整天闷着头学习要把我憋坏了，何况时值保研关键时期，我还是蛮焦虑的，有点不自信。于是，我找了小懒哥和刘老师咨询了保研的问题，豁然开朗，重新找到了方向，再次感谢小懒哥和刘老师~</p><h4 id="在澳洲的小懒哥"><a href="#在澳洲的小懒哥" class="headerlink" title="在澳洲的小懒哥"></a>在澳洲的小懒哥</h4><p>问：小懒哥，我现在遇到个坎，可以听听您的建议吗？我现在大三，成绩处在保研的边沿，专业是通信，但是我更想学人工智能，依我的学习速度似乎不能兼顾成绩的提高和人工智能的学习，也有点懒惰，导致两方面都不太行。也因为没啥硬技能，挺不自信的，不知道对这两方面怎么取舍。小懒哥，您有没有什么法子呀？</p><blockquote><p>在的。有几个点，你自己找个读研么。保研是保本校的还是外校(比本校排名高或者超重点大学)。如果是top5或者比你们学校排名高很多的名校。那么应该争取保研上去，相当于二次高考。人工智能方向，至少研究生学历，按照我对国内就业的了解，本科生除非本科阶段就搞几篇学术论文，否则出来也是比较很一般的码农。而且到研究生方向是可以选择的。我有认识的本科化学，研究生也是人工智能方向。而且算法要过硬。我理解你说的兴趣，你可以找时间去实现一下简单的算法，你现在的状态去自学没那么easy</p></blockquote><p>问：是嘞，小懒哥，依您的建议：现在好好学习通信的知识，重心放在争取保研到更好的学校，研究生时再考虑转专业，这样是不是更好呀？</p><blockquote><p>是的。本科毕业就想找人工智能方向，不容易。更别说跨专业了，而且你现在还是门外汉。</p></blockquote><p>问：嗯嗯，这块明白了。谢谢小懒哥，如果成绩达到保研资格，可我还不太自信，因为目前没什么特长，也没有大赛奖项，论文专利。依您来看，怎么样可以保到更好的学校或导师呢？</p><blockquote><p>夏令营一定要去参加</p><p>导师找学长学姐，好好聊聊。都乐于帮助你的</p></blockquote><p>问：好的呀，现在心情比较开朗了。小懒哥，您可不可以再帮我点拨一下：科研和论文方面，我要做些什么吗？</p><blockquote><p>这个找一下老师~他们的经验丰富。和他们聊聊。会有额外惊喜的</p><p>而且大学老师的资源，会出乎意料的</p></blockquote><h4 id="随机课的刘老师"><a href="#随机课的刘老师" class="headerlink" title="随机课的刘老师"></a>随机课的刘老师</h4><p> 问：……我目前成绩10%，也没有大赛奖项、论文和专利，但我很想保去更好的学校。您可以给我一些建议吗？谢谢老师～</p><blockquote><p> 争取下个学期参加个竞赛，拼一下排名前几的高校</p><p> 不需要什么论文和专利，只需要参加国家级别的大赛，最好能获奖，不过西电学生排名靠前的，申请个好学校研究生问题不大</p></blockquote><p>问：老师，如果不需要论文和专利的话，科研是不是可以放弃了呢？</p><blockquote><p> 不是啊，科研代表一种积极向上的能量，态度和学习能力，说明你大学4年扎扎实实学了，学习能力很强，这个是关键</p></blockquote><p>问：老师，科研是不是一般得要论文成果呀，还是有个经历？我大二上学期就找了老师，不过做的东西少，没啥成果。</p><blockquote><p> 没事，能把算法做出来就可以，不一定要成果，你可以带着你做的东西去给想去的学校的老师讲。</p><p> 建议你还是参加个竞赛，有集训期培训，做不少东西，收获很大</p></blockquote><p>问：老师，我信息可能有点闭塞，知道的有集训的竞赛好像有数模、互联网+、acm、电赛、华为网赛。您有没有什么推荐的呀？</p><blockquote><p> 随便哪一个都可以，传统的就是数模和电子设计大赛</p></blockquote><p>问： 老师，如果跨专业保cs或人工智能方面的话，是不是还有什么注意事项或额外准备嘞？</p><blockquote><p> 不用，按部就班，正常学习就好了，老师看重的是一种态度，一种能力，而且这些方向交集很多</p></blockquote><h4 id="启发"><a href="#启发" class="headerlink" title="启发"></a>启发</h4><p>经过此番与小懒哥和刘老师的交流后，我心情顿时变得开朗了，暗暗下定决心：</p><ol><li><strong>重心放在提高自己的均分，先给自己定一个目标：拿下今年的国奖！</strong></li><li><strong>提高自己的六级，要达到550以上，每天按照攻略练习听力和做真题。</strong></li><li><strong>继续做科研，但以项目为主，不从头学起，做了什么就写进博客里！</strong></li><li><strong>准备kaggle竞赛，争取进入10%！</strong></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所感所悟 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 保研 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>神经网络的编程基础</title>
+      <link href="/2019/10/23/shen-jing-wang-luo-de-bian-cheng-ji-chu/"/>
+      <url>/2019/10/23/shen-jing-wang-luo-de-bian-cheng-ji-chu/</url>
+      
+        <content type="html"><![CDATA[<h3 id="二分类（binary-classifaction）"><a href="#二分类（binary-classifaction）" class="headerlink" title="二分类（binary classifaction）"></a>二分类（binary classifaction）</h3><h5 id="不使用for循环遍历训练集，将如何处理训练集？"><a href="#不使用for循环遍历训练集，将如何处理训练集？" class="headerlink" title="不使用for循环遍历训练集，将如何处理训练集？"></a>不使用for循环遍历训练集，将如何处理训练集？</h5><p>向量化，相比for循环，能加速代码。任何时候，都要避免使用明显的 for 循环。</p><p>当你想写循环时候，检查 numpy 是否存在类似的内置函数，从而避免使用循环（loop）方式。</p><h5 id="forward（backward）-pause（propagation）是什么样的过程？为什么神经网络的训练过程可以分为前向传播和反向传播两个独立的部分？"><a href="#forward（backward）-pause（propagation）是什么样的过程？为什么神经网络的训练过程可以分为前向传播和反向传播两个独立的部分？" class="headerlink" title="forward（backward） pause（propagation）是什么样的过程？为什么神经网络的训练过程可以分为前向传播和反向传播两个独立的部分？"></a>forward（backward） pause（propagation）是什么样的过程？为什么神经网络的训练过程可以分为前向传播和反向传播两个独立的部分？</h5><h5 id="一张图片在计算机里是如何表示的？"><a href="#一张图片在计算机里是如何表示的？" class="headerlink" title="一张图片在计算机里是如何表示的？"></a>一张图片在计算机里是如何表示的？</h5><p>为保存一张图片，需要保存三个矩阵，分别对应红、绿、蓝三个通道，其中的元素表示该像素在该通道的强度值。依次提取每个矩阵的行，构成特征向量x（列向量）其维度$n_{x} = l\times b\times 3$，有时也用n来表示。</p><h5 id="如何表示训练集？"><a href="#如何表示训练集？" class="headerlink" title="如何表示训练集？"></a>如何表示训练集？</h5><p>$X = [x^{(1)}, x^{(2)}, …, x^{(m)}]$表示训练集中所有的输入值，放入$n_x\times m$的矩阵中，m表示样本的数目。采用列堆叠比行堆叠更好，因为这样的形式会让神经网络的实现变得更加简单。</p><p>$Y = [y^{(1)}, y^{(2)}, …, y^{(m)}]$表示训练集中所有的输出值，维度为$1\times m$，即一个行向量。</p><p>用一对$(x, y)$表示一个单独的样本，x代表$n_x$维的列向量，y表示标签（只能为0或1）。</p><h3 id="逻辑回归（Logistic-Regression）"><a href="#逻辑回归（Logistic-Regression）" class="headerlink" title="逻辑回归（Logistic Regression）"></a>逻辑回归（Logistic Regression）</h3><p>对于一个二分类问题，输入图片对应的特征向量，输出图片所属类别的概率。使用逻辑回归模型，$$y = \frac{1}{1 + e^{w^T\times x + b}}$$</p><p><img src="fig_sigmoid.png" alt="figure of sigmoid"></p><pre class="line-numbers language-python"><code class="language-python"><span class="token keyword">import</span> numpy <span class="token keyword">as</span> np<span class="token keyword">import</span> matplotlib<span class="token punctuation">.</span>pyplot <span class="token keyword">as</span> pltz <span class="token operator">=</span> np<span class="token punctuation">.</span>arange<span class="token punctuation">(</span><span class="token operator">-</span><span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">0.1</span><span class="token punctuation">)</span>sigma <span class="token operator">=</span> <span class="token number">1</span><span class="token operator">/</span><span class="token punctuation">(</span><span class="token number">1</span> <span class="token operator">+</span> np<span class="token punctuation">.</span>exp<span class="token punctuation">(</span><span class="token operator">-</span>z<span class="token punctuation">)</span><span class="token punctuation">)</span>fig <span class="token operator">=</span> plt<span class="token punctuation">.</span>figure<span class="token punctuation">(</span>figsize<span class="token operator">=</span><span class="token punctuation">(</span><span class="token number">16</span><span class="token punctuation">,</span><span class="token number">9</span><span class="token punctuation">)</span><span class="token punctuation">,</span> dpi<span class="token operator">=</span><span class="token number">80</span><span class="token punctuation">)</span>plt<span class="token punctuation">.</span>plot<span class="token punctuation">(</span>z<span class="token punctuation">,</span> sigma<span class="token punctuation">,</span> label<span class="token operator">=</span><span class="token string">'sigmoid'</span><span class="token punctuation">)</span>plt<span class="token punctuation">.</span>xlabel<span class="token punctuation">(</span><span class="token string">'z'</span><span class="token punctuation">)</span>plt<span class="token punctuation">.</span>ylabel<span class="token punctuation">(</span><span class="token string">'sigma'</span><span class="token punctuation">)</span>plt<span class="token punctuation">.</span>title<span class="token punctuation">(</span><span class="token string">'figure of sigmoid'</span><span class="token punctuation">)</span>plt<span class="token punctuation">.</span>legend<span class="token punctuation">(</span><span class="token punctuation">)</span>plt<span class="token punctuation">.</span>text<span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">,</span> <span class="token number">0.7</span><span class="token punctuation">,</span> r<span class="token string">'sigma = 1/(1 + exp(-z))'</span><span class="token punctuation">)</span>plt<span class="token punctuation">.</span>annotate<span class="token punctuation">(</span><span class="token string">'important point(0, 0.5)'</span><span class="token punctuation">,</span> xy<span class="token operator">=</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token number">0.5</span><span class="token punctuation">)</span><span class="token punctuation">,</span> xytext<span class="token operator">=</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">0.4</span><span class="token punctuation">)</span><span class="token punctuation">,</span> arrowprops<span class="token operator">=</span>dict<span class="token punctuation">(</span>facecolor<span class="token operator">=</span><span class="token string">'black'</span><span class="token punctuation">,</span> shrink<span class="token operator">=</span><span class="token number">0.05</span><span class="token punctuation">)</span><span class="token punctuation">)</span>plt<span class="token punctuation">.</span>show<span class="token punctuation">(</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>w表示权重，是一个维度为$n_x$的列向量，b表示偏差（偏置），是一个维度为$n_x$的列向量。numpy 命令是Z = np.dot(w.T,X) + b</p><p>有其他的符号惯例，如$\sigma(\theta^Tx)$的sigmoid函数，用b做$\theta_0$，w做$\theta_{0-m}$，1做$x_0$，这样可以将b与w分开。</p><h3 id="逻辑回归的代价函数（Logistic-Regression-Cost-Function）"><a href="#逻辑回归的代价函数（Logistic-Regression-Cost-Function）" class="headerlink" title="逻辑回归的代价函数（Logistic Regression Cost Function）"></a>逻辑回归的代价函数（Logistic Regression Cost Function）</h3><p>为什么需要代价函数？衡量预测输出值和实际值有多接近。</p><p>$$L(\hat y, y) = -y\log(\hat y) - (1 - y)\log (1 - \hat y)$$</p><p>举两个例子来说明该损失函数的作用：</p><blockquote><p>当y = 1时损失函数$L = −log( \hat y)$，如果想要损失函数L尽可能得小，那么$\hat y$就要尽可能大，因为 sigmoid 函数取值[0,1]，所以$\hat y$会无限接近于 1。<br>当y = 0时损失函数$L = −log(1 - \hat y)$，如果想要损失函数L尽可能得小，那么$\hat y$就要尽可能小，因为 sigmoid 函数取值[0,1]，所以$\hat y$会无限接近于 0。</p></blockquote><p><strong>如果 y 等于 1，我们就尽可能让$\hat y$变大，如果 y 等于 0，我们就尽可能让$\hat y$变小。</strong>损失函数是在单个训练样本中定义的，衡量算法在单个训练样本中表现如何，为了衡量算法在全部训练样本中的表现如何，我们需要定义一个算法的代价函数,算法的代价函数是对m个样本的损失函数求和然后除以m。</p><p>$$J(w, b) = \frac{1}{m}\sum^m_{i = 1} L(\hat y^{(i)}, y^{(i)})$$</p><h3 id="梯度下降法（Gradient-Descent-）"><a href="#梯度下降法（Gradient-Descent-）" class="headerlink" title="梯度下降法（Gradient Descent ）"></a>梯度下降法（Gradient Descent ）</h3><p>利用这样的式子更新参数，使得代价函数取到全局最小值或接近全局最小值的地方。</p><p>da 是代码里的变量名，其实代表 dj/da 的值。</p><p>dz = a - y，dw1 = x1 dz，dw2 = x2 dz，db = dz</p><img src="向量化的前向后向传播.png" style="zoom:60%;">]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 神经网络 </tag>
+            
+            <tag> 笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>六级刷分攻略</title>
+      <link href="/2019/10/11/liu-ji-shua-fen-gong-lue/"/>
+      <url>/2019/10/11/liu-ji-shua-fen-gong-lue/</url>
+      
+        <content type="html"><![CDATA[<h3 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h3><p>英语对我来说是薄弱的一环，而英语能力无论是在保研还是求职中都是极为重要的，所以为了让自己的行动更有方向性，即提高六级成绩至570，我整理了六级刷分攻略。</p><blockquote><p>提高英语成绩的关键在于，坚持学习英语，提升英语能力。</p></blockquote><p>以下是我针对英语四六级做的综述攻略。</p><h3 id="听力"><a href="#听力" class="headerlink" title="听力"></a>听力</h3><p>听力答案在原文的先后顺序与对应题目的先后顺序是保持一致的，但在原文的分布并不均匀，有时会在某一部分富集。看听力选项来判断将要提问的问题会比较困难，且不具有普遍性，我觉得听力选项的最大价值就是确立文章的领域，在一定程度上缩小范围，其他作用不大。</p><p>所以，听力考试没多大技巧可以抓的，全凭真本事，另外，不要看听力选项去猜问题，注意力会被带偏，看完一篇文章的所有题目的选项，就闭上眼睛全神贯注的听，来不及看的时候直接放弃，听完后每道题给你判断的时间很富余。</p><p>练习方法</p><ol><li>灌听（不可取），没有专注度。</li><li>泛听（可取），追求听力材料的量，增加对英语语音节奏的熟悉度，结合精听更好。</li><li>精听（可取），最好搭配听写训练，全文写下来，再对照原文。</li></ol><h3 id="阅读"><a href="#阅读" class="headerlink" title="阅读"></a>阅读</h3><h4 id="词汇填空题"><a href="#词汇填空题" class="headerlink" title="词汇填空题"></a>词汇填空题</h4><p>要做好该部分，得有<strong>足够的单词量和阅读量</strong>。如果单词背够的话，此部分的备选词应该都是认识的。同时，为了避免“知道单词意思，但是不懂用法而选错”的现象，平时应该有一定的阅读量。<strong>这题最好最后做，性价比低</strong>，分值不高。</p><p>技巧：<strong>先分类</strong>，标出单词的词性，如n. adj. v.，<strong>再采取排除法</strong>。</p><h4 id="快速匹配阅读题"><a href="#快速匹配阅读题" class="headerlink" title="快速匹配阅读题"></a>快速匹配阅读题</h4><p>属于段落匹配题，是一道通过技巧就能总体上搞定的题。出题人压根就没打算让你把文章彻底读完，希望的就是你<strong>快速找到点进行定位和匹配</strong>。</p><ol><li>每个段落的<strong>开头和结尾</strong>最容易出现答案。</li><li>由于选项的句子里的词汇跟所选的段落的词汇具备很高的对应性，所以做题顺序可以是：<ul><li>找选项里的<strong>特殊词汇</strong></li><li>找到对应段落</li><li>粗略读下是否基本对应（通常第一句话）</li><li>找出剩下寄到不太能用这一招的题目进行排查</li></ul></li></ol><p>PS：一篇文章十段，也可以分4~5个部分来做，先读前两段，过一遍选项，再读两端，过一遍选项，以此类推。</p><h4 id="阅读理解"><a href="#阅读理解" class="headerlink" title="阅读理解"></a>阅读理解</h4><p>总结归纳的题最后做，通常出现在第一题或最后一题的位置。一般为有序题，可以<strong>读一题就找一题的答案</strong>，没必要把所有题都读了，会增加记忆负担甚至造成混乱。该题的本质在于理解语言材料的基础上进行分析判断，难点在于考生找到了定位点，却没有把文章读懂。</p><h3 id="翻译"><a href="#翻译" class="headerlink" title="翻译"></a>翻译</h3><p>“信达雅”，只要做好“信”即可，<strong>忠实原文，求稳</strong>，不要用没把握的词。</p><h3 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h3><p>写作这几年漫画题很火热，<strong>利用模板、分析现象、作出解释和评论</strong>就行</p><ul><li>是什么（漫画里的现象）</li><li>为什么（产生现象的原因）</li><li>什么危害（现象导致的后果）</li><li>怎么办（怎么解决这类问题）</li><li>为什么这么办（这样做的意义）</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 六级 </tag>
+            
+            <tag> 英语 </tag>
+            
+            <tag> 攻略 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>几则感悟</title>
+      <link href="/2019/10/04/ji-ze-gan-wu/"/>
+      <url>/2019/10/04/ji-ze-gan-wu/</url>
+      
+        <content type="html"><![CDATA[<p>这几天有些焦虑，子翘哥对我，我对自己都有去清华的鼓励和期望，但是一年来，由于懒惰和短视，成绩与经历都未有出彩，时值保研的最后的一学期，陷于焦虑许久，但想通后，<strong>决心放开自我，更注重个性发展，追求自我成长和价值的实现</strong>。</p><h5 id="欲戴王冠，必承其重"><a href="#欲戴王冠，必承其重" class="headerlink" title="欲戴王冠，必承其重"></a>欲戴王冠，必承其重</h5><p>想去梦想的院校，得先让自己配得上它。</p><p>现在应该抓紧的是，努力提高成绩、科研能力和英语水平。</p><p>我现在发现，自己的专业排名还是较低，这学期（大三上）一共有四门课算入保研排名，分别是4学分的通信原理、4学分的高频电子线路、3学分的随机信号分析和3学分的数字信号处理，同时还有1学分的电子线路实验（三）、1学分的高频电子线路实验和1学分的随机信号实验。合计17个学分，是所有学期中拥有最多学分的。所以，必须予以极度重视，同时要养成学习英语的习惯，突破英语六级。</p><h5 id="勤学上进"><a href="#勤学上进" class="headerlink" title="勤学上进"></a>勤学上进</h5><p>有一个师兄情况与我类似，没有论文和大型竞赛的奖项，学习成绩也较为普通，是985和211院校的。报夏令营时，由于专业不对口，被北大工学院、上交微电子院、上海微系统所拒绝。（给我的建议是报夏令营一定要注意专业对口）与老师交流时表现自己的勤学好问与韧性。最终直博到北大了。他给我的建议就是，坚持勤学上进的态度，没有导师会拒绝一个一直在行动、一直在思考、一直在认真分享的人。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所思所想 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 心法 </tag>
+            
+            <tag> 原则 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>十月展望</title>
+      <link href="/2019/10/02/shi-yue-zhan-wang/"/>
+      <url>/2019/10/02/shi-yue-zhan-wang/</url>
+      
+        <content type="html"><![CDATA[<p>前几天计算和对比了自己和几位同学的保研均分，感到有点焦虑，为此做出了规划。</p><h5 id="均分计算"><a href="#均分计算" class="headerlink" title="均分计算"></a>均分计算</h5><p>从直觉上看，如果我在这学期能稳住成绩，则保研无虑，但是“稳”这个词是相对的，如果落后于我的同学更努力，结果就可能出现一些变数。于是，我计算了每个学期的学分和，发现这个学期（大三上）有17个学分，其难度由于多为专业课而较大，其重要性由于处在保研关头而更重。</p><p><img src="%E4%BF%9D%E7%A0%94%E5%9D%87%E5%88%86.png" alt="保研均分"></p><p>我的均分在班内排第四。如果要进步，首先要明白自己与别人的差距。</p><table><thead><tr><th align="center">name</th><th align="center">rank</th></tr></thead><tbody><tr><td align="center">hsr</td><td align="center">91.135</td></tr><tr><td align="center">zjh</td><td align="center">90.935</td></tr><tr><td align="center">zhq</td><td align="center">88.135</td></tr><tr><td align="center">zl</td><td align="center">87.171</td></tr></tbody></table><p>可以看到，我离第三名在均分上相差几乎一分，与第一名相差几乎四分。我们四人的努力程度和智力相差不多，所以超越会略有吃力，但不论如何，这是我必须要做的事。如果这学期做好每一次交付，比如，每门课的大作业、实验报告等等。</p><p>班长给我的成绩是46名，目前看来没什么问题，只要平时及时跟上老师进度，静下心学习，保研应该可以。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所思所想 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计划 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Git-bash中失效的Ctrl+c</title>
+      <link href="/2019/09/30/git-bash-zhong-shi-xiao-de-ctrl-c/"/>
+      <url>/2019/09/30/git-bash-zhong-shi-xiao-de-ctrl-c/</url>
+      
+        <content type="html"><![CDATA[<p>本人的电脑系统为win7。</p><p>在更新Git版本至2.23.0后，我在写博客时发现一个问题：</p><blockquote><p>打开git-bash，执行 hexo s 时，Ctrl+c无法中断进程</p></blockquote><p>虽然 git-bash 提示用Ctrl+c来中断进程，但无果，如下图。</p><p><img src="0.png" alt="hexo s后的提示"></p><p>到相关论坛检索了一下，发现这是Git版本的bug，于是我尝试了网上的解决方案，得到了以下两种有效的方法：</p><h5 id="方法一：打开cmd中断进程"><a href="#方法一：打开cmd中断进程" class="headerlink" title="方法一：打开cmd中断进程"></a>方法一：打开cmd中断进程</h5><p>首先打开Windows命令行，查看占用端口的进程PID，使用该命令</p><pre><code>netstat -anolfindstr &quot;4000&quot;</code></pre><p>此时可以看到，占用端口4000的进程，其PID为最后一列。</p><p><img src="%E6%9F%A5%E7%9C%8B%E7%AB%AF%E5%8F%A3.png" alt="cmd查看占用端口4000的进程，并杀死 "></p><p>然后，键入</p><pre><code>tskill 1176</code></pre><p>我的电脑显示1176，你的电脑上可能是2498等等，替换即可。这样就停止了“hexo s”进程。这个做法同样适用于其他进程的中断。</p><h5 id="方法二：Ctrl-Break中断进程"><a href="#方法二：Ctrl-Break中断进程" class="headerlink" title="方法二：Ctrl+Break中断进程"></a>方法二：Ctrl+Break中断进程</h5><p>这是一个我从未尝试过的的快捷键组合，但极好用。</p><blockquote><p>Ctrl+Break</p></blockquote><p>该快捷键也适用于其他命令行进程的中断，比如，jupyter notebook的进程。在此，要感谢图中这位老哥做出的贡献。</p><img src="Ctrl+Break.png" alt="stackflow上的新解" style="zoom:60%;">]]></content>
+      
+      
+      <categories>
+          
+          <category> 问题整理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>务实第一，求真第二</title>
+      <link href="/2019/09/29/wu-shi-di-yi-qiu-zhen-di-er/"/>
+      <url>/2019/09/29/wu-shi-di-yi-qiu-zhen-di-er/</url>
+      
+        <content type="html"><![CDATA[<p>小时候幻想，自己会得到一番机遇成为大人物。</p><p>现在觉得，不如一开始就当自己是个普通人，扎扎实实地成长。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所思所想 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 碎碎念 </tag>
+            
+            <tag> 普通人 </tag>
+            
+            <tag> 务实 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>保研笔记</title>
+      <link href="/2019/09/29/zhe-du-neng-bao-yan/"/>
+      <url>/2019/09/29/zhe-du-neng-bao-yan/</url>
+      
+        <content type="html"><![CDATA[<div align="middle"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=500850420&auto=1&height=66"></iframe></div>对于保研，首先得明白自己读研的原因，切忌跟风上研。毕竟任何事情，想要做好，第一件事也是最重要的一点——首先知道自己为什么做这件事（why），而不是先求知怎么做和做什么（how&what）。<p><img src="%E9%BB%84%E9%87%91%E5%9C%88%E6%B3%95%E5%88%99.png" alt="黄金圈法则"></p><p>我觉得保研过程中，分数只是个敲门砖，敲开了门后就该是“八仙过海，各显神通”，得表现自己能力如何，课外做了什么事情，与众不同的点。以下是我结合保研论坛等经验贴与自己的体会，对保研的思考总结：“<strong>一个中心、两个基本点</strong>”</p><h4 id="一个中心"><a href="#一个中心" class="headerlink" title="一个中心"></a>一个中心</h4><h5 id="为导师提供价值"><a href="#为导师提供价值" class="headerlink" title="为导师提供价值"></a>为导师提供价值</h5><p>导师招研究生是为了什么，说的直白一点，就是发论文、提高绩效、产生经济利益等。肯定有人会说，有些导师人品很好，德高望重，关心学生成长，没这么功利的呀。我对此不否认，但是这样的导师很少。要知道每年的保研结果并不透明，导师的决定占有很大的分量。所以能对导师提供最大价值的人，最为导师青睐。那么如何拥有对导师而言最大的价值呢？这就涉及到以下两个基本点。</p><h4 id="两个基本点"><a href="#两个基本点" class="headerlink" title="两个基本点"></a>两个基本点</h4><h5 id="学习能力（科研、竞赛、社交）"><a href="#学习能力（科研、竞赛、社交）" class="headerlink" title="学习能力（科研、竞赛、社交）"></a>学习能力（科研、竞赛、社交）</h5><p>由于本科阶段和研究生阶段干的事情有些脱节，所以导师希望从你的成绩单上看出你是一个学习能力强的人，以便进入实验室能够快速上手。在平时学习的时候，就要注意方法（可以写实践日记），制订计划，避免拖延。如果你已经具备较好的动手能力、科研和竞赛经历的话，那岂不是一步就位了，这样也可以理解大部分导师更偏爱保研的同学，而不是考研的同学了。另外，成绩这方面，由于不同的学校、不同的老师给分也不一样，导师会因本校的评测机制与你们学校的差异，对成绩产生更多的质疑，那么在保外的时候，科研（论文、专利等）、竞赛和项目的经历一定程度上会超过成绩对学习能力的证明。</p><h5 id="个性"><a href="#个性" class="headerlink" title="个性"></a>个性</h5><p>这是我们最容易忽视的一点。曾听报道说，耶鲁招办的教授在回答为什么每年招收那么少的亚裔学生时，给出了一个发人深省的答案：“这些亚裔学生都很优秀，GPA很高、会小提琴、会钢琴，英语成绩也很高，都很优秀，一样的优秀，这怎么选呀？”其实这些教授的意思是，缺乏个性化发展是不受耶鲁欢迎的。那中国有没有这样的现象呢？相信还是有的，目前一流的大学导师，普遍有西方的教育背景，或者说有这样背景的导师在不断增多。所以这是一个大趋势。</p><p>那么如何表现自己与众不同的点呢？可以是写作方面，比如写自己读过的经典论文的读后感，装订成册，或更新博客，输出心得等等。也可以是画图方面，比如对学过的课程做思维导图，梳理脉络，或熟练掌握pyplot等绘图库、PPT等绘图软件。</p><h4 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h4><p>最后，以学长的寄语为结。</p><blockquote><p>不要认为自己这不行那不牛的，保研的奇迹时有发生，关键在于不要放弃，抓住机会去试一试，坚持多元化个性化的发展方式，深入体会中国特色的导师选人制，早作准备，稳扎稳打。相信未来保研路上未知的波澜必将起伏在你更加绚烂美丽的人生蓝图上！</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所思所想 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 保研 </tag>
+            
+            <tag> 价值 </tag>
+            
+            <tag> 个性 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>没有规划的日子</title>
+      <link href="/2019/09/29/mei-you-ta-de-ri-zi/"/>
+      <url>/2019/09/29/mei-you-ta-de-ri-zi/</url>
+      
+        <content type="html"><![CDATA[<p>我发现没有目标规划时，整个人会有种很无知、很茫然的感觉，平时的生活得过且过、没有意识，但是会在某个激灵下突然发现自己什么都没有做成，尤其是夜深人静的时候。</p><p>我之前就是这样，似乎在我的大学时光中有大半年被这样荒废了，细心数落一下，大概是从我取消早上六点起床后，状态就变得昏沉了。</p><p>某个时刻我突然发现，自己对自己没有要求了，当初想的是“事情做到位，成果水到渠成”，但是现在反省，可能正是这种行事思维和处世态度，磨灭了我青春年少的冲劲，少了几分不服输的轻狂，颇有佛系的味道。</p><p>我不喜欢把自己的时间安排得满满当当，经常会遇到突然的干扰，于是我往往会给自己留有一定的时间余量，让代办事项更加灵活，同时可以让自己放缓脚步，清醒一下。但我发现环境因素对我的行动影响很大，我会被“周边环境”裹挟着前进，最大的影响就是自己的认知圈，包括舍友、网友、同学等，自己的视线会被限制住，行动和注意力都会分散。同时我也感觉到，“世界”太小。每天获得的信息极其有限，其中的价值也有缩水，于是给自己精神上的充电也越来越匮乏。</p><p>以上是很丧气的描述，接下来对自己的鼓励和要求得燃起来。</p><p>最近看脱口秀大会的卡姆，表演风格极其夸张，很自信，让我想起郭德纲采访时被问到如何看待“相声博士夫妇”，回答，三十岁之前要狂，但是三十岁之后就该收敛锋芒了。我同意郭老师说的这句话，也确实在努力成为这样的人。</p><p>我很喜欢卡姆的冲劲和自信，从不畏手畏脚，行事张扬，但又尽全力准备。确实，干就完了呗，大不了就是冷场，除了有些尴尬，又能怎样呢。</p><p>这是我对自己的第一个要求：<strong>不要怂，就是干</strong></p><p>产品人stormzhang也说过好多次：任何人都有必要提升英语、编程、写作的能力，可以创造很多机会。在学习区博主白诗诗的文章里，我也看到了相同的建议。这很重要，是通用的硬实力。于是，我对自己的第二个要求是：<strong>每天写一篇博客，练一篇编程</strong>。博客的主要内容可以是自己对某个问题的理解、或论文的读后感。</p><p>另外，stormzhang与白诗诗也都提到了影响力的重要性。之前我的理解是多分享，多曝光自己，类似于炫耀，但是出发点不同。提高影响力的初衷是让自己擅长推销自己。同时，联想到老李校长在知识星球的帖子说，自己不喜欢“毛遂自荐”的人，是因为推销方式的不同，他自己更喜欢一上来就直截了当、能帮自己解决实际问题的人，而不是会吹的人。这一点，我认为，对保研也很有用。吹自己有多厉害，有多少项目，不如说说自己对导师项目、专业领域的理解，和自己能提供什么价值、解决什么问题。</p><p>这就很像产品思维，不是推销自己会什么高超的技术，能实现什么功能，而是从客户的角度出发，思考“痛点”，思考用户需求。</p><p>所以，该表现自己的时机和场合要抓住。每周五的组会，其实我也蛮抗拒的，学不到多少东西，但是为了这事，周五的下午到晚上几乎什么也做不了，而且以自己的能力与贡献在老师的论文上占有一席之地恐怕也不太可能。索性，把每周的组会当做一次展示的机会，自己学到了什么，跟师兄师姐们交流一下。</p><p>这是第一天的博文，希望自己之后可以坚持，保持热诚，保持对成长的渴望。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所思所想 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 目标 </tag>
+            
+            <tag> 反思 </tag>
+            
+            <tag> 产品思维 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>对hexo部署相关问题的解决</title>
+      <link href="/2019/09/28/dui-hexo-bu-shu-xiang-guan-wen-ti-de-jie-jue/"/>
+      <url>/2019/09/28/dui-hexo-bu-shu-xiang-guan-wen-ti-de-jie-jue/</url>
+      
+        <content type="html"><![CDATA[<p>本文解决了在用hexo+github搭建博客时出现的两个问题：</p><ul><li>{warning“LF will be replaced by CRLF}</li><li>{“error”:401,”message”:”site error”}</li></ul><h1 id="warning”LF-will-be-replaced-by-CRLF”"><a href="#warning”LF-will-be-replaced-by-CRLF”" class="headerlink" title="warning”LF will be replaced by CRLF”"></a>warning”LF will be replaced by CRLF”</h1><p>首先warning并不影响程序的结果，我解决它只是为了<strong>加深对程序的理解</strong>。</p><p>问题如图：</p><img src="warning.png" style="zoom:60%;"><p>该问题的出现是因为：<em>git执行Linux命令行，而Linux下的换行符是CRLF，不同于windows下的LF换行符。</em></p><p>解决方法：</p><p>在git-bash中键入：</p><pre class="line-numbers language-git"><code class="language-git">git config --global core.autocrlf false<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>参考链接：</p><p>[]: <a href="https://www.jianshu.com/p/0acf732eab68" target="_blank" rel="noopener">https://www.jianshu.com/p/0acf732eab68</a>    “使用git时出现：warning: LF will be replaced by CRLF”<br>[]: <a href="https://blog.csdn.net/taiyangdao/article/details/78629107" target="_blank" rel="noopener">https://blog.csdn.net/taiyangdao/article/details/78629107</a>    “Git中的“LF will be replaced by CRLF”警告详解”</p><h1 id="“error”-401-”message”-”site-error”"><a href="#“error”-401-”message”-”site-error”" class="headerlink" title="“error”:401,”message”:”site error”"></a>“error”:401,”message”:”site error”</h1><p>问题如图：</p><p><img src="error.png" alt></p><p>该问题的出现是因为：_config.yml文件里baidu_url_submit的host与百度站长平台里的提交网站不一致。</p><p>解决方法：</p><p>修改根目录的配置文件_config.yml，使之与百度站长平台下链接提交的site值匹配，如下图。</p><img src="改后的值.png" style="zoom: 80%;"><img src="站长平台链接提交host.png" style="zoom: 50%;"><p>参考链接：</p><p>[]: <a href="https://github.com/huiwang/hexo-baidu-url-submit/issues/19" target="_blank" rel="noopener">https://github.com/huiwang/hexo-baidu-url-submit/issues/19</a>    “token一栏的密钥是什么 #19”<br>[]: <a href="https://7dtime.com/price/week/week2018-07-15.html" target="_blank" rel="noopener">https://7dtime.com/price/week/week2018-07-15.html</a>    “7天时间清单”</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 问题整理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>九月的碎碎念</title>
+      <link href="/2019/09/07/jiu-yue-de-sui-sui-nian/"/>
+      <url>/2019/09/07/jiu-yue-de-sui-sui-nian/</url>
+      
+        <content type="html"><![CDATA[<p>突然有写点什么的冲动，每天重复，总是荒废了时光，让我觉得烦躁，却又不舍今天的离去，又期待明天能规律高效。人最不能浪费的就是时间，回想起中考结束后的夏令营、高中同窗三年的快乐时光，顿觉珍惜现在的重要，总得为这社会留下点什么，做些“利他”的事情吧。</p><p>在宿舍里打游戏，确实比较爽，但前提是游戏能赢，自己能carry队友。今天只有三局游戏，让我玩得非常过瘾，其余十几把皆费眼劳神、让我颇有骂娘的冲动。我发现，一般来说，玩游戏这事，仅在我状态比较好时能带来操作的快感，而且通常就持续三局，但是，往往会因为思维惯性使得自己不能及时收手，反而在疲劳中，浪费时间。</p><p>我也颇想戒掉游戏，夜以继日玩游戏的舍友都因腰伤不能久坐已退坑了。我觉得戒游戏这事需要在贪玩的念头萌生之初就扼杀，走出宿舍去学习，否则这个想法就会兴起燎原之势，一直挠心。同时，还要牢记它的坏处，比如，人的注意力是有限的，一打游戏则无更多的注意力放在其他的事情，所谓上瘾误事。虽说自己精力比较旺盛，可以连续上机三四小时，但这个时间如果用在更有意义的事情上，会对自己的成长产生更大的效益。</p><p>所以我想这样：</p><ul><li>一方面，通过冥想提高自己的意志力，</li><li>另一方面，走出宿舍，珍惜自己的注意力，</li><li>同时，刻意养成学习、反省的习惯，始终铭记目标。</li></ul><blockquote><p>大三了，在保研的关头，要收心于学业：提高成绩，磨练技能，坚持看论文，尽量每天更新博客。</p><p>大四，保研尘埃落定后，再尽兴地体验生活吧。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所思所想 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 感慨 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>提高效率的屠龙宝刀</title>
+      <link href="/2019/09/07/ti-gao-xiao-lu-de-tu-long-bao-dao/"/>
+      <url>/2019/09/07/ti-gao-xiao-lu-de-tu-long-bao-dao/</url>
+      
+        <content type="html"><![CDATA[<p>想要提高效率，就要少做事。</p><p>不做无关紧要的事，不挤时间把所有事情凑合做完。</p><p>行业发展很快，尤其是互联网行业，变化难以预测，会不断有新的可行的需求涌入，所以永远不可能有把工作全部做完的时候。</p><p>故，一个人应该追求的不是完成了百分之几或百分之几十的工作，而是做完了哪几种重要的事情。</p><p>如何衡量一件事的重要程度，则从这两个进度出发：能否让团队最大获益，能否让自己最大提升能力。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所思所想 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 效率 </tag>
+            
+            <tag> 时间管理 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>失恋，释怀</title>
+      <link href="/2018/05/20/shi-lian-shi-huai/"/>
+      <url>/2018/05/20/shi-lian-shi-huai/</url>
+      
+        <content type="html"><![CDATA[<p>在她给我发消息之前，我还在犹豫怎么说，说我嘴笨可不可以，向老师请求建议，没想到特别关注一闪，她给我发了那么长的一条消息，我看完没有低落的情绪，倒是挺释然，感觉突然轻松了许多，跟我刚才搜索策略的结果的一句话还挺像，《千与千寻》说：人生就是一趟开向死亡终点的列车，中途有很多车站，很少有人能陪你自始至终。如果我的喜欢给你带来困扰，那我走便是了，只是我对你的喜欢，从来不变，晚安。</p><p>这段经历好像打断了我心里的枷锁，我突然感觉在沉迷于这段与她的关系中，我忽视了其他人的期许，我对不起我的竞赛队友和老师，对不起我的洲洋哥，对不起我自己，不知道自己要什么，不知道自己是什么，不知道自己该干什么，每天活在混沌。</p><p>从今天起，做自己，当初不是自己的时候，说到做不到，如今，我会全力去做。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所感所悟 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 失恋 </tag>
+            
+            <tag> 碎碎念 </tag>
+            
+            <tag> 心历 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>几则思考</title>
+      <link href="/2018/05/06/ji-ze-si-kao/"/>
+      <url>/2018/05/06/ji-ze-si-kao/</url>
+      
+        <content type="html"><![CDATA[<p>【Questioning Is Good to Reading】</p><p>昨天，思考并回答同学向我提出的微原作业题一直到十二点多，虽然比较晚了，但是我有了一点关于学习上的心得：在回答问题中消化知识，可以自己提问，锻炼深度思考能力，也可以回答别人的问题，从可能的另一种路径思考。确实，我感觉到自己上大学后，思考及思考能力都少了点，一方面有大学考试下调中难题的比例，另一方面是我对思考的关注更少了。对待这，我昨晚在阅读电子书时，慢慢找到了纵深思考的感觉，读书不就是为了解决问题嘛，先问再读，边读边思，寓思于读。</p><p>【谈谈与众不同】</p><p>昨晚与同学去KTV唱歌，颇有心得：要精通几首小众的歌。一定一定要这样……</p><p>另外，读到了一篇关于选择的文章，为什么说选择比努力更重要，又该如何选择呢？引发了我的思考，本来还想做篇导图。</p><p>只有选择正确了，努力才有了意义。那有没有关于选择的算法呢？对于我来说，选择什么是正确呢？这就又与时间管理和目标管理牵扯上了，首选重要且紧迫的事，然后只做重要的事。如何过一天就是如何过一生，所以要规划好自己的每一天。但其实，我觉得关于选择，最重要的是知道</p><p>{因为我要创造更高的效能和变得有趣，所以我选择与众不同}</p><p>要选择行动的人生，而不是炫耀的人生。</p><p>不管怎么选择，都应该让努力配得上自己的选择。今天的五人制输了，有点难受，虽然我一直认为踢球对于我来说就是耍帅，但是看见对手的进球，我嘴上鼓励着队友没事儿，心里还是不得劲。</p><p>【聚沙成塔】</p><p>积累小事的成就感，建立正向行动使能循环，对于帅张或其他人的实践性建议，马上去实行，越早越好，想想加入的初衷，为自己的每件事都赋能，提高行动力。想做的事不要蹉跎，不然难免会积聚，影响自信和情绪。</p><p>只做高价值的事情，为每件事找到自己的意义。</p><p>静心难呀，生活中的牵绊极多，尤其是我没有完成单片机的学习任务，感觉蹉跎了很多时间，也挺对不起一些人的，但是，当初你有决心选择去做，现在就要有勇气承担、有毅力坚持下去。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所感所悟 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 复盘 </tag>
+            
+            <tag> 碎碎念 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>爱足球，更爱学习</title>
+      <link href="/2018/04/07/ai-zu-qiu-geng-ai-xue-xi/"/>
+      <url>/2018/04/07/ai-zu-qiu-geng-ai-xue-xi/</url>
+      
+        <content type="html"><![CDATA[<p>  C罗前段时间状态一般，于是各路体育评论家们表示皇马的顶梁柱竞技状态“断崖式下滑，职业巅峰期已过去，谁都无法对抗时间”，但是结果我们也看到了，4号凌晨C罗斩获两枚进球和一个助攻，带领银河战舰于客场3 : 0战胜意甲劲旅尤文里斯，完美诠释了你大爷还是你大爷。</p><p>不过今天我不想谈某些体育评论的短视——预测本就不可预测的未来，我想从C罗和梅西这些巨星的角度谈谈我的想法。国际足坛人才济济，有潜力的人犹如过江之鲤，但要说能统治一个时代的，还属C罗和梅西。凭我一家之言也无法解释两位偶像的成功，我只是想向他们学习。</p><p><img src="C%E7%BD%97.jpg" alt></p><p>我最佩服的是他们独坐钓鱼台的成熟，无论外界评论怎么吹捧足坛上层出不穷的“妖人”或超级新星，他们都能专注自己，专注足球，专注提升自己的状态。这也跟好久以前乒乓刘教练说过的，我仍记忆犹新的一句话相关：随时随地都能立刻调整状态，说打就能打。我觉得随心掌控自己的节奏是C罗和梅西的核心竞争力，但是如果没有他们永恒沉重的努力，就像一组整体低迷，但是又有精彩之处的数据一样，再怎么突出的数据，掩盖不了你中庸的平均值，就算欧皇附体，运气爆棚，人的状态值总要回归平均值的，而C罗和梅西的平均值要比其他球星高出好多。有篇文章说过C罗的训练强度一般球星都承受不来，让我想起了【欲戴王冠，必承其重】。但是C罗也说过另一句颇有意思的话，他的成功只是因为比别人多一点天赋……好吧，毕竟我这个普通人还没到总裁的境界。那为了达到像总裁和爱因斯坦那样能够谈天赋的高度，我还是每天进步一点点，继续追赶我的偶像们吧，当然不止足球……  </p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所思所想 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 足球 </tag>
+            
+            <tag> 专注 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>还在寻</title>
+      <link href="/2018/04/01/xun/"/>
+      <url>/2018/04/01/xun/</url>
+      
+        <content type="html"><![CDATA[<p>这个周没有坚持每天写作，虽然上周的写作幸福感爆棚，但还是有点间歇性努力的感觉，不过我认为没有什么大不了的，每个人都会有颓废的时候，而成就的关键是知道自己想要什么，那么什么时候开始于自己都不晚，但是也有人认为，当你持着现在开始尚不晚的观点时，事实上已经晚了。</p><p>这个周，我还在寻找状态，我觉得自己的时间管理比起假期来都不如，寒假学的GTD时间管理法等等都被我弃置了，如今遗忘之后，又想要重新拾起，却还得找时间复习。其实每个方法都应该坚持，变成习惯，以量变到质变，哪怕是最小质变。当然我有自己是否被爆炸般的信息和别人的观点左右的疑惑，因为，我们不一样，每个人的生活或者命运或者节奏都不同，就像武侠小说里的不同体质的人可能适合不同的功法，我学到的方法不一定适合我，但是跟咱们中国的教育方式一样，得先掌握一定的基础，才能创新，或找到自己的方法。</p><p>我好像喜欢了她，但是前车之鉴告诉我，表白在目前是不理智的事情，尤其是未知自己的真实感情，所以我想着就先这样处着呗，我挺沉醉这种交往的感觉，我认为爱情面前不适合谈另一半的高度取决于我自己的高度，爱应该是一起成长，进步的，虽然我认为脱贫比脱单更重要，但是人的心态应该也是成长的，而非固定甚至固执的咬住某观点不放。</p><p>想了想这周的状态，前几天沉迷于写作赚上千外快的幻想不能自已，我写的文章竟然0阅读，情绪激烈到我甚至想写一些八卦热点问题的解答，但是冷静下来后，也阅读了一部分文章，我觉得还是应该投资在自我成长上，我现在想着哪怕自己每天吃单调些，节省开销，也要获得充分的成长，不论是在穿衣品味上，还是知识思维上。</p><p>今天上午去实验室和队友讨论ppt的内容，其实我蛮不愿去的，团队分工一点也不精致，本来就应该抓住互补点来组队的，而不是组队后每个人的工作其他人都可以插上一手，没有专精的一面，但是对于我而言，我觉得自己的工作面变宽了，从技术核心到ppt 制作者，接触的更多，有点全面发展的感觉，但是我还是没有发展出自己的核心竞争力，这是最让我忧虑的，我想在这边打出相信自己的句子，又想了一下，把它删了，我觉得行胜于言更有力，做好自己该做的，学会做笔记，不做终身学习者，而做终身高效学习者，学习百家之学习之道，走自己的精彩，不畏学霸，不卑不亢。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所感所悟 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 复盘 </tag>
+            
+            <tag> 碎碎念 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>成长</title>
+      <link href="/2018/03/11/cheng-chang/"/>
+      <url>/2018/03/11/cheng-chang/</url>
+      
+        <content type="html"><![CDATA[<p>安排了晚上的时间整理知乎收藏夹，做着做着反思了一下：为什么怎么做？是因为之前学了知识管理的小课，我想把收藏箱整理，划分得更细以制作知识清单，但是发现知乎的收藏夹并不好编辑，注意到自己更应该做的事是管理自己的知识输入渠道，其实管理收藏早就该做了，但是一直拖延，反倒不是现在最有价值的事了。</p><p>记账又要忘了，不知道除了了解每月大概花费还有什么意义，也许像21天写作，只有坚持下去了，才能有收获吧。突然想起诗诗还没回答我的问题呢……</p><p>那管理知识输入渠道该怎么办呢？而且我好像有点不自信。不，删掉负面的语言，我要坚信自己是最好的，我可以向着心愿的方向以快乐的加速度成长。首先做好手中事：熊猫书院和优势计划每日阅读要限时且高效、（公众号好久没大规模看了，其实我关注的公众号是有许多优秀推文的，暂时缓一缓吧）同时不能放缓专业的学习节奏，要预习、高效听课和复习，得形成自己的一套学习方法体系。</p><p>昨天是我的生日，有的同学应该是收到我过生日的送礼消息了，所以给我发送了生日祝福，虽然是系统自带的文字，但我还是很高兴。春节的时候，我朋友给我发了一条语音祝福语，只有3秒钟，却让我印象深刻，这种形式是最省时间兼能体现走心了，真好，我要来个师夷长技以制夷（O(∩_∩)O哈哈哈~），18岁的当天也没有什么情感的明显波动，好像也没有瞬间感觉自己长大了的感觉，只是那么的自然，水到渠成般……不过平淡之处也能有精彩之声吧，逐渐积累，量变会引起质变的，到时候就意气风发，指点江山……</p><p>运动周期也快成型了——每周，三踢球，周一、三、五，踢完还可以洗澡，既能提高自己的精力上限，恢复与更新，还能养成一个良好的卫生习惯，周末了可以跳绳呀，我也喜欢乒乓球不过若和技术较差的人就算了吧，自己也没买好拍子，还得借。</p><p>现在要学的东西很多，竞赛、学业、图书馆的书和自己买的课程等等，我都不想放下，就更得管理好时间、精力了，步步为营（这词我用了好多次，觉得自己现在背诵的频率更少了……，得加把劲呀）。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 所感所悟 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 复盘 </tag>
+            
+            <tag> 碎碎念 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>二零一七年终总结</title>
+      <link href="/2018/01/22/2017-conclusion/"/>
+      <url>/2018/01/22/2017-conclusion/</url>
+      
+        <content type="html"><![CDATA[<div align="middle"><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=407679465&auto=1&height=66"></iframe></div>时间过得很快，终于等到放寒假了，虽然这几个月没有课，天天和放假也没啥区别呢。细数一下，还有5个月就要毕业了吧，大一刚入学的场景却依然清楚地记得，转眼间就成了老学长了呢。闲来无事，随便写写，有感而发，无病呻吟而已。<h1 id="2017"><a href="#2017" class="headerlink" title="2017"></a>2017</h1><hr><p>回顾我的2017，没做什么事，令我能记得就3件大事吧：</p><ul><li>失恋ing</li><li>ACM退役</li><li>顺利保研</li></ul><p><strong>第一件事</strong>就不想过多回忆了，<strong>2014.12.13 ~ 2017.03.01</strong>，曲终人散。<br><img src="749826.jpg" alt><br>最后引用《我的少女时代》里的一句话吧。</p><blockquote><p>每人都有一颗林真心，遇见是最美好的小幸运，谢谢你出现在我的青春里。</p></blockquote><p><img src="1.jpg" alt><br><strong>第二件事</strong>其实也是黯淡退出吧，大三下开始课程繁忙，也就没怎么训练了，再加上暑假考驾照，于是乎就退役了。回顾三年来，从大一入学时电脑都没怎么碰过的小白，到现在算法也略有所知，也是付出过很大的努力吧，毕竟当年每天刷题，为了一个bug而熬夜到凌晨。最后也算是混了个水水的金牌，奖项不算耀眼。但最重要的是从这段经历中，学到了拼搏、坚持的一种精神，这对以后的研究生涯想必也有很大帮助。<br><img src="2.jpg" alt><br><strong>第三件事</strong>也是意料之中吧，没有什么波折。纠结了很多，虽然<strong>专业第一</strong>，但是最后还是选择保了本校。要问原因，也许是校园情怀，也许是导师人很好，也许是为了方便更早研究，也许就是懒吧。现在尘埃落定，靠人靠天不如靠自己，继续努力吧。<br><img src="3.jpg" alt></p><p>过去的一年，学业未有很大长进，看着同学们整页的4.0绩点，心里倒也没有什么不平衡了。下学期保了研之后选了一门研究生的文本挖掘课，也马马虎虎读了几十篇论文，也算是对自然语言处理和深度学习入了个门，最后的presentation做的还算满意。</p><h1 id="2018"><a href="#2018" class="headerlink" title="2018"></a>2018</h1><hr><p>今年最重要的大事莫过于毕业论文了，因为以后要做的方向是句法分析，所以导师给我的毕业论文安排的就是《基于循环神经网络的成分句法分析》。虽然说是基于ACL2013的一篇论文改编的，但是目前为止，我还没有发现有人做和这个完全一样的。也许最后写的好的话可以直接发paper了。</p><p>但是目前基本的框架还没完全搭建起来吧，代码还不是很熟练，现在只写了一个最基础的动态规划+RNN。最近有如下计划：</p><ul><li>准备试一下动态规划+LSTM。</li><li>然后动态规划扩增一个维度，用来保存左右结点的head结点。</li><li>如果这个写好了，就可以和我github找到的PCFG+CYK代码融合了，准备加上每个结点的POS。</li><li>最后加入预训练词向量应该就基本完成了。</li></ul><p>希望能顺利毕业吧，前一段时间一直对一些实现细节有些困惑，代码还写错了，还以为理论错了。也不知道最后出来的结果会怎么样，希望能不错。</p><p>生活方面，最近半年越来越懒了，极少出门，睡得晚，起的也晚。最近买了把尤克里里，也算是陶冶陶冶情操吧，不至于一直盯着电脑。现在也小有长进，能弹一点点了。</p><p>现在能聊天的人越来越少了，QQ微信放那一天也不一定会有人来找，就算有人也多半是咨询问题的，等一个可以交心的人吧。有时我也想过，我是不是太像中央空调了，对所有人都这么有耐心，到头来却还是一个人，付出那么多最后还是一无所有。<br><img src="4.jpg" alt><br>最后还是祝自己2018年顺利吧，希望毕业顺利，研究生涯小有收获，最后等一个有缘人吧。</p><blockquote><p>我遇见谁，会有怎样的对白。<br>我等的人，她在多远的未来。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 复盘总结 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 失恋 </tag>
+            
+            <tag> 退役 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
