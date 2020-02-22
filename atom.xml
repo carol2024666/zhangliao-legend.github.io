@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ishuaizhang.com/"/>
-  <updated>2020-02-09T03:50:46.511Z</updated>
+  <updated>2020-02-22T03:36:45.735Z</updated>
   <id>http://ishuaizhang.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo部署问题的解决</title>
+    <link href="http://ishuaizhang.com/2020/02/22/hexo-bu-shu-wen-ti-de-jie-jue/"/>
+    <id>http://ishuaizhang.com/2020/02/22/hexo-bu-shu-wen-ti-de-jie-jue/</id>
+    <published>2020-02-22T01:39:00.000Z</published>
+    <updated>2020-02-22T03:36:45.735Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;问题描述&quot;&gt;&lt;a href=&quot;#问题描述&quot; class=&quot;headerlink&quot; title=&quot;问题描述&quot;&gt;&lt;/a&gt;问题描述&lt;/h1&gt;&lt;p&gt;2月10日至2月19日，忙于模拟美赛做题，未更新博客。2月20日发现Hexo部署（$ hexo d
+        
+      
+    
+    </summary>
+    
+      <category term="问题整理" scheme="http://ishuaizhang.com/categories/%E9%97%AE%E9%A2%98%E6%95%B4%E7%90%86/"/>
+    
+    
+      <category term="Hexo" scheme="http://ishuaizhang.com/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>博文归类</title>
@@ -558,36 +584,6 @@
       <category term="盲从" scheme="http://ishuaizhang.com/tags/%E7%9B%B2%E4%BB%8E/"/>
     
       <category term="选择" scheme="http://ishuaizhang.com/tags/%E9%80%89%E6%8B%A9/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>构建自己的影响力和资源池</title>
-    <link href="http://ishuaizhang.com/2019/11/19/gou-jian-zi-ji-de-ying-xiang-li-he-zi-yuan-chi/"/>
-    <id>http://ishuaizhang.com/2019/11/19/gou-jian-zi-ji-de-ying-xiang-li-he-zi-yuan-chi/</id>
-    <published>2019-11-19T08:45:47.000Z</published>
-    <updated>2020-02-07T05:40:05.994Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;如果准备成为一个创业者，或管理者，就需要提前准备，在平时就要开始构建自己的影响力和资源池。&lt;/p&gt;
-&lt;p&gt;如何构建自己的影响力？我认为主要有以下两个途径：&lt;/p&gt;
-&lt;h5 id=&quot;1、多输出、多分享&quot;&gt;&lt;a href=&quot;#1、多输出、多分享&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="所思所想" scheme="http://ishuaizhang.com/categories/%E6%89%80%E6%80%9D%E6%89%80%E6%83%B3/"/>
-    
-    
-      <category term="资源" scheme="http://ishuaizhang.com/tags/%E8%B5%84%E6%BA%90/"/>
-    
-      <category term="影响力" scheme="http://ishuaizhang.com/tags/%E5%BD%B1%E5%93%8D%E5%8A%9B/"/>
     
   </entry>
   

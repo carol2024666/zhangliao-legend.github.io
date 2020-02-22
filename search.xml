@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Hexo部署问题的解决</title>
+      <link href="/2020/02/22/hexo-bu-shu-wen-ti-de-jie-jue/"/>
+      <url>/2020/02/22/hexo-bu-shu-wen-ti-de-jie-jue/</url>
+      
+        <content type="html"><![CDATA[<h1 id="问题描述"><a href="#问题描述" class="headerlink" title="问题描述"></a>问题描述</h1><p>2月10日至2月19日，忙于模拟美赛做题，未更新博客。2月20日发现Hexo部署（$ hexo d ）时出现图1所示问题，以至于新添加的文章不能部署到服务器，网页端上将看不到新添加的文章。</p><p><img src="%E9%97%AE%E9%A2%98%E6%88%AA%E5%9B%BE.jpg" alt="图1：问题细节"></p><h1 id="问题分析及解决"><a href="#问题分析及解决" class="headerlink" title="问题分析及解决"></a>问题分析及解决</h1><h2 id="分析一：网速"><a href="#分析一：网速" class="headerlink" title="分析一：网速"></a><del>分析一：网速</del></h2><p>fatal: unable to access ‘<a href="https://github.com/zhangliao-legend/zhangliao-legend.github.io/" target="_blank" rel="noopener">https://github.com/zhangliao-legend/zhangliao-legend.github.io/</a>‘：Failed to connect to github.com port 443：Timed out. 意思是，连接超时，可能是网速太慢造成的。</p><p>首先，我测试了能否连接到github.com，发现可以，结果如图2。</p><p><img src="%E9%97%AE%E9%A2%98.jpg" alt="图2：连接github.com"></p><p>然后，我分别测试了家里WiFi和手机热点，多次实验发现仍不能完成部署，排除网速原因。</p><h2 id="分析二：误删关键文件"><a href="#分析二：误删关键文件" class="headerlink" title="分析二：误删关键文件"></a><del>分析二：误删关键文件</del></h2><p>前几日，使用电脑清理软件深度清除痕迹，可能误删了本地部署用的关键文件，这样就需要再初始化一下Hexo。</p><ol><li>删除hexo目录下的.deploy_git文件夹</li><li>运行git config –global core.autocrlf false</li><li>运行hexo clean</li><li>运行hexo g</li><li>运行hexo d</li></ol><p>仍未解决。</p><h2 id="分析三：代理"><a href="#分析三：代理" class="headerlink" title="分析三：代理"></a><del>分析三：代理</del></h2><p>2月10日至2月19日，我在做美赛题，使用了VPN，可能对部署有影响。</p><p>于是，我将之前挂的代理都断开了连接，但问题仍未解决。</p><p><img src="%E6%96%AD%E5%BC%80%E8%BF%9E%E6%8E%A5.jpg" alt="图3：断开连接"></p><h2 id="分析四：仓库名不符合要求"><a href="#分析四：仓库名不符合要求" class="headerlink" title="分析四：仓库名不符合要求"></a>分析四：仓库名不符合要求</h2><p>这期间未修改过仓库名，但在网上发现同样有人出现过这样的情况，比如，</p><blockquote><p>昨天还可以，今天就报错了。</p></blockquote><p>网上的解决方案有以下几种，都是修改了repo的值。</p><ul><li>repo: <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:zhangliao-legend/zhangliao-legend.github.io.git</li><li>repo: <a href="https://zhangliao-legend:password@github.com/zhangliao-legend/zhangliao-legend.github.io.git" target="_blank" rel="noopener">https://zhangliao-legend:password@github.com/zhangliao-legend/zhangliao-legend.github.io.git</a></li><li>repo: ssh://github.com/zhangliao-legend/zhangliao-legend.github.io</li></ul><p><strong>原本我的repo值为 <a href="https://github.com/zhangliao-legend/zhangliao-legend.github.io" target="_blank" rel="noopener">https://github.com/zhangliao-legend/zhangliao-legend.github.io</a> ，修改成<a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:zhangliao-legend/zhangliao-legend.github.io.git后，问题解决。</strong></p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>晚上快休息时，碰到这个问题，于是无脑试了网上的很多方法，但因为思路较乱，遗漏了有效的方法，耽误不少时间。</p><p>这件事对我以后的行动具有指导意义：</p><ul><li><strong>做事前，梳理思路，写下清单</strong></li><li><strong>记录清单完成的结果</strong></li></ul><h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h1><ol><li><h6 id="Error-Spawn-failed-at-ChildProcess-3449-https-github-com-hexojs-hexo-issues-3449"><a href="#Error-Spawn-failed-at-ChildProcess-3449-https-github-com-hexojs-hexo-issues-3449" class="headerlink" title="Error: Spawn failed at ChildProcess. #3449 https://github.com/hexojs/hexo/issues/3449"></a>Error: Spawn failed at ChildProcess.<anonymous> #3449 <br><a href="https://github.com/hexojs/hexo/issues/3449" target="_blank" rel="noopener">https://github.com/hexojs/hexo/issues/3449</a></anonymous></h6></li><li><h6 id="Error-Spawn-failed-at-ChildProcess-3043https-github-com-hexojs-hexo-issues-3043"><a href="#Error-Spawn-failed-at-ChildProcess-3043https-github-com-hexojs-hexo-issues-3043" class="headerlink" title="Error: Spawn failed at ChildProcess. #3043https://github.com/hexojs/hexo/issues/3043"></a>Error: Spawn failed at ChildProcess.<anonymous> #3043<br><a href="https://github.com/hexojs/hexo/issues/3043" target="_blank" rel="noopener">https://github.com/hexojs/hexo/issues/3043</a></anonymous></h6></li><li><h6 id="有关使用-Hexo-和-GitHub-搭建博客，出现-hexo-d-报错如何解决？-https-www-zhihu-com-question-38219432"><a href="#有关使用-Hexo-和-GitHub-搭建博客，出现-hexo-d-报错如何解决？-https-www-zhihu-com-question-38219432" class="headerlink" title="有关使用 Hexo 和 GitHub 搭建博客，出现 hexo -d 报错如何解决？ https://www.zhihu.com/question/38219432"></a>有关使用 Hexo 和 GitHub 搭建博客，出现 hexo -d 报错如何解决？ <br><a href="https://www.zhihu.com/question/38219432" target="_blank" rel="noopener">https://www.zhihu.com/question/38219432</a></h6></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 问题整理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>博文归类</title>
       <link href="/2020/02/09/bo-wen-gui-lei/"/>
       <url>/2020/02/09/bo-wen-gui-lei/</url>
