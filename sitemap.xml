@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ishuaizhang.com/2020/04/04/gmail-zhong-wen-zi-bian-cheng-zi-se-gai-zen-me-ban/</loc>
+    
+    <lastmod>2020-04-04T07:41:22.554Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://ishuaizhang.com/2020/03/15/dui-shang-yan-de-kan-fa/</loc>
     
     <lastmod>2020-03-15T11:53:58.231Z</lastmod>
@@ -352,13 +359,6 @@
   </url>
   
   <url>
-    <loc>http://ishuaizhang.com/404.html</loc>
-    
-    <lastmod>2019-09-23T03:06:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://ishuaizhang.com/archives/index.html</loc>
     
     <lastmod>2019-09-23T03:06:26.000Z</lastmod>
@@ -374,6 +374,13 @@
   
   <url>
     <loc>http://ishuaizhang.com/tags/index.html</loc>
+    
+    <lastmod>2019-09-23T03:06:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://ishuaizhang.com/404.html</loc>
     
     <lastmod>2019-09-23T03:06:26.000Z</lastmod>
     

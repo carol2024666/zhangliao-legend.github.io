@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ishuaizhang.com/"/>
-  <updated>2020-03-15T11:53:58.231Z</updated>
+  <updated>2020-04-04T07:41:22.554Z</updated>
   <id>http://ishuaizhang.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Gmail中文字变成紫色该怎么办</title>
+    <link href="http://ishuaizhang.com/2020/04/04/gmail-zhong-wen-zi-bian-cheng-zi-se-gai-zen-me-ban/"/>
+    <id>http://ishuaizhang.com/2020/04/04/gmail-zhong-wen-zi-bian-cheng-zi-se-gai-zen-me-ban/</id>
+    <published>2020-04-04T04:39:02.000Z</published>
+    <updated>2020-04-04T07:41:22.554Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;问题重述&quot;&gt;&lt;a href=&quot;#问题重述&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="问题整理" scheme="http://ishuaizhang.com/categories/%E9%97%AE%E9%A2%98%E6%95%B4%E7%90%86/"/>
+    
+    
+      <category term="Gmail" scheme="http://ishuaizhang.com/tags/Gmail/"/>
+    
+      <category term="紫色" scheme="http://ishuaizhang.com/tags/%E7%B4%AB%E8%89%B2/"/>
+    
+  </entry>
   
   <entry>
     <title>对上研的看法</title>
@@ -552,33 +580,6 @@
       <category term="大学" scheme="http://ishuaizhang.com/tags/%E5%A4%A7%E5%AD%A6/"/>
     
       <category term="建议" scheme="http://ishuaizhang.com/tags/%E5%BB%BA%E8%AE%AE/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>信息不对称</title>
-    <link href="http://ishuaizhang.com/2020/01/11/xin-xi-bu-dui-cheng/"/>
-    <id>http://ishuaizhang.com/2020/01/11/xin-xi-bu-dui-cheng/</id>
-    <published>2020-01-11T15:44:56.000Z</published>
-    <updated>2020-02-07T05:38:53.971Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;今天我们遇到的所有问题，都可以用一句话概括：信息不对称。如果你知道了行业信息，就不会迷茫，如果你知道了市场信息，你的产品会卖爆。&lt;/p&gt;
-&lt;p&gt;如何消除信息不对称？其实你消不了，这是二八定律。你能做的，就是多和不同的人交流沟通，取长补短，在可控范围内多去尝试，扩展视野。这么
-        
-      
-    
-    </summary>
-    
-      <category term="所思所想" scheme="http://ishuaizhang.com/categories/%E6%89%80%E6%80%9D%E6%89%80%E6%83%B3/"/>
-    
-    
-      <category term="思考" scheme="http://ishuaizhang.com/tags/%E6%80%9D%E8%80%83/"/>
     
   </entry>
   

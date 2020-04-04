@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Gmail中文字变成紫色该怎么办</title>
+      <link href="/2020/04/04/gmail-zhong-wen-zi-bian-cheng-zi-se-gai-zen-me-ban/"/>
+      <url>/2020/04/04/gmail-zhong-wen-zi-bian-cheng-zi-se-gai-zen-me-ban/</url>
+      
+        <content type="html"><![CDATA[<h2 id="问题重述"><a href="#问题重述" class="headerlink" title="问题重述"></a>问题重述</h2><p>由于Gmail的插件Mailtrack可以追踪邮件「是否被收件人打开及打开次数」，这对于及时感知收件人的态度很有帮助，于是在保研联系导师的时候，我基本舍弃了QQ邮箱，转而使用Gmail，也推荐大家搭配这个插件Mailtrack使用。</p><p><img src="%E4%BD%BF%E7%94%A8%E6%95%88%E6%9E%9C.png" alt="Mailtrack的使用效果"></p><p>最近在使用Gmail回复邮件时，出现了一个很细节但重要的问题：<u>部分正文未经允许变成紫色</u>。起初我以为这是Mailtrack插件在邮件末显示了Sender notified by Mailtrack图标提醒导致的，但发现删除该图标并不起作用。</p><p><img src="%E9%97%AE%E9%A2%98%E6%88%AA%E5%9B%BE.png" alt="部分正文未经允许变成紫色"></p><h2 id="问题分析"><a href="#问题分析" class="headerlink" title="问题分析"></a>问题分析</h2><p>与出现问题的文字相同颜色的还有引用的文字内容，<strong>难道是因为这部分文字与引用的话相同吗</strong>？在网上，中文社区里几乎没有相关问题的解答，而且我也没有在Google的官方帮助里找到答案。尝试了很多关键词后，我突然有了灵感：Gmail的用户多是海外区域，如果他们出现相似的问题，那么应该是字母变成紫色，于是调换关键字后，找到了答案。</p><p><img src="%E6%90%9C%E7%B4%A2%E7%BB%93%E6%9E%9C.png" alt="有用的回答：&lt;https://wb-hp.com/blog/2017/07/21/gmail.html&gt;"></p><h2 id="解决方案"><a href="#解决方案" class="headerlink" title="解决方案"></a>解决方案</h2><p>没错，这篇回答解决了我的问题，并验证了我的猜想是对的。</p><p>回复邮件时，会出现与引用邮件相同的较长文本变为紫色的现象。这是因为，<strong>如果在当前的回复邮件中找到与引用邮件重复的句子，Gmail会确定它是一个「引用的句子」，并且该句子将自动变为紫色以使其更易于理解</strong>。</p><p>所以，<strong>为了避免在正文中出现这种情况，需要使其与引用邮件有所不同</strong>。</p><p>比如，把落款处的电话号格式改成3-4-4，把此致敬礼换成祝福语，等等。</p><h2 id="番外建议"><a href="#番外建议" class="headerlink" title="番外建议"></a>番外建议</h2><p>对Gmail的不熟悉使得我在给我最在意的导师发邮件时，出了岔子，正文末的此致敬礼和姓名落款都变成了紫色，而且慌乱中并没有关闭MailTrack在正文末的提醒。这样显得很不尊重，我也很惭愧。故，以此文为鉴，给使用Gmail的朋友几条提示，<strong>希望大家都能在邮件中表现出最好的自己</strong>。</p><ol><li>设置「发送取消时间为5或10秒」，留有足够的时间检查文本颜色和书写错误等，</li><li>发送邮件时，最好先发给自己的邮箱查看一下具体效果，确认无误后给收件人正式发送。</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 问题整理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Gmail </tag>
+            
+            <tag> 紫色 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>对上研的看法</title>
       <link href="/2020/03/15/dui-shang-yan-de-kan-fa/"/>
       <url>/2020/03/15/dui-shang-yan-de-kan-fa/</url>
