@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ishuaizhang.com/"/>
-  <updated>2020-04-04T08:30:21.987Z</updated>
+  <updated>2020-04-12T13:26:49.461Z</updated>
   <id>http://ishuaizhang.com/</id>
   
   <author>
@@ -15,6 +15,63 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Huffman Image Compression</title>
+    <link href="http://ishuaizhang.com/2020/04/12/huffman-image-compression/"/>
+    <id>http://ishuaizhang.com/2020/04/12/huffman-image-compression/</id>
+    <published>2020-04-12T12:47:59.000Z</published>
+    <updated>2020-04-12T13:26:49.461Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;计算学分绩后，发现信息论对成绩影响比较大，学习得上点心。于是，写此文以梳理我在其课程实践中做项目的心得与收获，尽力写得深入浅出，对大家也有启发。本文将在4月19日更新完毕。&lt;/p&gt;
+&lt;p&gt;谨以此文梳理我在使用Huffman编码对图像进行无损压缩和解压的心得与收获，尽力写得深
+        
+      
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="http://ishuaizhang.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="Huffman编码" scheme="http://ishuaizhang.com/tags/Huffman%E7%BC%96%E7%A0%81/"/>
+    
+      <category term="信息论" scheme="http://ishuaizhang.com/tags/%E4%BF%A1%E6%81%AF%E8%AE%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Kaggle进阶</title>
+    <link href="http://ishuaizhang.com/2020/04/12/kaggle-jin-jie/"/>
+    <id>http://ishuaizhang.com/2020/04/12/kaggle-jin-jie/</id>
+    <published>2020-04-12T12:45:32.000Z</published>
+    <updated>2020-04-12T13:25:30.146Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Kaggle-进阶&quot;&gt;&lt;a href=&quot;#Kaggle-进阶&quot; class=&quot;headerlink&quot; title=&quot;Kaggle 进阶&quot;&gt;&lt;/a&gt;Kaggle 进阶&lt;/h1&gt;&lt;p&gt;谨以此文纪念自己在 Kaggle 第一次进入前
+        
+      
+    
+    </summary>
+    
+      <category term="编程日记" scheme="http://ishuaizhang.com/categories/%E7%BC%96%E7%A8%8B%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="Kaggle" scheme="http://ishuaizhang.com/tags/Kaggle/"/>
+    
+      <category term="实践笔记" scheme="http://ishuaizhang.com/tags/%E5%AE%9E%E8%B7%B5%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>Gmail中文字变成紫色，咋办</title>
@@ -521,65 +578,6 @@
       <category term="运营" scheme="http://ishuaizhang.com/tags/%E8%BF%90%E8%90%A5/"/>
     
       <category term="up主" scheme="http://ishuaizhang.com/tags/up%E4%B8%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>碎碎念</title>
-    <link href="http://ishuaizhang.com/2020/01/19/sui-sui-nian/"/>
-    <id>http://ishuaizhang.com/2020/01/19/sui-sui-nian/</id>
-    <published>2020-01-18T16:04:18.000Z</published>
-    <updated>2020-02-07T05:38:34.448Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;买了forest，这是我第一次购买iOS上的APP，其实在爱思助手上用了很久，已经解锁了几乎所有的树种。这次购买是我送给自己的一个礼物和对自己在时间管理方面的鞭策。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;forest_receipt.jpg&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="所思所想" scheme="http://ishuaizhang.com/categories/%E6%89%80%E6%80%9D%E6%89%80%E6%83%B3/"/>
-    
-    
-      <category term="碎碎念" scheme="http://ishuaizhang.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
-    
-      <category term="思考" scheme="http://ishuaizhang.com/tags/%E6%80%9D%E8%80%83/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>给学弟学妹的建议</title>
-    <link href="http://ishuaizhang.com/2020/01/16/gei-zhun-da-xue-sheng-de-jian-yi/"/>
-    <id>http://ishuaizhang.com/2020/01/16/gei-zhun-da-xue-sheng-de-jian-yi/</id>
-    <published>2020-01-16T03:08:38.000Z</published>
-    <updated>2020-02-07T05:38:44.226Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;道——成长才是硬道理&quot;&gt;&lt;a href=&quot;#道——成长才是硬道理&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="所思所想" scheme="http://ishuaizhang.com/categories/%E6%89%80%E6%80%9D%E6%89%80%E6%83%B3/"/>
-    
-    
-      <category term="成长" scheme="http://ishuaizhang.com/tags/%E6%88%90%E9%95%BF/"/>
-    
-      <category term="大学" scheme="http://ishuaizhang.com/tags/%E5%A4%A7%E5%AD%A6/"/>
-    
-      <category term="建议" scheme="http://ishuaizhang.com/tags/%E5%BB%BA%E8%AE%AE/"/>
     
   </entry>
   
