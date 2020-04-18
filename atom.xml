@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ishuaizhang.com/"/>
-  <updated>2020-04-12T13:26:49.461Z</updated>
+  <updated>2020-04-18T03:36:18.381Z</updated>
   <id>http://ishuaizhang.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何打出「」？</title>
+    <link href="http://ishuaizhang.com/2020/04/18/ru-he-da-chu/"/>
+    <id>http://ishuaizhang.com/2020/04/18/ru-he-da-chu/</id>
+    <published>2020-04-18T03:19:08.000Z</published>
+    <updated>2020-04-18T03:36:18.381Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;符号集成&quot;&gt;&lt;a href=&quot;#符号集成&quot; class=&quot;headerlink&quot; title=&quot;符号集成&quot;&gt;&lt;/a&gt;符号集成&lt;/h2&gt;&lt;h2 id=&quot;一、符号集成&quot;&gt;&lt;a href=&quot;#一、符号集成&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="问题整理" scheme="http://ishuaizhang.com/categories/%E9%97%AE%E9%A2%98%E6%95%B4%E7%90%86/"/>
+    
+    
+      <category term="直角括号" scheme="http://ishuaizhang.com/tags/%E7%9B%B4%E8%A7%92%E6%8B%AC%E5%8F%B7/"/>
+    
+      <category term="技巧" scheme="http://ishuaizhang.com/tags/%E6%8A%80%E5%B7%A7/"/>
+    
+  </entry>
   
   <entry>
     <title>Huffman Image Compression</title>
@@ -548,36 +576,6 @@
       <category term="随机过程" scheme="http://ishuaizhang.com/tags/%E9%9A%8F%E6%9C%BA%E8%BF%87%E7%A8%8B/"/>
     
       <category term="偶然与必然" scheme="http://ishuaizhang.com/tags/%E5%81%B6%E7%84%B6%E4%B8%8E%E5%BF%85%E7%84%B6/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>进军up主</title>
-    <link href="http://ishuaizhang.com/2020/01/21/jin-jun-up-zhu/"/>
-    <id>http://ishuaizhang.com/2020/01/21/jin-jun-up-zhu/</id>
-    <published>2020-01-21T15:47:21.000Z</published>
-    <updated>2020-02-07T05:38:25.567Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;对B站up主的分析&quot;&gt;&lt;a href=&quot;#对B站up主的分析&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="所思所想" scheme="http://ishuaizhang.com/categories/%E6%89%80%E6%80%9D%E6%89%80%E6%83%B3/"/>
-    
-    
-      <category term="产品" scheme="http://ishuaizhang.com/tags/%E4%BA%A7%E5%93%81/"/>
-    
-      <category term="运营" scheme="http://ishuaizhang.com/tags/%E8%BF%90%E8%90%A5/"/>
-    
-      <category term="up主" scheme="http://ishuaizhang.com/tags/up%E4%B8%BB/"/>
     
   </entry>
   

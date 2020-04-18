@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>如何打出「」？</title>
+      <link href="/2020/04/18/ru-he-da-chu/"/>
+      <url>/2020/04/18/ru-he-da-chu/</url>
+      
+        <content type="html"><![CDATA[<h2 id="符号集成"><a href="#符号集成" class="headerlink" title="符号集成"></a>符号集成</h2><h2 id="一、符号集成"><a href="#一、符号集成" class="headerlink" title="一、符号集成"></a>一、符号集成</h2><p>共两步：</p><p>1、使用「Ctrl+Shift+z」调用出输入法的符号集成；</p><p><img src="%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E7%AC%A6%E5%8F%B7%E9%9B%86%E6%88%90.png" alt="搜狗输入法符号集成"></p><p>2、然后再点进标点符号栏，找到「」。</p><p><img src="%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E7%AC%A6%E5%8F%B7%E9%9B%86%E6%88%90%E6%A0%87%E7%82%B9%E7%AC%A6%E5%8F%B7.png" alt="搜狗输入法符号集成标点符号"></p><p>下次就可以直接在「最近使用」栏找到「」了。</p><h2 id="二、自定义短语"><a href="#二、自定义短语" class="headerlink" title="二、自定义短语"></a>二、自定义短语</h2><p>共三步：</p><p>1、打开搜狗输入法的属性设置；</p><p><img src="%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E5%B1%9E%E6%80%A7%E8%AE%BE%E7%BD%AE.png" alt="搜狗输入法属性设置"></p><p>2、打开「高级」-&gt;「自定义短语设置」；</p><p><img src="%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9F%AD%E8%AF%AD%E8%AE%BE%E7%BD%AE.png" alt="搜狗输入法自定义短语设置"></p><p>3、点击添加新定义，填写「缩写」和「短语」。</p><p><img src="%E6%90%9C%E7%8B%97%E8%BE%93%E5%85%A5%E6%B3%95%E6%B7%BB%E5%8A%A0%E8%87%AA%E5%AE%9A%E4%B9%89%E7%9F%AD%E8%AF%AD.png" alt="搜狗输入法添加自定义短语">3、</p><p>接下来就可以，用按键 yh 来输入「」了。或者将 y 定义成 「，将 h 定义成 」。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 问题整理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 直角括号 </tag>
+            
+            <tag> 技巧 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Huffman Image Compression</title>
       <link href="/2020/04/12/huffman-image-compression/"/>
       <url>/2020/04/12/huffman-image-compression/</url>
@@ -1216,9 +1243,9 @@
             
             <tag> 失恋 </tag>
             
-            <tag> 碎碎念 </tag>
-            
             <tag> 心历 </tag>
+            
+            <tag> 碎碎念 </tag>
             
         </tags>
       
@@ -1243,9 +1270,9 @@
       
         <tags>
             
-            <tag> 复盘 </tag>
-            
             <tag> 碎碎念 </tag>
+            
+            <tag> 复盘 </tag>
             
         </tags>
       
@@ -1297,9 +1324,9 @@
       
         <tags>
             
-            <tag> 复盘 </tag>
-            
             <tag> 碎碎念 </tag>
+            
+            <tag> 复盘 </tag>
             
         </tags>
       
@@ -1324,9 +1351,9 @@
       
         <tags>
             
-            <tag> 复盘 </tag>
-            
             <tag> 碎碎念 </tag>
+            
+            <tag> 复盘 </tag>
             
         </tags>
       
