@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ishuaizhang.com/"/>
-  <updated>2020-04-18T03:36:18.381Z</updated>
+  <updated>2020-04-19T02:52:24.550Z</updated>
   <id>http://ishuaizhang.com/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="http://ishuaizhang.com/2020/04/18/ru-he-da-chu/"/>
     <id>http://ishuaizhang.com/2020/04/18/ru-he-da-chu/</id>
     <published>2020-04-18T03:19:08.000Z</published>
-    <updated>2020-04-18T03:36:18.381Z</updated>
+    <updated>2020-04-19T02:52:24.550Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,7 @@
       
         
         
-          &lt;h2 id=&quot;符号集成&quot;&gt;&lt;a href=&quot;#符号集成&quot; class=&quot;headerlink&quot; title=&quot;符号集成&quot;&gt;&lt;/a&gt;符号集成&lt;/h2&gt;&lt;h2 id=&quot;一、符号集成&quot;&gt;&lt;a href=&quot;#一、符号集成&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;一、符号集成&quot;&gt;&lt;a href=&quot;#一、符号集成&quot; class=&quot;headerlink&quot;
         
       
     
@@ -49,7 +49,7 @@
     <link href="http://ishuaizhang.com/2020/04/12/huffman-image-compression/"/>
     <id>http://ishuaizhang.com/2020/04/12/huffman-image-compression/</id>
     <published>2020-04-12T12:47:59.000Z</published>
-    <updated>2020-04-12T13:26:49.461Z</updated>
+    <updated>2020-04-19T15:42:30.202Z</updated>
     
     <summary type="html">
     
@@ -57,8 +57,8 @@
       
         
         
-          &lt;p&gt;计算学分绩后，发现信息论对成绩影响比较大，学习得上点心。于是，写此文以梳理我在其课程实践中做项目的心得与收获，尽力写得深入浅出，对大家也有启发。本文将在4月19日更新完毕。&lt;/p&gt;
-&lt;p&gt;谨以此文梳理我在使用Huffman编码对图像进行无损压缩和解压的心得与收获，尽力写得深
+          &lt;p&gt;谨以此文梳理我在使用Huffman编码对图像进行无损压缩和解压的心得与收获，尽力写得深入浅出，对大家也有启发。本文将在4月19日更新完毕。&lt;/p&gt;
+&lt;h2 id=&quot;引言&quot;&gt;&lt;a href=&quot;#引言&quot; class=&quot;headerlink&quot;
         
       
     

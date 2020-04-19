@@ -8,8 +8,8 @@
     <meta name="baidu-site-verification" content="g5p7UAGEyy">
     <meta name="google-site-verification" content="g5p7UAGEyy">
     <meta name="360-site-verification" content>
-    <meta name="description" content="计算学分绩后，发现信息论对成绩影响比较大，学习得上点心。于是，写此文以梳理我在其课程实践中做项目的心得与收获，尽力写得深入浅出，对大家也有启发。本文将在4月19日更新完毕。
-谨以此文梳理我在使用Huffman编码对图像进行无损压缩和解压的心">
+    <meta name="description" content="谨以此文梳理我在使用Huffman编码对图像进行无损压缩和解压的心得与收获，尽力写得深入浅出，对大家也有启发。本文将在4月19日更新完毕。
+引言在各种数字图像处理中，大数据量的图像信息会给存储器的存储容量，通信干线信道的带宽，以及计算机的处">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -291,7 +291,7 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/24.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/18.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -450,14 +450,14 @@
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    133
+                    2.6k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    9 分
                 </div>
                 
                 
@@ -473,9 +473,205 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>计算学分绩后，发现信息论对成绩影响比较大，学习得上点心。于是，写此文以梳理我在其课程实践中做项目的心得与收获，尽力写得深入浅出，对大家也有启发。本文将在4月19日更新完毕。</p>
-<p>谨以此文梳理我在使用Huffman编码对图像进行无损压缩和解压的心得与收获，尽力写得深入浅出，对大家也有启发。本文将在4月19日更新完毕。</p>
+                <p>谨以此文梳理我在使用Huffman编码对图像进行无损压缩和解压的心得与收获，尽力写得深入浅出，对大家也有启发。本文将在4月19日更新完毕。</p>
+<h2 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h2><p>在各种数字图像处理中，大数据量的图像信息会给存储器的存储容量，通信干线信道的带宽，以及计算机的处理速度增加极大的压力。单纯靠增加存储器容量，提高信道带宽以及计算机的处理速度等方法来解决这个问题是不现实的，这时就要考虑压缩.压缩的理论基础是信息论.从信息论的角度来看，压缩就是去掉信息中的冗余，即保留不确定的信息，去掉确定的信息（可推知的），也就是用一种更接近信息本质的描述来代替原有冗余的描述。</p>
+<h3 id="为什么能压缩"><a href="#为什么能压缩" class="headerlink" title="为什么能压缩"></a>为什么能压缩</h3><p>图像数据之所以能被压缩，就是因为数据中存在着冗余。图像数据的冗余主要表现为：图像中相邻像素间的相关性引起的空间冗余；图像序列中不同帧之间存在相关性引起的时间冗余；不同彩色平面或频谱带的相关性引起的频谱冗余。</p>
+<p><img src="%E5%A6%82%E5%9B%BE%E4%B8%BA%E7%A9%BA%E9%97%B4%E5%86%97%E4%BD%99.png" alt="如图为空间冗余，背景的彩色圆环、Tom和Jerry的头像、文字都是相同的颜色"></p>
+<p><img src="%E5%A6%82%E5%9B%BE%E4%B8%BA%E6%97%B6%E9%97%B4%E5%86%97%E4%BD%99.png" alt="如图为时间冗余，相邻帧的数据有许多共同的地方，如背景的钢琴"></p>
+<p>人类的视觉系统由于受生理特性的限制，对于图像场的注意是非均匀的，即，人对细微的颜色差异感觉不明显。例如，人类视觉的一般分辨能力为26灰度等级，而一般的图像的量化采用的是28灰度等级，存在视觉冗余。</p>
+<h3 id="压缩方法"><a href="#压缩方法" class="headerlink" title="压缩方法"></a>压缩方法</h3><p>图像压缩可以是有损数据压缩或无损数据压缩。</p>
+<p><strong>无损压缩：</strong>要求解压以后的数据和原始数据完全一致，是可逆过程。根据目前的水平，无损压缩一般可以把普通文件的数据压缩到原来的$\frac{1}{2}-\frac{1}{4}$。对于医疗图像、用于存档的扫描图像等，优先选择无损压缩方法。常用的无损压缩方法有：游程编码、熵编码法以及LZW这样的自适应字典算法。</p>
+<p><strong>有损压缩：</strong>解压以后的数据和原始数据不完全一致，是不可逆压缩方式。根据目前水平，有损压缩的压缩比一般为100:1.由于某些场景包含的数据往往多于我们的视觉系统和听觉系统所能接收的信息，丢掉一些数据而不至于对声音或者图像所表达的意思产生误解，所以有损压缩非常适合于自然的图像。可以接受微小损失（有时是无法感知的）。常用的有损压缩方法有：色度抽样、变换编码等。</p>
+<h2 id="Huffman树及其应用"><a href="#Huffman树及其应用" class="headerlink" title="Huffman树及其应用"></a>Huffman树及其应用</h2><h3 id="Huffman树"><a href="#Huffman树" class="headerlink" title="Huffman树"></a>Huffman树</h3><p>Huffman树，是一类带权路径长度最短的树，又称最优二叉树。</p>
+<p>假设有n个权值，则构造出的哈夫曼树有n个叶子结点。n个权值为{$w_1, w_2, …, w_n$}，则哈夫曼树的构造规则为：</p>
+<ol>
+<li>将这n个权值$w_1, w_2, …, w_n$，构造成n棵仅有一个根结点的二叉树；</li>
+<li>选出两个根结点的权值最小的树合并，作为一棵新树的左、右子树，且新树的根结点权值为其左、右子树根结点权值之和；</li>
+<li>删除选取的这两棵树；</li>
+<li>重复第2、3步，直到只剩一棵树为止，该树即为所求得的哈夫曼树。</li>
+</ol>
+<p>由上述步骤可得：对n个权值，构造哈夫曼树需要合并n-1次，形成的树结点总数为2n-1。</p>
+<p>下图展示了Huffman树的构造过程，其中根节点上标注的数字是所赋的权。不难推知，该树的所有叶子节点到根节点的路径长度和节点权的乘积和最小。</p>
+<p><img src="Huffman%E6%A0%91%E7%9A%84%E6%9E%84%E9%80%A0%E8%BF%87%E7%A8%8B.png" alt="Huffman树的构造过程，其中根节点上标注的数字是所赋的权值。图来自严蔚敏等著的《数据结构》"></p>
+<h3 id="Huffman编码"><a href="#Huffman编码" class="headerlink" title="Huffman编码"></a>Huffman编码</h3><p>如果我们要对下面的字符串使用Huffman编码。</p>
+<p>$$“beep\quad boop\quad beer!”$$</p>
+<p>首先，我们计算出每个字符出现的次数，得到下面这样一张表 :</p>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>字符</strong></th>
+<th align="center"><strong>频数</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><strong>‘b’</strong></td>
+<td align="center"><strong>3</strong></td>
+</tr>
+<tr>
+<td align="center"><strong>‘e’</strong></td>
+<td align="center"><strong>4</strong></td>
+</tr>
+<tr>
+<td align="center"><strong>‘p’</strong></td>
+<td align="center"><strong>2</strong></td>
+</tr>
+<tr>
+<td align="center"><strong>‘ ’</strong></td>
+<td align="center"><strong>2</strong></td>
+</tr>
+<tr>
+<td align="center"><strong>‘o’</strong></td>
+<td align="center"><strong>2</strong></td>
+</tr>
+<tr>
+<td align="center"><strong>‘r’</strong></td>
+<td align="center"><strong>1</strong></td>
+</tr>
+<tr>
+<td align="center"><strong>‘!’</strong></td>
+<td align="center"><strong>1</strong></td>
+</tr>
+</tbody></table>
+<p>将这些字符按其出现频数排序(可以理解为优先级队列)。</p>
+<p><img src="%E9%A2%91%E6%95%B0%E7%BB%9F%E8%AE%A1%E7%9A%84%E4%BC%98%E5%85%88%E7%BA%A7%E9%98%9F%E5%88%97.png" alt="频数统计的优先级队列"></p>
+<p>取权最小的两个字符构造二叉树，再排序。</p>
+<p><img src="Huffman%E6%A0%91%E7%9A%84%E6%9E%84%E9%80%A0%E7%A4%BA%E4%BE%8B.png" alt="Huffman树的构造示例"></p>
+<p>重复该步骤，得到以下结果。</p>
+<p><img src="%E7%AC%AC%E4%B8%80%E9%81%8D%E9%87%8D%E5%A4%8D%E7%9A%84%E7%BB%93%E6%9E%9C.png" alt="第一遍重复的结果，将子树与p作为叶子节点，再排序"></p>
+<p><img src="%E7%AC%AC%E4%BA%8C%E9%81%8D%E9%87%8D%E5%A4%8D%E7%9A%84%E7%BB%93%E6%9E%9C.png" alt="第二遍重复的结果，将&#39;o&#39;和&#39; &#39;作为叶子节点，再排序"></p>
+<p><img src="%E7%AC%AC%E4%B8%89%E9%81%8D%E9%87%8D%E5%A4%8D%E7%9A%84%E7%BB%93%E6%9E%9C.png" alt="第三遍重复的结果，将&#39;b&#39;和子树作为叶子节点，再排序"></p>
+<p><img src="%E7%AC%AC%E5%9B%9B%E9%81%8D%E9%87%8D%E5%A4%8D%E7%9A%84%E7%BB%93%E6%9E%9C.png" alt="第四遍重复的结果，将&#39;e&#39;和子树作为叶子节点，再排序"></p>
+<p>现在就可以得到最终的Huffman树了。</p>
+<p><img src="%E6%9C%80%E7%BB%88%E5%BE%97%E5%88%B0%E7%9A%84Huffman%E6%A0%91.png" alt="最终得到的Huffman树"></p>
+<p>为了获得每个符号的编码值，我们只需要遍历这些树，直到我们到达那个符号。向左走时，编码的前缀添加0；向右走时，则添加1。</p>
+<p><img src="Huffman%E6%A0%91%E7%9A%84%E7%BC%96%E7%A0%81%E8%A7%84%E5%88%99.png" alt="Huffman树的编码规则"></p>
+<p>于是，得到下面的编码表。</p>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>字符</strong></th>
+<th align="center"><strong>编码</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><strong>‘b’</strong></td>
+<td align="center">00</td>
+</tr>
+<tr>
+<td align="center"><strong>‘e’</strong></td>
+<td align="center">11</td>
+</tr>
+<tr>
+<td align="center"><strong>‘p’</strong></td>
+<td align="center">101</td>
+</tr>
+<tr>
+<td align="center"><strong>‘ ’</strong></td>
+<td align="center">011</td>
+</tr>
+<tr>
+<td align="center"><strong>‘o’</strong></td>
+<td align="center">010</td>
+</tr>
+<tr>
+<td align="center"><strong>‘r’</strong></td>
+<td align="center">1000</td>
+</tr>
+<tr>
+<td align="center"><strong>‘!’</strong></td>
+<td align="center">1001</td>
+</tr>
+</tbody></table>
+<p>不难发现，每个字符的编码不会成为其他编码的前几位，这样就很好地避免了译码时（同一个码对应不同的译码可能）的冲突。</p>
+<p>如果对原字符串”beep boop beer!”进行普通编码，每个字符编为一个4bit的二进制码，总码长为90bit。而采用Huffman编码，总码为0011 1110 1011 0001 0010 1010 1100 1111 1000 1001，总码长为40bit。“90vs40”，Huffman编码的压缩效果很显著了。</p>
+<h2 id="用Huffman编码压缩和解压图像"><a href="#用Huffman编码压缩和解压图像" class="headerlink" title="用Huffman编码压缩和解压图像"></a>用Huffman编码压缩和解压图像</h2><h3 id="算法流程"><a href="#算法流程" class="headerlink" title="算法流程"></a>算法流程</h3><p><strong>压缩</strong>步骤：</p>
+<p>1)  读取图像文件，每个像素包含RGB三个色彩通道，每个通道占1个字节，这是编码的单元。</p>
+<p>2)  对读取到的每个像素的色彩通道数据进行权重统计。</p>
+<p>3)  根据权重统计构建Huffman编码树。</p>
+<p>4)  从Huffman编码树的根节点开始向根节点进行DFS，产生编码表。</p>
+<p>5)  使用编码表对原来的每个通道的色彩通道数据进行编码。</p>
+<p>6)  将编码输出到自定义的编码文件中。</p>
+<p><strong>解压</strong>步骤：</p>
+<p>1)  读取自定义的编码文件，根据对编码文件结构的定义将各个部分分割出来。</p>
+<p>2)  构造权重映射表，根据权重映射表重建Huffman编码树。</p>
+<p>3)  读取实际编码数据，根据每个位的数据所指定的方向，从根节点开始向下游历编码树，每次到达叶子节点的时候输出叶子节点的对应数据，再重新回到根节点开始下一次游历，直到读取完编码数据。</p>
+<p>4)  把得到的解码数据重新构建成图像格式，写入到图像文件中。</p>
+<h3 id="实验准备"><a href="#实验准备" class="headerlink" title="实验准备"></a>实验准备</h3><h4 id="框架构思"><a href="#框架构思" class="headerlink" title="框架构思"></a>框架构思</h4><p>项目需要以下各类：</p>
+<ul>
+<li>编码文件辅助类（用于储存编码文件的相关信息）</li>
+<li>Huffman编码数据单元辅助类（考虑到数据量大的时候，使用字符串来保存码字会由较大的内存开销，所以创建了这个类，采用了与最后存储到文件中一样的位数据集保存形式来保存编码数据单元，也就是在Huffman编码树上的路径）</li>
+<li>Huffman编码操作类（算法核心）</li>
+<li>图像文件辅助类（用于储存图片文件的相关信息）</li>
+<li>图像IO异常类（对C++的运行时错误类的扩展，用于报出实际文件IO中详细的错误）</li>
+<li>图像IO辅助类（用于进行图像和压缩后文件的读写）</li>
+</ul>
+<p>由上到下，分别为下图所示文件。</p>
+<h4 id="项目环境"><a href="#项目环境" class="headerlink" title="项目环境"></a>项目环境</h4><p>使用VMware® Workstation 15 Pro上创建的虚拟机Ubuntu64位（19.10）进行编写和测试，项目语言为C++。</p>
+<h4 id="文件要求"><a href="#文件要求" class="headerlink" title="文件要求"></a>文件要求</h4><p>只针对bmp图像文件进行压缩。</p>
+<p>压缩后的文件的扩展名为.hfmc ，压缩后文件结构为：</p>
+<ul>
+<li>原图像文件头（54字节）</li>
+<li>编码后图像数据总位数dataBitCount（4字节，即一个32为无符号整数）</li>
+<li>原图像文件中不同的数据单元的数目weightMapValCount（4字节，即一个32为无符号整数）</li>
+<li>权重映射表（表中每一项包含1个字节的原数据和4个字节即32位无符号整数表示的权重值，一共5个字节，表的总大小为weightMapValCount * 5）</li>
+<li>编码数据，实际的编码数据位数为dataBitCount，最后一个字节的数据如果是不满8位，余下的位用0作为padding</li>
+</ul>
+<h3 id="编程实现"><a href="#编程实现" class="headerlink" title="编程实现"></a>编程实现</h3><p><strong>压缩</strong>：</p>
+<pre class="line-numbers language-c++"><code class="language-c++">void HuffmanCompression::getEncodedData(const unsigned char *rawDataPtr, uint32_t rawDataSize, unordered_map<unsigned char, uint32_t > &dstWeightMap, unsigned char *&outputDataPtr, uint32_t &outputDataBitSize) {
+    calcWeight(rawDataPtr, rawDataSize, dstWeightMap);  // 计算出权值映射表
+    generateEncodedNodeQueue(dstWeightMap);  // 根据权值映射表构建编码树节点队列（使用priority_queue这样一个以堆实现的“队列”，可以保证每次进出队操作后队列的节点保持权值从小到大排列）
+    buildTree();  // 建立编码树
+    unordered_map<unsigned char, hfmCodeBitSet> resCodeMap;
+    getCodeMap(resCodeMap);  // 根据编码树产生权值表
+    outputDataBitSize = calcEncodedOutputSize(dstWeightMap, resCodeMap);  // 计算编码数据位数
+    generateEncodedOutput(rawDataPtr, rawDataSize, resCodeMap, outputDataPtr, outputDataBitSize);  // 对原数据进行编码
+}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p><strong>解压：</strong></p>
+<pre class="line-numbers language-c++"><code class="language-c++">void HuffmanCompression::getDecodedData(const unsigned char *rawDataPtr, uint32_t rawDataBitSize, const vector<pair<unsigned char, uint32_t >> &srcWeightMapArr, unsigned char *&outputDataPtr, uint32_t &outputDataSize) {
+    generateDecodedNodeQueue(srcWeightMapArr);  // 根据读取文件之后构建的权值映射表构建节点队列
+    buildTree();  // 建立编码树
+    outputDataSize = calcDecodedOutputSize(srcWeightMapArr);  // 计算输出数据大小
+    generateDecodedOutput(rawDataPtr, rawDataBitSize, outputDataPtr, outputDataSize);  // 对编码数据进行解码
+}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p><strong>建立Huffman树：</strong></p>
+<pre class="line-numbers language-c++"><code class="language-c++">// 因为节点队列能够根据进出队列的节点的权值进行顺序调整，所以每次只需要从队首取出2个节点构造一棵树，将树根再次加进节点队列，直到队列只剩下一个节点，这个节点就是编码树的根节点
+void HuffmanCompression::buildTree() {
+    while (nodeQueue.size() > 1) {
+        TreeNode* rightNode = nodeQueue.top();
+        nodeQueue.pop();
+        TreeNode* leftNode = nodeQueue.top();
+        nodeQueue.pop();
+        auto parentNode = new TreeNode(0, rightNode -> weight + leftNode -> weight);
+        parentNode -> left = leftNode;
+        parentNode -> right = rightNode;
+        nodeQueue.push(parentNode);
+    }
+    treeRoot = nodeQueue.top();
+}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p><strong>生成编码表：</strong></p>
+<pre class="line-numbers language-c++"><code class="language-c++">// 深度优先搜索，过程中使用path来记录路径，到达每个叶子节点的path就是叶子节点对应数据的编码
+void HuffmanCompression::dfs(TreeNode* node, hfmCodeBitSet& path,
+                             unordered_map<unsigned char, hfmCodeBitSet> &resCodeMap) {
+    if (node -> left == nullptr && node -> right == nullptr) {
+        resCodeMap[node -> val] = path;
+        return;
+    }
+    path.append(0);
+    dfs(node -> left, path, resCodeMap);
+    path.pop_back();
+    path.append(1);
+    dfs(node -> right, path, resCodeMap);
+    path.pop_back();
+}
 
+// 生成编码表：调用dfs来生成编码表
+void HuffmanCompression::getCodeMap(unordered_map<unsigned char, hfmCodeBitSet> &resCodeMap) {
+    if (treeRoot == nullptr)
+        return;
+    hfmCodeBitSet path;
+    dfs(treeRoot, path, resCodeMap);
+}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<h3 id="结果分析"><a href="#结果分析" class="headerlink" title="结果分析"></a>结果分析</h3>
             </div>
             <hr />
 
@@ -967,7 +1163,7 @@
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="如何打出「」？">
+                        <img src="/medias/featureimages/12.jpg" class="responsive-img" alt="如何打出「」？">
                         
                         <span class="card-title">如何打出「」？</span>
                     </div>
@@ -1020,7 +1216,7 @@
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/20.jpg" class="responsive-img" alt="Kaggle进阶">
+                        <img src="/medias/featureimages/14.jpg" class="responsive-img" alt="Kaggle进阶">
                         
                         <span class="card-title">Kaggle进阶</span>
                     </div>
@@ -1219,7 +1415,7 @@
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">39.1k</span>
+            <span class="white-color">41.5k</span>
             
 
             <br>

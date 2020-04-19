@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://ishuaizhang.com/2020/04/18/ru-he-da-chu/</loc>
+    <loc>http://ishuaizhang.com/2020/04/12/huffman-image-compression/</loc>
     
-    <lastmod>2020-04-18T03:36:18.381Z</lastmod>
+    <lastmod>2020-04-19T15:42:30.202Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://ishuaizhang.com/2020/04/12/huffman-image-compression/</loc>
+    <loc>http://ishuaizhang.com/2020/04/18/ru-he-da-chu/</loc>
     
-    <lastmod>2020-04-12T13:26:49.461Z</lastmod>
+    <lastmod>2020-04-19T02:52:24.550Z</lastmod>
     
   </url>
   
@@ -380,6 +380,13 @@
   </url>
   
   <url>
+    <loc>http://ishuaizhang.com/404.html</loc>
+    
+    <lastmod>2019-09-23T03:06:26.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://ishuaizhang.com/archives/index.html</loc>
     
     <lastmod>2019-09-23T03:06:26.000Z</lastmod>
@@ -395,13 +402,6 @@
   
   <url>
     <loc>http://ishuaizhang.com/tags/index.html</loc>
-    
-    <lastmod>2019-09-23T03:06:26.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ishuaizhang.com/404.html</loc>
     
     <lastmod>2019-09-23T03:06:26.000Z</lastmod>
     
