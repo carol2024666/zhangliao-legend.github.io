@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ishuaizhang.com/about/index.html</loc>
+    
+    <lastmod>2020-04-20T08:18:04.039Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://ishuaizhang.com/2020/04/12/huffman-image-compression/</loc>
     
-    <lastmod>2020-04-19T16:37:43.415Z</lastmod>
+    <lastmod>2020-04-20T02:25:50.554Z</lastmod>
     
   </url>
   
@@ -33,13 +40,6 @@
     <loc>http://ishuaizhang.com/2020/04/04/gmail-bug/</loc>
     
     <lastmod>2020-04-04T08:30:21.987Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://ishuaizhang.com/about/index.html</loc>
-    
-    <lastmod>2020-03-14T17:31:21.688Z</lastmod>
     
   </url>
   
