@@ -450,7 +450,7 @@
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    3k
+                    3.1k
                 </div>
                 
 
@@ -674,10 +674,48 @@ void HuffmanCompression::getCodeMap(unordered_map<unsigned char, hfmCodeBitSet> 
     hfmCodeBitSet path;
     dfs(treeRoot, path, resCodeMap);
 }<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+<p><strong>计算图像熵：</strong></p>
+<pre class="line-numbers language-c++"><code class="language-c++">double Entropy(Mat img)
+{
+
+//开辟内存
+double temp[256] = { 0.0 };
+
+// 计算每个像素的累积值
+for (int m = 0; m < img.rows; m++)
+{// 有效访问行列的方式
+    const uchar* t = img.ptr<uchar>(m);
+    for (int n = 0; n < img.cols; n++)
+    {
+        int i = t[n];
+        temp[i] = temp[i] + 1;
+    }
+}
+
+// 计算每个像素的概率
+for (int i = 0; i < 256; i++)
+{
+    temp[i] = temp[i] / (img.rows*img.cols);
+}
+
+double result = 0;
+// 计算图像信息熵
+for (int i = 0; i < 256; i++)
+{
+    if (temp[i] == 0.0)
+        result = result;
+    else
+        result = result - temp[i] * (log(temp[i]) / log(2.0));
+}
+
+return result;
+
+}
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <h3 id="结果分析"><a href="#结果分析" class="headerlink" title="结果分析"></a>结果分析</h3><p><strong>从压缩前后的图片质量来主观描述，压缩再解压的图像与原始图像无差异</strong>。</p>
 <p><img src="%E7%BB%93%E6%9E%9C1.png" alt="原始图像和压缩后恢复图像的视觉对比"></p>
 <p>引入Shannon熵描述图像的平均信息量，假设各像素和各灰度是统计独立的，而且不考虑像素的几何位置，则有</p>
-<p>$$H=-\sum{i=1}{n}p(x_i)log(x_i)$$</p>
+<p>$$H=-\sum_{i=1}^{n}p(x_i)log(x_i)$$</p>
 <p>因为在计算机编码中，色彩表现为数字，那么色彩的丰富度就可以用概率来量化，如果每个像素值出现的概率都不为零，我们就有理由相信这是一张颜色艳丽的照片，而这个概率最终的量化结果，又恰恰就是信息熵所拟合的值。所以我们可以认为，“熵值大=色彩艳丽”。</p>
 <p>以 24 位真彩图作为实验数据，计算图像信息熵和压缩比（压缩后的文件大小与原文件大小的比值），得到下表。</p>
 <table>
@@ -1473,7 +1511,7 @@ void HuffmanCompression::getCodeMap(unordered_map<unsigned char, hfmCodeBitSet> 
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">42k</span>
+            <span class="white-color">42.1k</span>
             
 
             <br>
