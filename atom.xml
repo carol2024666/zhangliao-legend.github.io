@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ishuaizhang.com/"/>
-  <updated>2020-04-19T02:52:24.550Z</updated>
+  <updated>2020-04-26T09:58:54.588Z</updated>
   <id>http://ishuaizhang.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>如何打出「」？</title>
+    <title>如何打出直角括号「」？</title>
     <link href="http://ishuaizhang.com/2020/04/18/ru-he-da-chu/"/>
     <id>http://ishuaizhang.com/2020/04/18/ru-he-da-chu/</id>
     <published>2020-04-18T03:19:08.000Z</published>
-    <updated>2020-04-19T02:52:24.550Z</updated>
+    <updated>2020-04-26T09:58:54.588Z</updated>
     
     <summary type="html">
     
@@ -45,11 +45,11 @@
   </entry>
   
   <entry>
-    <title>Huffman Image Compression</title>
+    <title>用Huffman编码压缩图像</title>
     <link href="http://ishuaizhang.com/2020/04/12/huffman-image-compression/"/>
     <id>http://ishuaizhang.com/2020/04/12/huffman-image-compression/</id>
     <published>2020-04-12T12:47:59.000Z</published>
-    <updated>2020-04-21T01:17:36.772Z</updated>
+    <updated>2020-04-26T10:17:56.349Z</updated>
     
     <summary type="html">
     
@@ -78,7 +78,7 @@
     <link href="http://ishuaizhang.com/2020/04/12/kaggle-jin-jie/"/>
     <id>http://ishuaizhang.com/2020/04/12/kaggle-jin-jie/</id>
     <published>2020-04-12T12:45:32.000Z</published>
-    <updated>2020-04-12T13:25:30.146Z</updated>
+    <updated>2020-04-26T10:18:10.546Z</updated>
     
     <summary type="html">
     
