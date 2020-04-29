@@ -4,12 +4,12 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="交通事故检测, XDU 帅张 产品 技术 管理">
+    <meta name="keywords" content="论文研读, XDU 帅张 产品 技术 管理">
     <meta name="baidu-site-verification" content="g5p7UAGEyy">
     <meta name="google-site-verification" content="g5p7UAGEyy">
     <meta name="360-site-verification" content>
-    <meta name="description" content="题目Unsupervised Traffic Accident Detection in First-Person Videos
-行文思路识别驾驶场景中的交通违规、事故等异常事件是自动驾驶或驾驶员辅助系统的关键。然而目前大多数异常检测的工作">
+    <meta name="description" content="5月3日前，更新两篇SCI读后感，然后总结本周的英语学习日志（方法效果和实践情况）
+">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -17,7 +17,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>交通事故检测 | 帅张的梦呓</title>
+    <title>论文研读 | 帅张的梦呓</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/font-awesome.min.css">
@@ -291,13 +291,13 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/18.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/7.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
                     <div class="description center-align post-title">
-                        交通事故检测
+                        论文研读
                     </div>
                 </div>
             </div>
@@ -408,12 +408,8 @@
                     
                     <div class="article-tag">
                         
-                        <a href="/tags/自动驾驶/" target="_blank">
-                            <span class="chip bg-color">自动驾驶</span>
-                        </a>
-                        
-                        <a href="/tags/事故检测/" target="_blank">
-                            <span class="chip bg-color">事故检测</span>
+                        <a href="/tags/分布式/" target="_blank">
+                            <span class="chip bg-color">分布式</span>
                         </a>
                         
                     </div>
@@ -436,7 +432,7 @@
             <div class="post-info">
                 <div class="post-date info-break-policy">
                     <i class="fa fa-calendar-minus-o fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2019-11-14
+                    2020-04-29
                 </div>
 
                 <div class="post-author info-break-policy">
@@ -450,14 +446,14 @@
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    604
+                    34
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="fa fa-clock-o fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    2 分
+                    1 分
                 </div>
                 
                 
@@ -473,17 +469,7 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="题目"><a href="#题目" class="headerlink" title="题目"></a>题目</h3><p>Unsupervised Traffic Accident Detection in First-Person Videos</p>
-<h3 id="行文思路"><a href="#行文思路" class="headerlink" title="行文思路"></a>行文思路</h3><p>识别驾驶场景中的交通违规、事故等异常事件是自动驾驶或驾驶员辅助系统的关键。然而目前大多数异常检测的工作都存在两个重大缺陷：其一，他们要求摄像头是固定的，不适用于车载相机；其二，他们使用监督学习，模型依赖于人工标记的数据集，识别范围而限制在已明确训练过的异常类别。该论文提出了一种用于第一人称视频中交通事故检测的无监督方法，通过预测交通参与者的未来位置来检测异常，然后用三种不同的策略来监控预测的准确性和一致性。</p>
-<h3 id="优越性"><a href="#优越性" class="headerlink" title="优越性"></a>优越性</h3><p>利用过去的视频帧来预测当前的视频帧，将其与当前的实际视频帧比较，寻找差异。其缺点在于</p>
-<ul>
-<li>不适用于车辆上的移动相机，因为车载相机感知到的光运动是由移动物体运动和相机自身运动共同合成的，难以精确预测整个画面。</li>
-<li>数据集难以获取，因为事故视频相对正常视频很少，而且由于驾驶的遭遇情况服从长尾分布，一些异常运动极少发生，以至于不可能为它们收集训练数据，如动物跑到道路上，汽车逆行等。</li>
-<li>信息利用率不高，因为异常检测不需要准确预测帧内的所有信息，房屋、路边广告牌等周边物体的信息对解决问题无帮助。</li>
-<li>建模成本太大，因为将异常检测视为分类问题后，需要对所有可能的驾驶场景进行建模。</li>
-</ul>
-<p>于是本文假设了<strong>如果物体的真实轨迹偏离预测轨迹，则存在异常</strong>。比如，一辆车应该通过十字路口，但是突然停下来，则可能发生碰撞。</p>
-<p>这样，训练模型只需要把正常的、无异常运动的驾驶视频作为数据集，学习自我运动和其他汽车的正常模式，然后识别偏差，而不需要利用所有异常运动的例子。所以，数据集非常容易获取，而且不需要人工标记。</p>
+                <p>5月3日前，更新两篇SCI读后感，然后总结本周的英语学习日志（方法效果和实践情况）</p>
 
             </div>
             <hr />
@@ -642,9 +628,9 @@
             <br/>
             <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text"
                   property="dct:title" rel="dct:type">
-                    《交通事故检测》
+                    《论文研读》
                 </span> 由
-            <a xmlns:cc="http://creativecommons.org/ns#" href="/2019/11/14/lun-wen-du-hou-gan/" property="cc:attributionName"
+            <a xmlns:cc="http://creativecommons.org/ns#" href="/2020/04/29/lun-wen-yan-du/" property="cc:attributionName"
                rel="cc:attributionURL">
                 帅张
             </a> 采用
@@ -685,7 +671,7 @@
         repo: 'zhangliao-legend.github.io',
         owner: 'zhangliao-legend',
         admin: "zhangliao-legend",
-        id: '2019/11/14/lun-wen-du-hou-gan/',
+        id: '2020/04/29/lun-wen-yan-du/',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -968,50 +954,48 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fa fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="fa fa-dot-circle-o"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/2019/11/15/chi-ku/">
+                <a href="/2020/04/29/lun-wen-yan-du/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="吃苦">
+                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="论文研读">
                         
-                        <span class="card-title">吃苦</span>
+                        <span class="card-title">论文研读</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            与自己的本能搏斗
+                            两篇SCI读后感 + 英语学习日志
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="fa fa-clock-o fa-fw icon-date"></i>2019-11-15
-                        </span>
+                            <span class="publish-date">
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-04-29
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/所思所想/" class="post-category" target="_blank">
-                                    所思所想
+                            <a href="/categories/论文研读/" class="post-category" target="_blank">
+                                    论文研读
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/吃苦/" target="_blank">
-                        <span class="chip bg-color">吃苦</span>
-                    </a>
-                    
-                    <a href="/tags/努力/" target="_blank">
-                        <span class="chip bg-color">努力</span>
+                    <a href="/tags/分布式/" target="_blank">
+                        <span class="chip bg-color">分布式</span>
                     </a>
                     
                 </div>
@@ -1025,31 +1009,31 @@
                 下一篇&nbsp;<i class="fa fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2019/11/05/2019-zong-jie/">
+                <a href="/2020/04/18/ru-he-da-chu/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="2019总结">
+                        <img src="/medias/featureimages/22.jpg" class="responsive-img" alt="如何打出直角括号「」？">
                         
-                        <span class="card-title">2019总结</span>
+                        <span class="card-title">如何打出直角括号「」？</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            传科学家精神，做三有西电人
+                            在搜狗输入法自定义短语
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="fa fa-clock-o fa-fw icon-date"></i>2019-11-05
+                                <i class="fa fa-clock-o fa-fw icon-date"></i>2020-04-18
                             </span>
                         <span class="publish-author">
                             
                             <i class="fa fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/复盘总结/" class="post-category" target="_blank">
-                                    复盘总结
+                            <a href="/categories/问题整理/" class="post-category" target="_blank">
+                                    问题整理
                                 </a>
                             
                             
@@ -1059,16 +1043,12 @@
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/做人/" target="_blank">
-                        <span class="chip bg-color">做人</span>
+                    <a href="/tags/直角括号/" target="_blank">
+                        <span class="chip bg-color">直角括号</span>
                     </a>
                     
-                    <a href="/tags/做事/" target="_blank">
-                        <span class="chip bg-color">做事</span>
-                    </a>
-                    
-                    <a href="/tags/做学问/" target="_blank">
-                        <span class="chip bg-color">做学问</span>
+                    <a href="/tags/技巧/" target="_blank">
+                        <span class="chip bg-color">技巧</span>
                     </a>
                     
                 </div>
