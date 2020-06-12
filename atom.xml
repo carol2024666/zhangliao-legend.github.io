@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ishuaizhang.com/"/>
-  <updated>2020-04-26T09:58:54.588Z</updated>
+  <updated>2020-06-12T03:50:40.779Z</updated>
   <id>http://ishuaizhang.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>敏捷开发入门教程</title>
+    <link href="http://ishuaizhang.com/2020/06/12/min-jie-kai-fa-ru-men-jiao-cheng/"/>
+    <id>http://ishuaizhang.com/2020/06/12/min-jie-kai-fa-ru-men-jiao-cheng/</id>
+    <published>2020-06-12T03:47:48.000Z</published>
+    <updated>2020-06-12T03:50:40.779Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;敏捷开发&quot;&gt;&lt;a href=&quot;#敏捷开发&quot; class=&quot;headerlink&quot; title=&quot;敏捷开发&quot;&gt;&lt;/a&gt;敏捷开发&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;敏捷开发，是一种以人为核心、迭代、循序渐进的开发方法。
+        
+      
+    
+    </summary>
+    
+      <category term="所感所悟" scheme="http://ishuaizhang.com/categories/%E6%89%80%E6%84%9F%E6%89%80%E6%82%9F/"/>
+    
+    
+      <category term="开发" scheme="http://ishuaizhang.com/tags/%E5%BC%80%E5%8F%91/"/>
+    
+      <category term="敏捷" scheme="http://ishuaizhang.com/tags/%E6%95%8F%E6%8D%B7/"/>
+    
+  </entry>
   
   <entry>
     <title>如何打出直角括号「」？</title>
@@ -545,37 +574,6 @@
       <category term="LeetCode" scheme="http://ishuaizhang.com/tags/LeetCode/"/>
     
       <category term="算法" scheme="http://ishuaizhang.com/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>随机人生</title>
-    <link href="http://ishuaizhang.com/2020/01/22/sui-ji-ren-sheng/"/>
-    <id>http://ishuaizhang.com/2020/01/22/sui-ji-ren-sheng/</id>
-    <published>2020-01-22T13:22:08.000Z</published>
-    <updated>2020-02-07T05:37:15.468Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;老虎伍兹改变击球姿势，不就是改变自己应对外界不确定性的习惯吗，通过对外界的高频率反应，像蚁群一样在地上反复移动，留下含信息素最多的路径（最短），即得到了最佳的方法。&lt;/p&gt;
-&lt;p&gt;追悔过去有用吗？难道你回到过去，就能改变命运？把人生当做马尔科夫过程的话，过去的事件和状态不能
-        
-      
-    
-    </summary>
-    
-      <category term="所思所想" scheme="http://ishuaizhang.com/categories/%E6%89%80%E6%80%9D%E6%89%80%E6%83%B3/"/>
-    
-    
-      <category term="碎碎念" scheme="http://ishuaizhang.com/tags/%E7%A2%8E%E7%A2%8E%E5%BF%B5/"/>
-    
-      <category term="随机过程" scheme="http://ishuaizhang.com/tags/%E9%9A%8F%E6%9C%BA%E8%BF%87%E7%A8%8B/"/>
-    
-      <category term="偶然与必然" scheme="http://ishuaizhang.com/tags/%E5%81%B6%E7%84%B6%E4%B8%8E%E5%BF%85%E7%84%B6/"/>
     
   </entry>
   
