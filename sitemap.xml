@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://ishuaizhang.com/2020/07/05/shi-jia-xue-chang-fang-tan-lu/</loc>
+    
+    <lastmod>2020-07-05T11:01:09.720Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://ishuaizhang.com/2020/06/12/min-jie-kai-fa-ru-men-jiao-cheng/</loc>
     
     <lastmod>2020-06-12T03:50:40.779Z</lastmod>
@@ -387,7 +394,7 @@
   </url>
   
   <url>
-    <loc>http://ishuaizhang.com/tags/index.html</loc>
+    <loc>http://ishuaizhang.com/404.html</loc>
     
     <lastmod>2019-09-23T03:06:26.000Z</lastmod>
     
@@ -401,14 +408,14 @@
   </url>
   
   <url>
-    <loc>http://ishuaizhang.com/404.html</loc>
+    <loc>http://ishuaizhang.com/categories/index.html</loc>
     
     <lastmod>2019-09-23T03:06:26.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://ishuaizhang.com/categories/index.html</loc>
+    <loc>http://ishuaizhang.com/tags/index.html</loc>
     
     <lastmod>2019-09-23T03:06:26.000Z</lastmod>
     
