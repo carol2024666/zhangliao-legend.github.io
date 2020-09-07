@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ishuaizhang.com/"/>
-  <updated>2020-07-05T11:01:09.720Z</updated>
+  <updated>2020-09-07T07:51:14.128Z</updated>
   <id>http://ishuaizhang.com/</id>
   
   <author>
@@ -15,6 +15,66 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>大学经验</title>
+    <link href="http://ishuaizhang.com/2020/09/07/da-xue-jing-yan/"/>
+    <id>http://ishuaizhang.com/2020/09/07/da-xue-jing-yan/</id>
+    <published>2020-09-07T07:33:56.000Z</published>
+    <updated>2020-09-07T07:51:14.128Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;关于高考和大学，我总结了一共8条经验：&lt;/p&gt;
+&lt;p&gt;*&lt;/p&gt;
+&lt;h2 id=&quot;一、城市比学校重要&quot;&gt;&lt;a href=&quot;#一、城市比学校重要&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="所感所悟" scheme="http://ishuaizhang.com/categories/%E6%89%80%E6%84%9F%E6%89%80%E6%82%9F/"/>
+    
+    
+      <category term="大学" scheme="http://ishuaizhang.com/tags/%E5%A4%A7%E5%AD%A6/"/>
+    
+      <category term="经验" scheme="http://ishuaizhang.com/tags/%E7%BB%8F%E9%AA%8C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>数据流中的中位数</title>
+    <link href="http://ishuaizhang.com/2020/08/02/shu-ju-liu-zhong-de-zhong-wei-shu/"/>
+    <id>http://ishuaizhang.com/2020/08/02/shu-ju-liu-zhong-de-zhong-wei-shu/</id>
+    <published>2020-08-02T07:30:14.000Z</published>
+    <updated>2020-08-02T07:36:19.531Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="编程日记" scheme="http://ishuaizhang.com/categories/%E7%BC%96%E7%A8%8B%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="LeetCode" scheme="http://ishuaizhang.com/tags/LeetCode/"/>
+    
+      <category term="算法" scheme="http://ishuaizhang.com/tags/%E7%AE%97%E6%B3%95/"/>
+    
+      <category term="剑指offer" scheme="http://ishuaizhang.com/tags/%E5%89%91%E6%8C%87offer/"/>
+    
+  </entry>
   
   <entry>
     <title>十佳学长访谈录</title>
@@ -504,63 +564,6 @@
         
         
           &lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;p&gt;给你一个字符串 s，它由数字（’0’ - ‘9’）和 ‘#’ 组成。我们希望按下述规则将 s
-        
-      
-    
-    </summary>
-    
-      <category term="编程日记" scheme="http://ishuaizhang.com/categories/%E7%BC%96%E7%A8%8B%E6%97%A5%E8%AE%B0/"/>
-    
-    
-      <category term="LeetCode" scheme="http://ishuaizhang.com/tags/LeetCode/"/>
-    
-      <category term="算法" scheme="http://ishuaizhang.com/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>和为零的N个唯一整数</title>
-    <link href="http://ishuaizhang.com/2020/02/01/he-wei-ling-de-n-ge-wei-yi-zheng-shu/"/>
-    <id>http://ishuaizhang.com/2020/02/01/he-wei-ling-de-n-ge-wei-yi-zheng-shu/</id>
-    <published>2020-02-01T15:38:16.000Z</published>
-    <updated>2020-02-06T09:58:13.396Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;p&gt;给你一个整数 n，请你返回 任意 一个由 n 个 各不相同 的整数组成的数组，并且这 n 个数相加和为 0
-        
-      
-    
-    </summary>
-    
-      <category term="编程日记" scheme="http://ishuaizhang.com/categories/%E7%BC%96%E7%A8%8B%E6%97%A5%E8%AE%B0/"/>
-    
-    
-      <category term="LeetCode" scheme="http://ishuaizhang.com/tags/LeetCode/"/>
-    
-      <category term="算法" scheme="http://ishuaizhang.com/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>解压缩编码列表</title>
-    <link href="http://ishuaizhang.com/2020/01/31/jie-ya-suo-bian-ma-lie-biao/"/>
-    <id>http://ishuaizhang.com/2020/01/31/jie-ya-suo-bian-ma-lie-biao/</id>
-    <published>2020-01-31T05:23:17.000Z</published>
-    <updated>2020-02-06T10:05:07.678Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;p&gt;&lt;img src=&quot;1313.bmp&quot; alt=&quot;题目描述&quot;&gt;&lt;/p&gt;
-&lt;h3 id=&quot;题解-Python&quot;&gt;&lt;a
         
       
     
