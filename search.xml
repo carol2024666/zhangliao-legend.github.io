@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>剑指offer三五题-0</title>
+      <link href="/2020/09/07/jian-zhi-offer-san-wu-ti-0/"/>
+      <url>/2020/09/07/jian-zhi-offer-san-wu-ti-0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h2><p>输入一个链表，按链表从尾到头的顺序返回一个ArrayList。</p><h2 id="题解"><a href="#题解" class="headerlink" title="题解"></a>题解</h2><p>遍历链表，将每次遍历的值压栈，然后依次出栈到ArrayList</p><pre class="line-numbers language-java"><code class="language-java"><span class="token comment" spellcheck="true">/***    public class ListNode {*        int val;*        ListNode next = null;**        ListNode(int val) {*            this.val = val;*        }*    }**/</span><span class="token keyword">import</span> java<span class="token punctuation">.</span>util<span class="token punctuation">.</span>ArrayList<span class="token punctuation">;</span><span class="token keyword">import</span> java<span class="token punctuation">.</span>util<span class="token punctuation">.</span>Stack<span class="token punctuation">;</span><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>    <span class="token keyword">public</span> ArrayList<span class="token operator">&lt;</span>Integer<span class="token operator">></span> <span class="token function">printListFromTailToHead</span><span class="token punctuation">(</span>ListNode listNode<span class="token punctuation">)</span> <span class="token punctuation">{</span>        Stack<span class="token operator">&lt;</span>Integer<span class="token operator">></span> stack <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">Stack</span><span class="token operator">&lt;</span><span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token keyword">while</span><span class="token punctuation">(</span>listNode <span class="token operator">!=</span> null<span class="token punctuation">)</span><span class="token punctuation">{</span>            stack<span class="token punctuation">.</span><span class="token function">push</span><span class="token punctuation">(</span>listNode<span class="token punctuation">.</span>val<span class="token punctuation">)</span><span class="token punctuation">;</span>            listNode <span class="token operator">=</span> listNode<span class="token punctuation">.</span>next<span class="token punctuation">;</span>        <span class="token punctuation">}</span>        ArrayList<span class="token operator">&lt;</span>Integer<span class="token operator">></span> list <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">ArrayList</span><span class="token operator">&lt;</span><span class="token operator">></span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token keyword">while</span><span class="token punctuation">(</span><span class="token operator">!</span>stack<span class="token punctuation">.</span><span class="token function">isEmpty</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">{</span>            list<span class="token punctuation">.</span><span class="token function">add</span><span class="token punctuation">(</span>stack<span class="token punctuation">.</span><span class="token function">pop</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token punctuation">}</span>        <span class="token keyword">return</span> list<span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="题目描述-1"><a href="#题目描述-1" class="headerlink" title="题目描述"></a>题目描述</h2><p>地上有一个m行和n列的方格。一个机器人从坐标0,0的格子开始移动，每一次只能向左，右，上，下四个方向移动一格，但是不能进入行坐标和列坐标的数位之和大于k的格子。 例如，当k为18时，机器人能够进入方格（35,37），因为3+5+3+7 = 18。但是，它不能进入方格（35,38），因为3+5+3+8 = 19。请问该机器人能够达到多少个格子？</p><h2 id="题解-1"><a href="#题解-1" class="headerlink" title="题解"></a>题解</h2><p>从（0,0）开始遍历，用布尔二维数组标记已访问的格子，递归计算上下左右相邻的格子的数位和，直到所有格子都被访问过。</p><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>    <span class="token keyword">public</span> <span class="token keyword">int</span> <span class="token function">movingCount</span><span class="token punctuation">(</span><span class="token keyword">int</span> threshold<span class="token punctuation">,</span> <span class="token keyword">int</span> rows<span class="token punctuation">,</span> <span class="token keyword">int</span> cols<span class="token punctuation">)</span>    <span class="token punctuation">{</span>        <span class="token keyword">if</span><span class="token punctuation">(</span>rows<span class="token operator">&lt;=</span><span class="token number">0</span><span class="token operator">||</span>cols<span class="token operator">&lt;=</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>            <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>        <span class="token punctuation">}</span>        <span class="token keyword">boolean</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token punctuation">]</span> isVisited <span class="token operator">=</span> <span class="token keyword">new</span> <span class="token class-name">boolean</span><span class="token punctuation">[</span>rows<span class="token punctuation">]</span><span class="token punctuation">[</span>cols<span class="token punctuation">]</span><span class="token punctuation">;</span>        <span class="token keyword">int</span> count <span class="token operator">=</span> <span class="token function">movingCountCore</span><span class="token punctuation">(</span>threshold<span class="token punctuation">,</span> rows<span class="token punctuation">,</span> cols<span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> <span class="token number">0</span><span class="token punctuation">,</span> isVisited<span class="token punctuation">)</span><span class="token punctuation">;</span>        <span class="token keyword">return</span> count<span class="token punctuation">;</span>    <span class="token punctuation">}</span>    <span class="token keyword">private</span> <span class="token keyword">int</span> <span class="token function">movingCountCore</span><span class="token punctuation">(</span><span class="token keyword">int</span> threshold<span class="token punctuation">,</span> <span class="token keyword">int</span> rows<span class="token punctuation">,</span> <span class="token keyword">int</span> cols<span class="token punctuation">,</span> <span class="token keyword">int</span> row<span class="token punctuation">,</span> <span class="token keyword">int</span> col<span class="token punctuation">,</span> <span class="token keyword">boolean</span><span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token punctuation">]</span> isVisited<span class="token punctuation">)</span><span class="token punctuation">{</span>        <span class="token keyword">if</span><span class="token punctuation">(</span>row <span class="token operator">&lt;</span> <span class="token number">0</span><span class="token operator">||</span>col<span class="token operator">&lt;</span><span class="token number">0</span><span class="token operator">||</span>row<span class="token operator">>=</span>rows<span class="token operator">||</span>col<span class="token operator">>=</span>cols<span class="token operator">||</span><span class="token function">cal</span><span class="token punctuation">(</span>row<span class="token punctuation">)</span><span class="token operator">+</span><span class="token function">cal</span><span class="token punctuation">(</span>col<span class="token punctuation">)</span><span class="token operator">></span>threshold<span class="token operator">||</span>isVisited<span class="token punctuation">[</span>row<span class="token punctuation">]</span><span class="token punctuation">[</span>col<span class="token punctuation">]</span><span class="token punctuation">)</span>            <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>        isVisited<span class="token punctuation">[</span>row<span class="token punctuation">]</span><span class="token punctuation">[</span>col<span class="token punctuation">]</span><span class="token operator">=</span><span class="token boolean">true</span><span class="token punctuation">;</span>        <span class="token keyword">return</span> <span class="token number">1</span><span class="token operator">+</span><span class="token function">movingCountCore</span><span class="token punctuation">(</span>threshold<span class="token punctuation">,</span> rows<span class="token punctuation">,</span> cols<span class="token punctuation">,</span> row<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span> col<span class="token punctuation">,</span> isVisited<span class="token punctuation">)</span>            <span class="token operator">+</span><span class="token function">movingCountCore</span><span class="token punctuation">(</span>threshold<span class="token punctuation">,</span> rows<span class="token punctuation">,</span> cols<span class="token punctuation">,</span> row<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">,</span> col<span class="token punctuation">,</span> isVisited<span class="token punctuation">)</span>            <span class="token operator">+</span><span class="token function">movingCountCore</span><span class="token punctuation">(</span>threshold<span class="token punctuation">,</span> rows<span class="token punctuation">,</span> cols<span class="token punctuation">,</span> row<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span> col<span class="token punctuation">,</span> isVisited<span class="token punctuation">)</span>            <span class="token operator">+</span><span class="token function">movingCountCore</span><span class="token punctuation">(</span>threshold<span class="token punctuation">,</span> rows<span class="token punctuation">,</span> cols<span class="token punctuation">,</span> row<span class="token punctuation">,</span> col<span class="token operator">+</span><span class="token number">1</span><span class="token punctuation">,</span> isVisited<span class="token punctuation">)</span>            <span class="token operator">+</span><span class="token function">movingCountCore</span><span class="token punctuation">(</span>threshold<span class="token punctuation">,</span> rows<span class="token punctuation">,</span> cols<span class="token punctuation">,</span> row<span class="token punctuation">,</span> col<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">,</span> isVisited<span class="token punctuation">)</span><span class="token punctuation">;</span>    <span class="token punctuation">}</span>    <span class="token keyword">private</span> <span class="token keyword">int</span> <span class="token function">cal</span><span class="token punctuation">(</span><span class="token keyword">int</span> num<span class="token punctuation">)</span><span class="token punctuation">{</span>        <span class="token keyword">int</span> sum <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>        <span class="token keyword">while</span><span class="token punctuation">(</span>num<span class="token operator">></span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>            sum <span class="token operator">+=</span> num<span class="token operator">%</span><span class="token number">10</span><span class="token punctuation">;</span>            num <span class="token operator">/=</span><span class="token number">10</span><span class="token punctuation">;</span>        <span class="token punctuation">}</span>        <span class="token keyword">return</span> sum<span class="token punctuation">;</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程日记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 剑指offer </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>大学经验</title>
       <link href="/2020/09/07/da-xue-jing-yan/"/>
       <url>/2020/09/07/da-xue-jing-yan/</url>
@@ -1351,9 +1376,9 @@
             
             <tag> 失恋 </tag>
             
-            <tag> 心历 </tag>
-            
             <tag> 碎碎念 </tag>
+            
+            <tag> 心历 </tag>
             
         </tags>
       
@@ -1378,9 +1403,9 @@
       
         <tags>
             
-            <tag> 碎碎念 </tag>
-            
             <tag> 复盘 </tag>
+            
+            <tag> 碎碎念 </tag>
             
         </tags>
       
@@ -1432,9 +1457,9 @@
       
         <tags>
             
-            <tag> 碎碎念 </tag>
-            
             <tag> 复盘 </tag>
+            
+            <tag> 碎碎念 </tag>
             
         </tags>
       
@@ -1459,9 +1484,9 @@
       
         <tags>
             
-            <tag> 碎碎念 </tag>
-            
             <tag> 复盘 </tag>
+            
+            <tag> 碎碎念 </tag>
             
         </tags>
       

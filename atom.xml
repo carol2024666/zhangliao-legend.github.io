@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ishuaizhang.com/"/>
-  <updated>2020-09-07T07:51:14.128Z</updated>
+  <updated>2020-09-08T02:15:35.293Z</updated>
   <id>http://ishuaizhang.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>剑指offer三五题-0</title>
+    <link href="http://ishuaizhang.com/2020/09/07/jian-zhi-offer-san-wu-ti-0/"/>
+    <id>http://ishuaizhang.com/2020/09/07/jian-zhi-offer-san-wu-ti-0/</id>
+    <published>2020-09-07T12:40:14.000Z</published>
+    <updated>2020-09-08T02:15:35.293Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h2&gt;&lt;p&gt;输入一个链表，按链表从尾到头的顺序返回一个ArrayList。&lt;/p&gt;
+&lt;h2 id=&quot;题解&quot;&gt;&lt;a href=&quot;#题解&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="编程日记" scheme="http://ishuaizhang.com/categories/%E7%BC%96%E7%A8%8B%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="剑指offer" scheme="http://ishuaizhang.com/tags/%E5%89%91%E6%8C%87offer/"/>
+    
+  </entry>
   
   <entry>
     <title>大学经验</title>
@@ -536,34 +563,6 @@
         
           &lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;p&gt;「无零整数」是十进制表示中 不含任何 0 的正整数。&lt;/p&gt;
 &lt;p&gt;给你一个整数 n，请你返回一个 由两个整数组成的列表
-        
-      
-    
-    </summary>
-    
-      <category term="编程日记" scheme="http://ishuaizhang.com/categories/%E7%BC%96%E7%A8%8B%E6%97%A5%E8%AE%B0/"/>
-    
-    
-      <category term="LeetCode" scheme="http://ishuaizhang.com/tags/LeetCode/"/>
-    
-      <category term="算法" scheme="http://ishuaizhang.com/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>解码字母到整数映射</title>
-    <link href="http://ishuaizhang.com/2020/02/02/leetcode-jie-ma-zi-mu-dao-zheng-shu-ying-she/"/>
-    <id>http://ishuaizhang.com/2020/02/02/leetcode-jie-ma-zi-mu-dao-zheng-shu-ying-she/</id>
-    <published>2020-02-02T02:42:01.000Z</published>
-    <updated>2020-02-06T09:57:51.146Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;p&gt;给你一个字符串 s，它由数字（’0’ - ‘9’）和 ‘#’ 组成。我们希望按下述规则将 s
         
       
     
