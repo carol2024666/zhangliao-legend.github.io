@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ishuaizhang.com/"/>
-  <updated>2020-09-08T11:18:54.895Z</updated>
+  <updated>2020-09-11T02:09:36.630Z</updated>
   <id>http://ishuaizhang.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>剑指offer三五题-1</title>
+    <link href="http://ishuaizhang.com/2020/09/10/jian-zhi-offer-san-wu-ti-1/"/>
+    <id>http://ishuaizhang.com/2020/09/10/jian-zhi-offer-san-wu-ti-1/</id>
+    <published>2020-09-10T15:06:24.000Z</published>
+    <updated>2020-09-11T02:09:36.630Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="编程日记" scheme="http://ishuaizhang.com/categories/%E7%BC%96%E7%A8%8B%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="剑指offer" scheme="http://ishuaizhang.com/tags/%E5%89%91%E6%8C%87offer/"/>
+    
+  </entry>
   
   <entry>
     <title>剑指offer三五题-0</title>
@@ -297,9 +323,9 @@
     
       <category term="保研" scheme="http://ishuaizhang.com/tags/%E4%BF%9D%E7%A0%94/"/>
     
-      <category term="偶然与必然" scheme="http://ishuaizhang.com/tags/%E5%81%B6%E7%84%B6%E4%B8%8E%E5%BF%85%E7%84%B6/"/>
-    
       <category term="成长" scheme="http://ishuaizhang.com/tags/%E6%88%90%E9%95%BF/"/>
+    
+      <category term="偶然与必然" scheme="http://ishuaizhang.com/tags/%E5%81%B6%E7%84%B6%E4%B8%8E%E5%BF%85%E7%84%B6/"/>
     
   </entry>
   
@@ -545,35 +571,6 @@
     
     
       <category term="美赛O奖论文" scheme="http://ishuaizhang.com/tags/%E7%BE%8E%E8%B5%9BO%E5%A5%96%E8%AE%BA%E6%96%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>将整数转换为两个无零整数的和</title>
-    <link href="http://ishuaizhang.com/2020/02/03/leetcode-jiang-zheng-shu-zhuan-huan-wei-liang-ge-wu-ling-zheng-shu-de-he/"/>
-    <id>http://ishuaizhang.com/2020/02/03/leetcode-jiang-zheng-shu-zhuan-huan-wei-liang-ge-wu-ling-zheng-shu-de-he/</id>
-    <published>2020-02-03T15:39:13.000Z</published>
-    <updated>2020-02-06T09:57:31.288Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;p&gt;「无零整数」是十进制表示中 不含任何 0 的正整数。&lt;/p&gt;
-&lt;p&gt;给你一个整数 n，请你返回一个 由两个整数组成的列表
-        
-      
-    
-    </summary>
-    
-      <category term="编程日记" scheme="http://ishuaizhang.com/categories/%E7%BC%96%E7%A8%8B%E6%97%A5%E8%AE%B0/"/>
-    
-    
-      <category term="LeetCode" scheme="http://ishuaizhang.com/tags/LeetCode/"/>
-    
-      <category term="算法" scheme="http://ishuaizhang.com/tags/%E7%AE%97%E6%B3%95/"/>
     
   </entry>
   
