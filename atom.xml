@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://ishuaizhang.com/"/>
-  <updated>2020-09-13T11:39:07.084Z</updated>
+  <updated>2020-09-15T13:03:51.397Z</updated>
   <id>http://ishuaizhang.com/</id>
   
   <author>
@@ -15,6 +15,58 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>剑指offer三五题-3</title>
+    <link href="http://ishuaizhang.com/2020/09/15/jian-zhi-offer-san-wu-ti-3/"/>
+    <id>http://ishuaizhang.com/2020/09/15/jian-zhi-offer-san-wu-ti-3/</id>
+    <published>2020-09-15T01:23:22.000Z</published>
+    <updated>2020-09-15T13:03:51.397Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="编程日记" scheme="http://ishuaizhang.com/categories/%E7%BC%96%E7%A8%8B%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="剑指offer" scheme="http://ishuaizhang.com/tags/%E5%89%91%E6%8C%87offer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>剑指offer三五题-2</title>
+    <link href="http://ishuaizhang.com/2020/09/13/jian-zhi-offer-san-wu-ti-2/"/>
+    <id>http://ishuaizhang.com/2020/09/13/jian-zhi-offer-san-wu-ti-2/</id>
+    <published>2020-09-13T11:50:04.000Z</published>
+    <updated>2020-09-15T01:23:11.894Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="编程日记" scheme="http://ishuaizhang.com/categories/%E7%BC%96%E7%A8%8B%E6%97%A5%E8%AE%B0/"/>
+    
+    
+      <category term="剑指offer" scheme="http://ishuaizhang.com/tags/%E5%89%91%E6%8C%87offer/"/>
+    
+  </entry>
   
   <entry>
     <title>剑指offer三五题-1</title>
@@ -517,60 +569,6 @@
       <category term="LeetCode" scheme="http://ishuaizhang.com/tags/LeetCode/"/>
     
       <category term="算法" scheme="http://ishuaizhang.com/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>有效的括号</title>
-    <link href="http://ishuaizhang.com/2020/02/04/leetcode-you-xiao-de-gua-hao/"/>
-    <id>http://ishuaizhang.com/2020/02/04/leetcode-you-xiao-de-gua-hao/</id>
-    <published>2020-02-04T15:40:48.000Z</published>
-    <updated>2020-02-06T09:57:07.757Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot; class=&quot;headerlink&quot; title=&quot;题目描述&quot;&gt;&lt;/a&gt;题目描述&lt;/h3&gt;&lt;p&gt;给定一个只包括 ‘(‘，’)’，’{‘，’}’，’[‘，’]’
-        
-      
-    
-    </summary>
-    
-      <category term="编程日记" scheme="http://ishuaizhang.com/categories/%E7%BC%96%E7%A8%8B%E6%97%A5%E8%AE%B0/"/>
-    
-    
-      <category term="LeetCode" scheme="http://ishuaizhang.com/tags/LeetCode/"/>
-    
-      <category term="算法" scheme="http://ishuaizhang.com/tags/%E7%AE%97%E6%B3%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>社会网络分析</title>
-    <link href="http://ishuaizhang.com/2020/02/04/analysis-of-society-s-information-networks/"/>
-    <id>http://ishuaizhang.com/2020/02/04/analysis-of-society-s-information-networks/</id>
-    <published>2020-02-04T05:33:32.000Z</published>
-    <updated>2020-02-06T02:59:36.795Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;摘要&quot;&gt;&lt;a href=&quot;#摘要&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="论文研读" scheme="http://ishuaizhang.com/categories/%E8%AE%BA%E6%96%87%E7%A0%94%E8%AF%BB/"/>
-    
-    
-      <category term="美赛O奖论文" scheme="http://ishuaizhang.com/tags/%E7%BE%8E%E8%B5%9BO%E5%A5%96%E8%AE%BA%E6%96%87/"/>
     
   </entry>
   
