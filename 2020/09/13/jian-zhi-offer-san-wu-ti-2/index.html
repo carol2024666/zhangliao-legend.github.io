@@ -293,7 +293,7 @@ public class Sol">
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/6.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
     <div class="container">
         <div class="row">
             <div class="col s12 m12 l12">
@@ -448,7 +448,7 @@ public class Sol">
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    719
+                    753
                 </div>
                 
 
@@ -571,7 +571,23 @@ public class Sol">
 <span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <h2 id="题目描述-4"><a href="#题目描述-4" class="headerlink" title="题目描述"></a>题目描述</h2><p>给定一个double类型的浮点数base和int类型的整数exponent。求base的exponent次方。</p>
 <p>保证base和exponent不同时为0</p>
-<h2 id="题解-4"><a href="#题解-4" class="headerlink" title="题解"></a>题解</h2>
+<h2 id="题解-4"><a href="#题解-4" class="headerlink" title="题解"></a>题解</h2><pre class="line-numbers language-java"><code class="language-java"><span class="token keyword">public</span> <span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">double</span> <span class="token function">Power</span><span class="token punctuation">(</span><span class="token keyword">double</span> base<span class="token punctuation">,</span> <span class="token keyword">int</span> exponent<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>exponent<span class="token operator">&lt;</span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            base <span class="token operator">=</span> <span class="token number">1</span><span class="token operator">/</span>base<span class="token punctuation">;</span>
+            exponent <span class="token operator">=</span> <span class="token operator">-</span>exponent<span class="token punctuation">;</span>
+        <span class="token punctuation">}</span>
+        <span class="token keyword">double</span> total <span class="token operator">=</span> <span class="token number">1.0d</span><span class="token punctuation">;</span>
+        <span class="token keyword">if</span><span class="token punctuation">(</span>exponent<span class="token operator">></span><span class="token number">0</span><span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">for</span> <span class="token punctuation">(</span><span class="token punctuation">;</span> exponent <span class="token operator">>=</span><span class="token number">1</span> <span class="token punctuation">;</span> exponent<span class="token operator">--</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+                total <span class="token operator">*=</span>base<span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+
+        <span class="token punctuation">}</span>
+        <span class="token keyword">return</span> total<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
+
             </div>
             <hr />
 
@@ -1063,7 +1079,7 @@ public class Sol">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="剑指offer三五题-3">
+                        <img src="/medias/featureimages/11.jpg" class="responsive-img" alt="剑指offer三五题-3">
                         
                         <span class="card-title">剑指offer三五题-3</span>
                     </div>
@@ -1112,7 +1128,7 @@ public class Sol">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="剑指offer三五题-1">
+                        <img src="/medias/featureimages/9.jpg" class="responsive-img" alt="剑指offer三五题-1">
                         
                         <span class="card-title">剑指offer三五题-1</span>
                     </div>
@@ -1307,7 +1323,7 @@ public class Sol">
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">51.6k</span>
+            <span class="white-color">52.1k</span>
             
 
             <br>
