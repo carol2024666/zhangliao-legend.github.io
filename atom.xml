@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://zhangliao-legend.github.io/"/>
-  <updated>2020-09-19T12:34:48.253Z</updated>
+  <updated>2020-12-24T00:45:35.272Z</updated>
   <id>https://zhangliao-legend.github.io/</id>
   
   <author>
@@ -15,6 +15,39 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>星球见闻</title>
+    <link href="https://zhangliao-legend.github.io/2020/12/24/xing-qiu-jian-wen/"/>
+    <id>https://zhangliao-legend.github.io/2020/12/24/xing-qiu-jian-wen/</id>
+    <published>2020-12-24T00:43:23.000Z</published>
+    <updated>2020-12-24T00:45:35.272Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;很多公务员的工作并不轻松，收入不高。你父母也不能靠你当公务员养老。&lt;/p&gt;
+&lt;p&gt;高风险的投资别加杠杆，用赔得起的钱耐心囤币就可以，用时间换空间，加杠杆玩期货的赚99次输一次就什么都没了。&lt;/p&gt;
+&lt;p&gt;没接到HR的反馈，而主动打电话问面试结果的行为不合适。&lt;/p&gt;
+&lt;p&gt;
+        
+      
+    
+    </summary>
+    
+      <category term="学习笔记" scheme="https://zhangliao-legend.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="知识星球" scheme="https://zhangliao-legend.github.io/tags/%E7%9F%A5%E8%AF%86%E6%98%9F%E7%90%83/"/>
+    
+      <category term="Caoz" scheme="https://zhangliao-legend.github.io/tags/Caoz/"/>
+    
+      <category term="荔枝小一萌" scheme="https://zhangliao-legend.github.io/tags/%E8%8D%94%E6%9E%9D%E5%B0%8F%E4%B8%80%E8%90%8C/"/>
+    
+  </entry>
   
   <entry>
     <title>Top K 问题</title>
@@ -531,34 +564,6 @@
     
     
       <category term="美赛O奖论文" scheme="https://zhangliao-legend.github.io/tags/%E7%BE%8E%E8%B5%9BO%E5%A5%96%E8%AE%BA%E6%96%87/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>MCM2016C题研读</title>
-    <link href="https://zhangliao-legend.github.io/2020/02/07/mcm2016c-ti-yan-du/"/>
-    <id>https://zhangliao-legend.github.io/2020/02/07/mcm2016c-ti-yan-du/</id>
-    <published>2020-02-07T09:25:13.000Z</published>
-    <updated>2020-02-08T02:05:03.225Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;2016C论文研读&quot;&gt;&lt;a href=&quot;#2016C论文研读&quot; class=&quot;headerlink&quot; title=&quot;2016C论文研读&quot;&gt;&lt;/a&gt;2016C论文研读&lt;/h1&gt;&lt;h2 id=&quot;题目描述&quot;&gt;&lt;a href=&quot;#题目描述&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="论文研读" scheme="https://zhangliao-legend.github.io/categories/%E8%AE%BA%E6%96%87%E7%A0%94%E8%AF%BB/"/>
-    
-    
-      <category term="美赛O奖论文" scheme="https://zhangliao-legend.github.io/tags/%E7%BE%8E%E8%B5%9BO%E5%A5%96%E8%AE%BA%E6%96%87/"/>
-    
-      <category term="论文原则" scheme="https://zhangliao-legend.github.io/tags/%E8%AE%BA%E6%96%87%E5%8E%9F%E5%88%99/"/>
     
   </entry>
   
